@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="zh-cn" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>在CentOS系统上搭建Git仓库 - 老麦笔记 - 生命在于折腾</title>
+  
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="老麦" />
+  <meta name="description" content="前言 前段时间决定重启博客，说句真心的，真的鼓足了勇气。毕竟放下了十年，以前的半吊子又重新回到新手村开启一步一步的探索之旅。既然重头来过，就接" />
+
+  <meta name="keywords" content="老麦, 老麦笔记, laomai, Mai, Hugo, Life, Log" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.74.3" />
+
+
+<link rel="canonical" href="https://laomai.org/2020/post-5/" />
+
+
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/sass/jane.min.af20b78e95c84de86b00a0242a4a77bd2601700e1b250edf27537d957ac0041d.css" integrity="" media="screen" crossorigin="anonymous">
+
+
+
+<meta property="og:title" content="在CentOS系统上搭建Git仓库" />
+<meta property="og:description" content="前言 前段时间决定重启博客，说句真心的，真的鼓足了勇气。毕竟放下了十年，以前的半吊子又重新回到新手村开启一步一步的探索之旅。既然重头来过，就接" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://laomai.org/2020/post-5/" />
+<meta property="article:published_time" content="2020-07-09T23:07:35+08:00" />
+<meta property="article:modified_time" content="2020-07-09T23:07:35+08:00" />
+<meta itemprop="name" content="在CentOS系统上搭建Git仓库">
+<meta itemprop="description" content="前言 前段时间决定重启博客，说句真心的，真的鼓足了勇气。毕竟放下了十年，以前的半吊子又重新回到新手村开启一步一步的探索之旅。既然重头来过，就接">
+<meta itemprop="datePublished" content="2020-07-09T23:07:35+08:00" />
+<meta itemprop="dateModified" content="2020-07-09T23:07:35+08:00" />
+<meta itemprop="wordCount" content="2137">
+
+
+
+<meta itemprop="keywords" content="hexo,git,linux,CentOS," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="在CentOS系统上搭建Git仓库"/>
+<meta name="twitter:description" content="前言 前段时间决定重启博客，说句真心的，真的鼓足了勇气。毕竟放下了十年，以前的半吊子又重新回到新手村开启一步一步的探索之旅。既然重头来过，就接"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Long+Cang&family=Noto+Serif+SC:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">老麦笔记</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://laomai.org/">主页</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://laomai.org/post/">全部文章</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://laomai.org/tags/">标签</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://laomai.org/categories/">分类</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://laomai.org/about/">关于</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://laomai.org/index.xml">订阅</a>
+          
+        
+      </li>
+    
+
+    
+  </ul>
+</nav>
+
+
+  
+    
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+  
+
+  
+
+  
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      老麦笔记
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://laomai.org/">主页</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://laomai.org/post/">全部文章</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://laomai.org/tags/">标签</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://laomai.org/categories/">分类</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://laomai.org/about/">关于</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://laomai.org/index.xml">订阅</a>
+          
+
+        
+
+      </li>
+    
+
+    
+    
+
+    
+
+  </ul>
+</nav>
+
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">在CentOS系统上搭建Git仓库</h1>
+      
+      
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#前言">前言</a></li>
+        <li><a href="#搭建过程">搭建过程</a></li>
+        <li><a href="#搭建完成">搭建完成</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <h3 id="前言">前言</h3>
+<p>前段时间决定重启博客，说句真心的，真的鼓足了勇气。毕竟放下了十年，以前的半吊子又重新回到新手村开启一步一步的探索之旅。既然重头来过，就接触一些以前没有接触过吧，<strong>静态博客</strong>。在网上仔细挑选了一番，基本定位在这三个工具：</p>
+<h4 id="jekyll">Jekyll</h4>
+<p><a href="http://jekyllrb.com/"><strong>Jekyll</strong></a>做为GitHub Pages的构建工具（Ruby语言），使它成为最流行的静态网站生成工具，但缺点是这三个工具中生成页面的速度最慢的。</p>
+<h4 id="hugo">Hugo</h4>
+<p><a href="http://gohugo.io/"><strong>Hugo</strong></a>是另一个流行的静态网站生成工具，它是使用go语言编写，并且使用Markdown语法，拥有最快的页面生成速度，缺点是主题不多（其实是没我喜欢的，哈哈哈）。</p>
+<h4 id="hexo">Hexo</h4>
+<p><a href="https://hexo.io/"><strong>Hexo</strong></a>是用Node.js编写的博客框架，支持所有的GitHub Markdown特性，页面的生成速度介于前面两者中间。国人用的比较多，所以出问题会比较容易找到解决的方法！
+基于自己能力、喜好等因素，最终决定选择Hexo。但在自己一步一步跟着网上的教程去搭建的过程中，还是踩了不少的坑，特别是在云服务器上创建git仓库过程中。其原因嘛，一是自己的理解能力有限（<strong>主要原因</strong>），二是网上的教程有的说不全，有的又太过于笼统。所以今天我就把自己的踩坑经历分享一下，当作记录也好，免得以后换云服务商的时候又忘记怎么搭建。</p>
+<h3 id="搭建过程">搭建过程</h3>
+<h4 id="1安装git">1.安装git</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">yum install git nginx -y
+</code></pre></td></tr></table>
+</div>
+</div><p>网上教的命令行都是yum install git，因为我的系统刚重装了，所以加了nginx上去。其实我也不知道有没有影响，但至少我输入上面的命令是行得通的。
+<img src="https://img.laomai.org/img/2020-07-09%20194118.png" alt=""></p>
+<h4 id="2创建一个git用户">2.创建一个git用户</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">adduser git
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="设置git这个用户的密码">设置git这个用户的密码</h5>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">passwd git
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="3创建公钥保存文件">3.创建公钥保存文件</h4>
+<h5 id="跳转到git目录">跳转到git目录</h5>
+<p><img src="https://img.laomai.org/img/2020-07-09%20215136.png" alt=""></p>
+<p>上图可以看到我是先CD到了git目录下再进行其他的操作，要注意的是我是在<strong>根目录</strong>上输入CD命令的。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> home/git/
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="切换到git用户">切换到git用户</h5>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">su git
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="创建ssh目录并给予700的权限">创建.ssh目录并给予700的权限</h5>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">mkdir .ssh <span class="o">&amp;&amp;</span> chmod <span class="m">700</span> .ssh
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="创建公钥保存文件并给予600的权限">创建公钥保存文件并给予600的权限</h5>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">touch .ssh/authorized_keys <span class="o">&amp;&amp;</span> chmod <span class="m">600</span> .ssh/authorized_keys
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="切换回root用户">切换回root用户</h5>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">su root
+</code></pre></td></tr></table>
+</div>
+</div><p>输入密码后回车就行。
+这里要说一下的是，如果你不想以后每次把通过hexo生成的静态文件推到你git仓库时都要输入密码的话，就要修改<!-- raw HTML omitted -->authorized_keys<!-- raw HTML omitted -->这个文件，修改方法如下：
+以windows为例，安装git，官网地址：https://git-scm.com/downloads 根据你的系统选择64位还是32位，我想现在的都是用64位的系统吧。哈哈哈，下载好后打开安装，一直点“下一步”就好，如果你有特殊僻好的设置，请自行参考度娘去设置。安装完成好win+r运行CMD</p>
+<h6 id="1配置用户名和邮箱">1.配置用户名和邮箱：</h6>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">git config --global user.name <span class="s2">&#34;你的用户名&#34;</span>
+git config --global user.email <span class="s2">&#34;你的邮箱地址&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h6 id="2然后生成公钥和私钥">2.然后生成公钥和私钥</h6>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">ssh-keygen -t rsa -C <span class="s2">&#34;你的邮箱地址&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>这时会叫你填写保存公钥和私钥文件的路径，记一下默认的路径，我的是这样子的<strong>c/user/skybb/.ssh/id_rsa</strong>。其中skybb是你电脑的用户名，我们选择默认的路径，按回车</p>
+<h6 id="3根据上面提示的路径打开文件夹">3.根据上面提示的路径打开文件夹</h6>
+<p><img src="https://img.laomai.org/img/2020-07-10%20001403.png" alt="">
+id_rsa.pub为公钥，用notepad+打开的（记事本也行，网上说不好，反正我试过几次用记事本打开也没问题），里面的内容就是我们要复制到<!-- raw HTML omitted -->authorized_keys<!-- raw HTML omitted -->这个文件里的。</p>
+<h5 id="4回到云服务器的操作">4.回到云服务器的操作</h5>
+<p><img src="https://img.laomai.org/img/2020-07-10%20004902.png" alt="">
+输入</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">pwd</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>确认我们是否在/home/git这个目录里</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> .ssh
+vim authorized_keys
+</code></pre></td></tr></table>
+</div>
+</div><p>按i进行编辑
+把id_rsa.pub里面的内容复制到里面
+按Esc，输入:wq退出
+这样我们就将电脑上的公钥保存到你云服务器上了，以后将静态文件推到仓库时就不用每次都输入密码了。当然如果你觉得每次输入密码也无所谓的话，其实不修改<!-- raw HTML omitted -->authorized_keys<!-- raw HTML omitted -->也是没有问题的，这个我验证过。</p>
+<h5 id="创建git仓库目录">创建git仓库目录</h5>
+<p>上面有提到我们当前是在git的目录里吧。我们先退回上一层目录home</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> ..
+</code></pre></td></tr></table>
+</div>
+</div><p>然后在home目录里建一个名为blog.git的仓库</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">git init --bare blog.git
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="配置git-hooks">配置git hooks</h5>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">vim blog.git/hooks/post-receive
+</code></pre></td></tr></table>
+</div>
+</div><p>按i编辑，复制下面内容</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/bin/sh
+</span><span class="cp"></span>git --work-tree<span class="o">=</span>/home/www/hexo --git-dir<span class="o">=</span>/home/blog.git checkout -f
+</code></pre></td></tr></table>
+</div>
+</div><p>按Esc，输入:wq保存退出
+这里要说的是，<strong>/home/www/hexo</strong>是我们存放hexo生成的静态文件目录，如果你想更改到其他路径，git hooks上复制的代码也要跟着更改。
+<img src="https://img.laomai.org/img/2020-07-10%20012842.png" alt="">
+接下来是设置权限</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">chmod +x blog.git/hooks/post-receive
+</code></pre></td></tr></table>
+</div>
+</div><p>更改blog.git这个仓库的拥有人为git用户（怎么感觉这么绕，哈哈哈）</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">chown -R git:git blog.git
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="创建上面已经关连的静态目录">创建上面已经关连的静态目录</h5>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">mkdir www
+<span class="nb">cd</span> www
+mkdir hexo
+</code></pre></td></tr></table>
+</div>
+</div><p>设置hexo目录的权限与更改拥有人</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">chmod -R <span class="m">755</span> hexo
+chown -R git:git hexo
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="安全设置">安全设置</h5>
+<p>其实按上面设置完，你的仓库已经可以使用了，但为了安全考虑，我们应该要改一下git用户的相关登陆权限。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> ../..
+</code></pre></td></tr></table>
+</div>
+</div><p>退回到服务器的根目录</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">vim etc/passwd
+</code></pre></td></tr></table>
+</div>
+</div><p>按i进行编辑
+<img src="https://img.laomai.org/img/2020-07-09%20215907.png" alt=""></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">找到git❌1000:1000::/home/git:/bin/bash   <span class="c1"># 这个1000有可能会不一样的，应该是ID数，我在另一台服务是1001</span>
+改为git❌1000:1000::/home/git:/usr/bin/git-shell
+</code></pre></td></tr></table>
+</div>
+</div><p>按Esc，输入:wq保存退出
+这样，git用户就只能连接git仓库进行推送与拉取的操作，不能登陆服务器并使用命令。
+<img src="https://img.laomai.org/img/2020-07-10%20021738.png" alt=""></p>
+<h3 id="搭建完成">搭建完成</h3>
+<p>到此，服务器的git仓库已经搭建完成了，仓库地址为<em><strong>git@服务器ip:/home/blog.git</strong></em>。</p>
+<hr>
+<p><a href="https://www.iamlm.com/2020/post-5/">在CentOS系统上搭建Git仓库</a></p>
+<p><a href="https://www.iamlm.com/2020/post-6/">在Windows上使用Hexo来搭建一个属于自己的博客</a></p>
+<p><a href="https://www.iamlm.com/2020/post-7/">在CentOS上安装宝塔来呈现我们的博客</a></p>
+
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">老麦</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+      2020-07-09
+      
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content">原创文章，如需转载请注明文章作者和出处。谢谢！</span>
+  </p>
+</div>
+
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="https://laomai.org/tags/hexo/">hexo</a>
+          <a href="https://laomai.org/tags/git/">git</a>
+          <a href="https://laomai.org/tags/linux/">linux</a>
+          <a href="https://laomai.org/tags/centos/">CentOS</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/2020/post-6/">
+            
+            <i class="iconfont">
+              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
+</svg>
+
+            </i>
+            <span class="prev-text nav-default">在Windows上使用Hexo来搭建一个属于自己的博客</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+          <a class="next" href="/2020/post-4/">
+            <span class="next-text nav-default">恶梦般的游戏，万国觉醒。</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+    
+
+  <div class="post bg-white">
+  <div id="comments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script>
+    if(window.location.hash){
+        var checkExist = setInterval(function() {
+            if ($(window.location.hash).length) {
+              $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 700);
+              clearInterval(checkExist);
+            }
+        }, 10);
+    }
+  </script>
+  <script>
+    new Valine({
+        el: '#comments' ,
+        appId: 'aC7DmnFLT44ka53uwI5OsYsl-gzGzoHsz',
+        appKey: 'AO0WmeTbhhonXpogQQBqaFSU',
+        notify:  false , 
+        verify:  false , 
+        avatar:'mm', 
+        placeholder: '',
+        visitor:  false 
+    });
+  </script>
+  </div>
+
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="icon-links">
+  
+  
+    <a href="mailto:i@iamlm.com" rel="me noopener" class="iconfont"
+      title="email" >
+      <svg class="icon" viewBox="0 0 1451 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="36" height="36">
+  <path d="M664.781909 681.472759 0 97.881301C0 3.997201 71.046997 0 71.046997 0L474.477909 0 961.649408 0 1361.641813 0C1361.641813 0 1432.688811 3.997201 1432.688811 97.881301L771.345323 681.472759C771.345323 681.472759 764.482731 685.154773 753.594283 688.65053L753.594283 688.664858C741.602731 693.493018 729.424896 695.068979 718.077952 694.839748 706.731093 695.068979 694.553173 693.493018 682.561621 688.664858L682.561621 688.65053C671.644501 685.140446 664.781909 681.472759 664.781909 681.472759L664.781909 681.472759ZM718.063616 811.603883C693.779541 811.016482 658.879232 802.205449 619.10784 767.734955 542.989056 701.759633 0 212.052267 0 212.052267L0 942.809523C0 942.809523 0 1024 83.726336 1024L682.532949 1024 753.579947 1024 1348.948139 1024C1432.688811 1024 1432.688811 942.809523 1432.688811 942.809523L1432.688811 212.052267C1432.688811 212.052267 893.138176 701.759633 817.019477 767.734955 777.248 802.205449 742.347691 811.03081 718.063616 811.603883L718.063616 811.603883Z"></path>
+</svg>
+
+    </a>
+  
+    <a href="https://weibo.com/febb" rel="me noopener" class="iconfont"
+      title="weibo"  target="_blank"
+      >
+      <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="36" height="36">
+  <path d="M385.714286 733.714286q12-19.428571 6.285714-39.428571t-25.714286-28.571429q-19.428571-8-41.714286-0.571429t-34.285714 26.285714q-12.571429 19.428571-7.428571 39.142857t24.571429 28.857143 42.571429 1.428571 35.714286-27.142857zm53.714286-69.142857q4.571429-7.428571 2-15.142857t-10-10.571429q-8-2.857143-16.285714 2.857143t-12.285714 10.571429q-9.714286 17.714286 7.428571 25.714286 8 2.857143 16.571429 2.857143t12.571429-10.571429zm99.428571 61.142857q-25.714286 58.285714-90.285714 85.714286t-128 6.857143q-61.142857-19.428571-84.285714-72.285714t3.714286-107.142857q26.857143-53.142857 86.571429-79.428571t120.285714-10.857143q63.428571 16.571429 90.571429 68.285714t1.428571 108.857143zm178.285714-91.428571q-5.142857-54.857143-50.857143-97.142857t-119.142857-62.285714-156.857143-12q-127.428571 13.142857-211.142857 80.857143t-75.714286 151.142857q5.142857 54.857143 50.857143 97.142857t119.142857 62.285714 156.857143 12q127.428571-13.142857 211.142857-80.857143t75.714286-151.142857zm176 2.285714q0 38.857143-21.142857 79.714286t-62.285714 78.285714-96.285714 67.142857-129.142857 47.428571-154.571429 17.714286-157.142857-19.142857-137.428571-53.142857-98-86.285714-37.142857-114q0-65.714286 39.714286-140t112.857143-147.428571q96.571429-96.571429 195.142857-134.857143t140.857143 4q37.142857 36.571429 11.428571 119.428571-2.285714 8-0.571429 11.428571t5.714286 4 8.285714 2.857143 7.714286-2l3.428571-1.142857q79.428571-33.714286 140.571429-33.714286t87.428571 34.857143q25.714286 36 0 101.714286-1.142857 7.428571-2.571429 11.428571t2.571429 7.142857 6.857143 4.285714 9.714286 3.428571q32.571429 10.285714 58.857143 26.857143t45.714286 46.571429 19.428571 66.571429zm-42.285714-356.571429q24 26.857143 31.142857 62t-3.714286 67.142857q-4.571429 13.142857-16.857143 19.428571t-25.428571 2.285714q-13.142857-4.571429-19.428571-16.857143t-2.285714-25.428571q11.428571-36-13.714286-63.428571t-61.142857-20q-13.714286 2.857143-25.714286-4.571429t-14.285714-21.142857q-2.857143-13.714286 4.571429-25.428571t21.142857-14.571429q34.285714-7.428571 68 3.142857t57.714286 37.428571zm103.428571-93.142857q49.714286 54.857143 64.285714 127.142857t-7.714286 138q-5.142857 15.428571-19.428571 22.857143t-29.714286 2.285714-22.857143-19.428571-2.857143-29.714286q16-46.857143 5.714286-98.285714t-45.714286-90.285714q-35.428571-39.428571-84.571429-54.571429t-98.857143-4.857143q-16 3.428571-29.714286-5.428571t-17.142857-24.857143 5.428571-29.428571 24.857143-16.857143q70.285714-14.857143 139.428571 6.571429t118.857143 76.857143z"></path>
+</svg>
+
+    </a>
+
+
+<a href="https://laomai.org/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
+    class="iconfont" title="rss" target="_blank">
+    <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="30" height="30">
+  <path d="M819.157333 1024C819.157333 574.592 449.408 204.8 0 204.8V0c561.706667 0 1024 462.293333 1024 1024h-204.842667zM140.416 743.04a140.8 140.8 0 0 1 140.501333 140.586667A140.928 140.928 0 0 1 140.074667 1024C62.72 1024 0 961.109333 0 883.626667s62.933333-140.544 140.416-140.586667zM678.784 1024h-199.04c0-263.210667-216.533333-479.786667-479.744-479.786667V345.173333c372.352 0 678.784 306.517333 678.784 678.826667z"></path>
+</svg>
+
+  </a>
+   
+</div>
+
+<div class="copyright">
+
+  <span class="copyright-year">
+    &copy;
+    2020
+    <span class="heart">
+      
+      <i class="iconfont">
+        <svg class="icon" viewBox="0 0 1025 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="14" height="14">
+  <path d="M1000.1 247.9c-15.5-37.3-37.6-70.6-65.7-98.9-54.4-54.8-125.8-85-201-85-85.7 0-166 39-221.4 107.4C456.6 103 376.3 64 290.6 64c-75.1 0-146.5 30.4-201.1 85.6-28.2 28.5-50.4 61.9-65.8 99.3-16 38.8-24 79.9-23.6 122.2 0.7 91.7 40.1 177.2 108.1 234.8 3.1 2.6 6 5.1 8.9 7.8 14.9 13.4 58 52.8 112.6 102.7 93.5 85.5 209.9 191.9 257.5 234.2 7 6.1 15.8 9.5 24.9 9.5 9.2 0 18.1-3.4 24.9-9.5 34.5-30.7 105.8-95.9 181.4-165 74.2-67.8 150.9-138 195.8-178.2 69.5-57.9 109.6-144.4 109.9-237.3 0.1-42.5-8-83.6-24-122.2z"
+   fill="#8a8a8a"></path>
+</svg>
+
+      </i>
+    </span><span class="author">
+        老麦
+        
+      </span>
+
+  
+  
+
+  
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont">
+        
+        <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="35" height="35">
+  <path d="M510.866688 227.694839 95.449397 629.218702l235.761562 0-2.057869 328.796468 362.40389 0L691.55698 628.188232l241.942331-3.089361L510.866688 227.694839zM63.840492 63.962777l894.052392 0 0 131.813095L63.840492 195.775872 63.840492 63.962777 63.840492 63.962777zM63.840492 63.962777"></path>
+</svg>
+
+      </i>
+    </div>
+  </div>
+  
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+
+
+
+
+<script type="text/javascript" src="/js/main.dee43230127a73d039a734510fa896c89c3c7ce0cf0be0c7a7433f8fd69b76dc.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

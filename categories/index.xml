@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 老麦笔记 - 生命在于折腾</title>
+    <link>https://laomai.org/categories/</link>
+    <description>Recent content in Categories on 老麦笔记 - 生命在于折腾</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 23 Sep 2020 16:05:23 +0800</lastBuildDate>
+    
+	<atom:link href="https://laomai.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>生活</title>
+      <link>https://laomai.org/categories/%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Wed, 23 Sep 2020 16:05:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>儿女</title>
+      <link>https://laomai.org/categories/%E5%84%BF%E5%A5%B3/</link>
+      <pubDate>Sun, 20 Sep 2020 23:35:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/categories/%E5%84%BF%E5%A5%B3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>思考</title>
+      <link>https://laomai.org/categories/%E6%80%9D%E8%80%83/</link>
+      <pubDate>Mon, 17 Aug 2020 15:45:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/categories/%E6%80%9D%E8%80%83/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>游戏</title>
+      <link>https://laomai.org/categories/%E6%B8%B8%E6%88%8F/</link>
+      <pubDate>Tue, 04 Aug 2020 12:20:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/categories/%E6%B8%B8%E6%88%8F/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

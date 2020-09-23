@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on 老麦笔记 - 生命在于折腾</title>
+    <link>https://laomai.org/tags/linux/</link>
+    <description>Recent content in linux on 老麦笔记 - 生命在于折腾</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 09 Jul 2020 23:07:35 +0800</lastBuildDate>
+    
+	<atom:link href="https://laomai.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在CentOS系统上搭建Git仓库</title>
+      <link>https://laomai.org/2020/post-5/</link>
+      <pubDate>Thu, 09 Jul 2020 23:07:35 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-5/</guid>
+      <description>前言 前段时间决定重启博客，说句真心的，真的鼓足了勇气。毕竟放下了十年，以前的半吊子又重新回到新手村开启一步一步的探索之旅。既然重头来过，就接</description>
+    </item>
+    
+  </channel>
+</rss>

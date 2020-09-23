@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>吐槽 on 老麦笔记 - 生命在于折腾</title>
+    <link>https://laomai.org/tags/%E5%90%90%E6%A7%BD/</link>
+    <description>Recent content in 吐槽 on 老麦笔记 - 生命在于折腾</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 11 Sep 2020 22:50:23 +0800</lastBuildDate>
+    
+	<atom:link href="https://laomai.org/tags/%E5%90%90%E6%A7%BD/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>吐槽一波</title>
+      <link>https://laomai.org/2020/post-23/</link>
+      <pubDate>Fri, 11 Sep 2020 22:50:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-23/</guid>
+      <description>这段时间一直收到警告邮件，提示家里的NAS一直被扫描。因为我平时都是关闭Telnet和SSH这两个功能的，所以也不是很担心，但每天都收到邮件</description>
+    </item>
+    
+  </channel>
+</rss>

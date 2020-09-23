@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NAS on 老麦笔记 - 生命在于折腾</title>
+    <link>https://laomai.org/tags/nas/</link>
+    <description>Recent content in NAS on 老麦笔记 - 生命在于折腾</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 11 Sep 2020 22:50:23 +0800</lastBuildDate>
+    
+	<atom:link href="https://laomai.org/tags/nas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>吐槽一波</title>
+      <link>https://laomai.org/2020/post-23/</link>
+      <pubDate>Fri, 11 Sep 2020 22:50:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-23/</guid>
+      <description>这段时间一直收到警告邮件，提示家里的NAS一直被扫描。因为我平时都是关闭Telnet和SSH这两个功能的，所以也不是很担心，但每天都收到邮件</description>
+    </item>
+    
+    <item>
+      <title>配合群晖NAS为Chrome添加实用的工具</title>
+      <link>https://laomai.org/2020/post-16/</link>
+      <pubDate>Mon, 17 Aug 2020 15:45:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-16/</guid>
+      <description>现在互联网的工具可以说是五花八门的，方便大家选择的同时也让人多少有了点困惑，毕竟选择多了也就乱了。我接触互联网的时间说长不长，说短也不短了，</description>
+    </item>
+    
+    <item>
+      <title>说说我是如何存储一些重要的数据</title>
+      <link>https://laomai.org/2020/post-10/</link>
+      <pubDate>Wed, 22 Jul 2020 15:30:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-10/</guid>
+      <description>前言 前几天有一同事打电话问我会不会还原电脑数据，他说他硬盘好像挂掉了，然后里面好多相片，他又没有备份到网上的相册，现在硬盘读不了咯，还在那里</description>
+    </item>
+    
+  </channel>
+</rss>
