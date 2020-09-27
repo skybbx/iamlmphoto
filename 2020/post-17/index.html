@@ -88,7 +88,7 @@
 
 
 
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Long+Cang&family=Noto+Serif+SC:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="mobile-navbar" class="mobile-navbar">
@@ -422,7 +422,7 @@
   <div class="post bg-white">
   <div id="comments"></div>
   <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script src='//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js'></script>
   <script>
     if(window.location.hash){
         var checkExist = setInterval(function() {
@@ -434,14 +434,15 @@
     }
   </script>
   <script>
-    new Valine({
+    var valine = new Valine();
+    valine.init({
         el: '#comments' ,
         appId: 'aC7DmnFLT44ka53uwI5OsYsl-gzGzoHsz',
         appKey: 'AO0WmeTbhhonXpogQQBqaFSU',
-        notify:  false , 
-        verify:  false , 
-        avatar:'mm', 
-        placeholder: '',
+        notify: 'false', 
+        verify: 'false', 
+        avatar: 'mm', 
+        placeholder: 'Just go go',
         visitor:  false 
     });
   </script>
