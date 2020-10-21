@@ -6,10 +6,19 @@
     <description>Recent content in Categories on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 13 Oct 2020 17:30:23 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2020 13:52:23 +0800</lastBuildDate>
     
 	<atom:link href="https://laomai.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>生活</title>
+      <link>https://laomai.org/categories/%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Wed, 21 Oct 2020 13:52:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>儿女</title>
@@ -17,15 +26,6 @@
       <pubDate>Tue, 13 Oct 2020 17:30:23 +0800</pubDate>
       
       <guid>https://laomai.org/categories/%E5%84%BF%E5%A5%B3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>生活</title>
-      <link>https://laomai.org/categories/%E7%94%9F%E6%B4%BB/</link>
-      <pubDate>Tue, 13 Oct 2020 17:30:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/categories/%E7%94%9F%E6%B4%BB/</guid>
       <description></description>
     </item>
     
