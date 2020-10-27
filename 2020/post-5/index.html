@@ -693,24 +693,36 @@ chown -R git:git hexo
 
     
 
-  
-
-  
   <div class="post bg-white">
-  <div id="comment"></div>
-  <link rel="stylesheet" href="https://disapi.laomai.org/dist/iDisqus.min.css" />
-  <script src="https://disapi.laomai.org/dist/iDisqus.min.js"></script>
+  <div id="comments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js'></script>
   <script>
-  var disq = new iDisqus('comment', {
-    forum: 'laomai',
-    api: 'https://disapi.laomai.org/api',
-    site: 'https://laomai.org',
-    mode: 2,
-    timeout: 3000,
-    init: true
-});
+    if(window.location.hash){
+        var checkExist = setInterval(function() {
+            if ($(window.location.hash).length) {
+              $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 700);
+              clearInterval(checkExist);
+            }
+        }, 10);
+    }
+  </script>
+  <script>
+    var valine = new Valine();
+    valine.init({
+        el: '#comments' ,
+        appId: '3PctnncfS1q52Xwr9nRy0LGM-MdYXbMMI',
+        appKey: '0DPUpt0jTnfnFwBqypC8sKNP',
+        notify: 'false', 
+        verify: 'false', 
+        avatar: 'mm', 
+        placeholder: 'Just go go',
+        visitor:  false 
+    });
   </script>
   </div>
+
+  
 
         </div>
       </div>
