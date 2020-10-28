@@ -6,10 +6,19 @@
     <description>Recent content in 生活 on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 21 Oct 2020 13:52:23 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2020 17:02:23 +0800</lastBuildDate>
     
 	<atom:link href="https://laomai.org/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>又到了瞎捣鼓的时候</title>
+      <link>https://laomai.org/2020/post-31/</link>
+      <pubDate>Wed, 28 Oct 2020 17:02:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-31/</guid>
+      <description>有时候真的挺佩服自己，就是喜欢瞎折腾。昨天决定把https://www.iamlm.com这个网址301跳转到https://laomai.</description>
+    </item>
     
     <item>
       <title>「你」</title>
@@ -108,15 +117,6 @@
       
       <guid>https://laomai.org/2020/post-20/</guid>
       <description>今天很荣幸收到《十年之约》的邮件通知，在此十分感谢《十年之约》的所有成员。 当初了解到《十年之约》这个组织时，很想立马就加入。因为十年前的自己</description>
-    </item>
-    
-    <item>
-      <title>你发的最后一条朋友圈是什么时候</title>
-      <link>https://laomai.org/2020/post-19/</link>
-      <pubDate>Wed, 26 Aug 2020 22:19:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-19/</guid>
-      <description>你多久没有发过朋友圈了？ 不知道从什么时候开始，没了发朋友圈的冲动。 出去吃个饭，菜上了第一时间不是拿起筷子开吃，是拿起手机照个相然后发到朋友圈</description>
     </item>
     
   </channel>

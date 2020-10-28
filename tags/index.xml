@@ -6,10 +6,46 @@
     <description>Recent content in Tags on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 21 Oct 2020 13:52:23 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2020 17:02:23 +0800</lastBuildDate>
     
 	<atom:link href="https://laomai.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>docker</title>
+      <link>https://laomai.org/tags/docker/</link>
+      <pubDate>Wed, 28 Oct 2020 17:02:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://laomai.org/tags/github/</link>
+      <pubDate>Wed, 28 Oct 2020 17:02:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vercel</title>
+      <link>https://laomai.org/tags/vercel/</link>
+      <pubDate>Wed, 28 Oct 2020 17:02:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/tags/vercel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>折腾</title>
+      <link>https://laomai.org/tags/%E6%8A%98%E8%85%BE/</link>
+      <pubDate>Wed, 28 Oct 2020 17:02:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/tags/%E6%8A%98%E8%85%BE/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>情感</title>
@@ -80,42 +116,6 @@
       <pubDate>Fri, 09 Oct 2020 22:25:23 +0800</pubDate>
       
       <guid>https://laomai.org/tags/%E9%80%89%E6%8B%A9/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>中秋</title>
-      <link>https://laomai.org/tags/%E4%B8%AD%E7%A7%8B/</link>
-      <pubDate>Thu, 01 Oct 2020 10:35:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/tags/%E4%B8%AD%E7%A7%8B/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aune M1s</title>
-      <link>https://laomai.org/tags/aune-m1s/</link>
-      <pubDate>Wed, 23 Sep 2020 16:05:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/tags/aune-m1s/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shure SE846</title>
-      <link>https://laomai.org/tags/shure-se846/</link>
-      <pubDate>Wed, 23 Sep 2020 16:05:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/tags/shure-se846/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>耳机</title>
-      <link>https://laomai.org/tags/%E8%80%B3%E6%9C%BA/</link>
-      <pubDate>Wed, 23 Sep 2020 16:05:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/tags/%E8%80%B3%E6%9C%BA/</guid>
       <description></description>
     </item>
     

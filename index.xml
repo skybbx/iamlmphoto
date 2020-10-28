@@ -6,7 +6,7 @@
     <description>Recent content on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 21 Oct 2020 13:52:23 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2020 17:02:23 +0800</lastBuildDate>
     
         <atom:link href="https://laomai.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -50,6 +50,20 @@
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;p&gt;博客使用&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;生成，主题使用&lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;Jane&lt;/a&gt;。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>又到了瞎捣鼓的时候</title>
+      <link>https://laomai.org/2020/post-31/</link>
+      <pubDate>Wed, 28 Oct 2020 17:02:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-31/</guid>
+      
+        <description>&lt;p&gt;有时候真的挺佩服自己，就是喜欢瞎折腾。昨天决定把&lt;a href=&#34;https://www.iamlm.com&#34;&gt;https://www.iamlm.com&lt;/a&gt;这个网址301跳转到&lt;a href=&#34;https://laomai.org&#34;&gt;https://laomai.org&lt;/a&gt;，顺手把「备」案什么的给注销了，也许是头脑一时发热吧，反正就这样吧，毕竟自己之前也考虑把「iamlm」这个域名丢弃掉。真就瞎搞一通~所以在这里麻烦各位博友，如果加了我友链的麻烦帮我改下域名，不过我印象中好像没怎么去申请友链，哈哈。对了，有在用RSS订阅的朋友也改一下呗，&lt;a href=&#34;https://laomai.org/index.xml&#34;&gt;订阅地址&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;最近一直捣鼓在腾讯云撸的香港服务器，只是最基础的1C1G配置，但已经够我折腾了，放个仓库，顺道练习一下各方面的基础知识。在docker上部署各式各样的项目，例如：halo,isso,fedora,frp等等，虽然也可以在NAS上部署，但那时候100不到一年的价格看着就香，就撸了3年，如果在NAS上瞎搞的话，把机器搞个半废就得不偿失了，但在云服务器上就没这顾虑咯。&lt;/p&gt;
+&lt;p&gt;话说这次双十一阿里云的优惠好吸引人啊，1C2G3年才255，还要什么自行车啊？要不是我已经有了台云服务器，我也搞一个2C4G的，3年508，嗯，真香。不过有了就行，要再多也是浪费！主要自己也没项目，搞了也是浪费，而且这个东西续费太贵了。像我这样就搞个静态博客的，好像真心没这个必要，github+vercel不香吗？实测速度完全可以接受，而且重点是免费。如果500左右能买个3年来玩玩是没关系的，但是要上千一年的话就算了吧。当然啦，这个还是看个人需求吧。&lt;/p&gt;
 </description>
       
     </item>
@@ -611,37 +625,6 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>很荣幸成为《十年之约》中的一员</title>
-      <link>https://laomai.org/2020/post-20/</link>
-      <pubDate>Sun, 30 Aug 2020 16:40:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-20/</guid>
-      
-        <description>&lt;p&gt;今天很荣幸收到《十年之约》的邮件通知，在此十分感谢《十年之约》的所有成员。&lt;/p&gt;
-&lt;p&gt;当初了解到《十年之约》这个组织时，很想立马就加入。因为十年前的自己选择了离开独立博客这个圈子，十年后的今天选择重新开启博客，期间正好相隔了十年，所以当时就感觉冥冥中有种说不清的缘分。&lt;/p&gt;
-&lt;p&gt;申请加入时其实我还没符合条件的，不过本着试一下呗，就填了相关的申请资料，没想到一个月后真就收到了邮件通知，挺惊讶的，毕竟当时自己都认为是没戏的，那时博客重新运行才一个月，文章也就简单的十篇而已。&lt;/p&gt;
-&lt;p&gt;曾经在一个博友的某篇文章看到过一句话（具体在哪里看到的我也记不起来了），意思大概就是&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;做了一件事情，用心地把他记录起来，这样就是一篇好的博文。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我是很认同这话的，所以我这次开博都是很用心去记录生活的点滴，虽然不精彩，当然以我这水平也搞不出什么精彩的东西来。&lt;/p&gt;
-&lt;p&gt;十年前搞博客，注重的是PR，SEO，博客的优化、主题、插件等等一大堆乱七八糟的东西，反倒没有认认真真写过多少篇博文。所以十年后的今天，我真心不想去折腾太多了，简单一点、扑实一点就好。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;愿再一个十年后我们还能彼此相遇，一起共叙这些年的点点滴滴。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;最后附上邮件通知内容：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;h2 id=&#34;审核通过通知&#34;&gt;审核通过通知&lt;/h2&gt;
-&lt;p&gt;时间：2020-08-30 10:11:25&lt;/p&gt;
-&lt;p&gt;亲爱的十年之约成员：&lt;/p&gt;
-&lt;p&gt;很高兴通知您，您的申请已通过审核，欢迎加入十年之约！&lt;/p&gt;
-&lt;p&gt;从今日起，您就是十年之约的正式成员！您收到本邮件之时，您博客的十年之约正式生效，请认真对待这个约定！&lt;/p&gt;
-&lt;p&gt;在约定期间，您的网站在涉及域名、名称等变化或暂时以及长期关闭等情况时，请到 &lt;a href=&#34;http://www.foreverblog.cn/&#34;&gt;http://www.foreverblog.cn/&lt;/a&gt; 留言，项目组将对此作更改或者记录！若有其它问题，请通过此邮箱与项目组取得联系！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;期待有更多的小伙伴加入进来……&lt;/p&gt;
 </description>
       
     </item>

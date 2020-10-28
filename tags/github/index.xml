@@ -6,10 +6,19 @@
     <description>Recent content in github on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 08 Aug 2020 17:50:23 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2020 17:02:23 +0800</lastBuildDate>
     
 	<atom:link href="https://laomai.org/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>又到了瞎捣鼓的时候</title>
+      <link>https://laomai.org/2020/post-31/</link>
+      <pubDate>Wed, 28 Oct 2020 17:02:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-31/</guid>
+      <description>有时候真的挺佩服自己，就是喜欢瞎折腾。昨天决定把https://www.iamlm.com这个网址301跳转到https://laomai.</description>
+    </item>
     
     <item>
       <title>投奔Hugo和主题的相关修改</title>
