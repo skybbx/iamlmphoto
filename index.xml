@@ -6,7 +6,7 @@
     <description>Recent content on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 02 Nov 2020 15:10:23 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2020 21:00:23 +0800</lastBuildDate>
     
         <atom:link href="https://laomai.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -41,7 +41,14 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://www.savouer.com/&#34;&gt;夜未央&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;虚位以待&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://www.mhcf.net/&#34;&gt;梦幻辰风&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://hisherry.com/&#34;&gt;燕渡寒潭&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;http://www.dushangself.site/emlog/&#34;&gt;独殇小册&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://jrdzj.cc/&#34;&gt;旧日的足迹&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;等待加入&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
@@ -50,6 +57,23 @@
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;p&gt;博客使用&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;生成，主题使用&lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;Jane&lt;/a&gt;。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>我心中最强的步兵团「iFTY」</title>
+      <link>https://laomai.org/2020/post-33/</link>
+      <pubDate>Thu, 05 Nov 2020 21:00:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-33/</guid>
+      
+        <description>&lt;p&gt;今天PCS3开打了，我喜欢的iFTY战队以PCL四号种子出战（这个是以PCL秋季赛的排名来算的）。感觉最近iFTY的状态有所下滑，其中这里有各种原因吧，有可能是PCS2最后一天被TSG反超而痛失冠军造成的心理落差没能缓过来，也有可能单纯是竞技状态没能保持住，毕竟iFTY今年斩获的冠军已经足够证明其实力的可怕了。&lt;/p&gt;
+&lt;p&gt;最近状态的下滑原因是什么，这里我也不得而知，特别是微博杯就能看出来，状态很不稳定，打架时没有配合等等。加上昨天从脖子（A+）的直播间得知，小伙子们几个都得了感冒，不知道是不是这个原因，总之最近的确打的不太好。&lt;/p&gt;
+&lt;p&gt;然而打不好就打不好呗，iFTY之前的在深渊不照样挺了过来，所以如果我们作为粉丝，继续支持，我相信iFTY这次也一定能挺过来的。但可气的是，在各大直播间，那些键盘党、水军的弹幕看得我真的气不打一处来，见高捧，见低踩，而且还是往死里踩，各种难听的话、一些正常人无法想象到的节奏就会满天飞。什么嘛，你站在上帝视角，你知道什么情况是最优，可真正打比赛的小伙子们呢？&lt;/p&gt;
+&lt;p&gt;状态不好，人之常情。又不是机器，总不能保证状态一直在线吧？加上现在进大赛的队伍，哪支不是强队啊？哪支不是各大赛区的顶级队伍？所以，在iFTY状态不好的时候，真心希望粉丝给予的不是嘲讽与节奏，是鼓励与支持，哪怕像我一样，在直播间做一个默默的支持者。&lt;/p&gt;
+&lt;p&gt;我知道现在的直播间弹幕真不能看，但习惯了看直播都打开弹幕，当看到这些让人气不打一处来的弹幕时，我也只能在这里默默的发个唠叨。&lt;/p&gt;
+&lt;p&gt;iFTY，加油！就算这次PCS3成绩不佳，你永远是我心中最强的步兵团「Infantry」。&lt;/p&gt;
 </description>
       
     </item>
@@ -572,31 +596,6 @@
 &lt;/div&gt;&lt;p&gt;顺利完成了安装，导入opml，大功告成。关于设置自动更新，方法有很多，我用Openwrt上的签到狗就轻松实现了！&lt;/p&gt;
 &lt;p&gt;夜已深，该睡了。&lt;/p&gt;
 &lt;p&gt;收拾心情，继续前行。你好，明天。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>换个域名有个好心情</title>
-      <link>https://laomai.org/2020/post-22/</link>
-      <pubDate>Wed, 09 Sep 2020 12:50:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-22/</guid>
-      
-        <description>&lt;p&gt;其实laomai.org这个域名已经入手有一段时间了，因为各种原因一直没有将其更换，好吧！其实根本原因是因为域名不能备案，之前的空间不能进行绑定。&lt;/p&gt;
-&lt;p&gt;最近这些年身边的人都叫我“老麦”，一开始挺介意的，明明我还很“年轻”的好不好，硬生生的把我叫老。不过后来想了想，也许是身边的人尊重我、认同我才会这样称呼我。久而久之的我也慢慢习惯了这个称呼，所以这次重开博客名字才会用《老麦笔记》。laomai&amp;ndash;老麦，嗯，很好！&lt;/p&gt;
-&lt;p&gt;这次小搬家我就不做301跳转了，让iamlm.com继续下去，两个域名两个风格，虽然内容都一样，哈哈。就让他们这样静静的待着吧~&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;由于工作刚完成了一个小阶段，休假几天，加上家里的两大神兽也上学了，终于可以静静的看下书，泡上一壶喜欢的红茶，乐哉。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/09/09/278f462717953.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/09/09/60d45d71a910f.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;这两年胃不太好，又改不了喝茶的习惯，所以挑了相对没那么伤胃的红茶来喝，以前经常喝生普茶，现在胃的确改善不少。&lt;/p&gt;
-&lt;p&gt;不过我对茶也不了解，也就是多年前我老婆见我经常喝酒，就送了个紫砂壶给我，让我多在家喝喝茶、把把壶，少出去应酬。老婆算是煞费苦心了，但成效不错，我也的确爱上了喝茶。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;这个世界美好的东西很多，就看我们如何去发掘了。单纯点、简单点，往往更容易找到属于你自己的快乐。连续半个月没有休息换来的这几天假期，打算什么都不做，好好宅在家里，该吃吃，该睡睡，这就是现在我想要的快乐。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;小时候的欢乐，是单纯带来的。长大后的痛苦，是复杂给予的。小时候，即使在没人的地方，我们也很快乐，因为简单的心容易接纳幸福。长大后，就算在拥挤的人群里，我们也感到孤单，因为心与心之间有了太多的距离。简单，是人生的大彻大悟，无欲无求无失望，来去随缘少徒劳。简单，是最大的快乐！&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
       
     </item>
