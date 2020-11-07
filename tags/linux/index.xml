@@ -6,11 +6,7 @@
     <description>Recent content in linux on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 09 Jul 2020 23:07:35 +0800</lastBuildDate>
-    
-	<atom:link href="https://laomai.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 09 Jul 2020 23:07:35 +0800</lastBuildDate><atom:link href="https://laomai.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在CentOS系统上搭建Git仓库</title>
       <link>https://laomai.org/2020/post-5/</link>

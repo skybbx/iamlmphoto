@@ -6,11 +6,7 @@
     <description>Recent content in git on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 08 Aug 2020 17:50:23 +0800</lastBuildDate>
-    
-	<atom:link href="https://laomai.org/tags/git/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 08 Aug 2020 17:50:23 +0800</lastBuildDate><atom:link href="https://laomai.org/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>投奔Hugo和主题的相关修改</title>
       <link>https://laomai.org/2020/post-14/</link>
