@@ -6,7 +6,16 @@
     <description>Recent content in 生活 on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 07 Nov 2020 20:45:23 +0800</lastBuildDate><atom:link href="https://laomai.org/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2020 16:02:23 +0800</lastBuildDate><atom:link href="https://laomai.org/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>孩子们都生病了</title>
+      <link>https://laomai.org/2020/post-35/</link>
+      <pubDate>Tue, 10 Nov 2020 16:02:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-35/</guid>
+      <description>烦心事 佩佩前两天发烧，妈妈给了点药给她吃，烧第二天就退了，以为事情已经告一段落，谁知昨天晚上开始，佩佩身上出了红疹，立马送去医院，扎了手指验</description>
+    </item>
+    
     <item>
       <title>获益颇丰的一天</title>
       <link>https://laomai.org/2020/post-34/</link>
@@ -104,15 +113,6 @@
       
       <guid>https://laomai.org/2020/post-23/</guid>
       <description>这段时间一直收到警告邮件，提示家里的NAS一直被扫描。因为我平时都是关闭Telnet和SSH这两个功能的，所以也不是很担心，但每天都收到邮件</description>
-    </item>
-    
-    <item>
-      <title>换个域名有个好心情</title>
-      <link>https://laomai.org/2020/post-22/</link>
-      <pubDate>Wed, 09 Sep 2020 12:50:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-22/</guid>
-      <description>其实laomai.org这个域名已经入手有一段时间了，因为各种原因一直没有将其更换，好吧！其实根本原因是因为域名不能备案，之前的空间不能进行</description>
     </item>
     
   </channel>
