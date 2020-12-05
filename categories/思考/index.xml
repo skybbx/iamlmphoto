@@ -6,7 +6,16 @@
     <description>Recent content in 思考 on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 17 Aug 2020 15:45:23 +0800</lastBuildDate><atom:link href="https://laomai.org/categories/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Dec 2020 14:06:23 +0800</lastBuildDate><atom:link href="https://laomai.org/categories/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学习.bashrc的基础使用与相关扩展</title>
+      <link>https://laomai.org/2020/post-38/</link>
+      <pubDate>Fri, 04 Dec 2020 14:06:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-38/</guid>
+      <description>闲来无事，整理一下学习笔记。 因为上网本安装了lubuntu，所以最近基础地去学习了一下。活到老，学到老！不求都懂，只要稍微了解一些基本的使用</description>
+    </item>
+    
     <item>
       <title>配合群晖NAS为Chrome添加实用的工具</title>
       <link>https://laomai.org/2020/post-16/</link>

@@ -9,35 +9,98 @@
   </url>
   
   <url>
+    <loc>https://laomai.org/tags/.bashrc/</loc>
+    <lastmod>2020-12-04T14:06:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://laomai.org/categories/</loc>
-    <lastmod>2020-11-23T07:05:23+08:00</lastmod>
+    <lastmod>2020-12-04T14:06:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://laomai.org/tags/excel/</loc>
-    <lastmod>2020-11-23T07:05:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://laomai.org/tags/macbook/</loc>
-    <lastmod>2020-11-23T07:05:23+08:00</lastmod>
+    <loc>https://laomai.org/tags/nas/</loc>
+    <lastmod>2020-12-04T14:06:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://laomai.org/post/</loc>
-    <lastmod>2020-11-23T07:05:23+08:00</lastmod>
+    <lastmod>2020-12-04T14:06:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/tags/ssh/</loc>
+    <lastmod>2020-12-04T14:06:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://laomai.org/tags/</loc>
+    <lastmod>2020-12-04T14:06:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/tags/ubuntu/</loc>
+    <lastmod>2020-12-04T14:06:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/2020/post-38/</loc>
+    <lastmod>2020-12-04T14:06:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/categories/%E6%80%9D%E8%80%83/</loc>
+    <lastmod>2020-12-04T14:06:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/</loc>
+    <lastmod>2020-12-04T14:06:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/tags/macbook/</loc>
+    <lastmod>2020-12-03T12:29:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/2020/post-37/</loc>
+    <lastmod>2020-12-03T12:29:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2020-12-03T12:29:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/tags/excel/</loc>
     <lastmod>2020-11-23T07:05:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -51,21 +114,7 @@
   </url>
   
   <url>
-    <loc>https://laomai.org/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2020-11-23T07:05:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://laomai.org/2020/post-36/</loc>
-    <lastmod>2020-11-23T07:05:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://laomai.org/</loc>
     <lastmod>2020-11-23T07:05:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -366,21 +415,7 @@
   </url>
   
   <url>
-    <loc>https://laomai.org/tags/nas/</loc>
-    <lastmod>2020-09-11T22:50:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://laomai.org/tags/openwrt/</loc>
-    <lastmod>2020-09-11T22:50:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://laomai.org/tags/ssh/</loc>
     <lastmod>2020-09-11T22:50:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -549,13 +584,6 @@
   
   <url>
     <loc>https://laomai.org/tags/webdav/</loc>
-    <lastmod>2020-08-17T15:45:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://laomai.org/categories/%E6%80%9D%E8%80%83/</loc>
     <lastmod>2020-08-17T15:45:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

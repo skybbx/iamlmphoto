@@ -6,7 +6,7 @@
     <description>Recent content on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 23 Nov 2020 07:05:23 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 04 Dec 2020 14:06:23 +0800</lastBuildDate>
     
         <atom:link href="https://laomai.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -34,7 +34,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://www.foreverblog.cn/&#34;&gt;十年之约&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://blog.loli.top/&#34;&gt;吹夢到西洲&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://blog.loli.top/&#34;&gt;城南旧事&lt;/a&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://www.qylao.com/&#34;&gt;穷游佬&lt;/a&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://4311346.com/&#34;&gt;Andy烧麦&lt;/a&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://www.wys.me/&#34;&gt;wys&lt;/a&gt;&lt;/td&gt;
@@ -57,6 +57,115 @@
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;p&gt;博客使用&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;生成，主题使用&lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;Jane&lt;/a&gt;。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>学习.bashrc的基础使用与相关扩展</title>
+      <link>https://laomai.org/2020/post-38/</link>
+      <pubDate>Fri, 04 Dec 2020 14:06:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-38/</guid>
+      
+        <description>&lt;h3 id=&#34;闲来无事整理一下学习笔记&#34;&gt;闲来无事，整理一下学习笔记。&lt;/h3&gt;
+&lt;p&gt;因为上网本安装了lubuntu，所以最近基础地去学习了一下。活到老，学到老！不求都懂，只要稍微了解一些基本的使用方法就好。&lt;/p&gt;
+&lt;h3 id=&#34;利用bashrc设置命令别名&#34;&gt;利用.bashrc设置命令别名&lt;/h3&gt;
+&lt;p&gt;本地电脑ssh登陆远程服务器时，我们会用到下面的方法&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;ssh 用户名@远程服务器IP
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;不是那么方便，特别是IP，还是有点难记的。这个时候就可以利用.bashrc进行个性化设置了。首先我们使用编辑器打开.bashrc配置文件&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;sudo vim ~/.bashrc
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;按i进入编辑模式，在文件最后添加以下内容&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;alias 别名=&amp;#39;ssh 用户名@远程服务器IP&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这里举个例子，我设置一个命令别名为nas用作登陆家里的群晖。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;alias nas=&amp;#39;ssh laomai@192.168.1.225
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;保存退出后，我们要重新加载一下配置文件，输入以下命令&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;source ~/.bashrc
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这样我们在终端里输入刚才设置的别名就能直接登陆远程服务器了。&lt;/p&gt;
+&lt;h3 id=&#34;扩展-免密码登陆&#34;&gt;扩展 免密码登陆&lt;/h3&gt;
+&lt;p&gt;配置完个性化别名后，输入别名，我们还是要用密码登陆一下才行，麻烦不说，在安全性上来说也不好，所以这个时候我们可以利用公钥来解决。
+在本地电脑上生成密钥对，输入&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;ssh-keygen
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这个时候窗口会提示你设置密码来保证密钥的安全，这里我们直接按回车键确认，密码留空。这样我们使用密钥认证的时候就可以免去输入密码的麻烦。以时我们进入密钥的保存目录&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;cd ~/.ssh/
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;在这里我们可以看到生成的私钥id_rsa和公钥id_rsa.pub了，要说一下的是，无论什么情况下，都不能暴露自己的私钥文件id_rsa。接下来需要将公钥文件复制到远程服务器上，输入&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;ssh-copy-id 用户名@远程服务器IP
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;设置完成后就可以在本地电脑输入别名来免密码登陆远程服务器了。&lt;/p&gt;
+&lt;h3 id=&#34;思考&#34;&gt;思考&lt;/h3&gt;
+&lt;p&gt;通过上面的方法，可以轻松且快速的免密码登陆远程服务器，那么是不是也可以利用设置命令别名来提高工作效率呢？例如一些我们经常切换的目录路径、经常使用且长的命令等等，我们都可以分别设置一个别名，这样不但提高效率，而且能有效防止出现常见的拼写错误与规避容易忘记的命令语法。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>小霸王ASUS 1101HA复活记</title>
+      <link>https://laomai.org/2020/post-37/</link>
+      <pubDate>Thu, 03 Dec 2020 12:29:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-37/</guid>
+      
+        <description>&lt;p&gt;之前一直在考虑是否要卖个肾来买个新的macbook pro，最后因为各种原因选择做个等等党。想到以后外出的机会还是蛮多的，在外面如果没有一个笔记本用下的话也实在是麻烦了点，之前拿了老婆09年买的笔记本稍微用下，但发现就算是重新装回xp系统还是有点卡，而且习惯了win10，突然用回xp，真的很不惯。特别是这小上网本用的还是32位的CPU，只能装32位的系统，基本上很多软件都不更新了，反正就是各种各样的问题。趁着这个假期，就折腾一下这部远古小霸王吧。&lt;/p&gt;
+&lt;p&gt;本子装了系统还原，可当我还原到还原点时，发现好多捆绑的流氓软件，一顿无语，我问老婆，你这个上网本买来的时候就这样的？有自己装个系统什么的吗？她倒直接，“你觉得我会你说的这些操作？”思前想后，决定在这个小霸王上面装个微量级的linux系统，一开始看中的是TinyCore Linux，这个系统是真的夸张，小到一个极致，我是在抖音上看到其介绍，但试用了一会后，放弃。主要是华硕Eee 1101HA这个古董上网本的装这个系统连不上Wifi，网上教程查阅一遍无果，下载CorePlus版测试也不行，实在搞不定，只好放弃。&lt;/p&gt;
+&lt;p&gt;然后就找了个32位的ubuntu测试一下，网是连上了，可上网本的配置实在是太过于LJ，运行起来真心吃力，直接起飞，风扇转个不停，那个噪声，比我台式机还要大，放弃。不过Ubuntu这个桌面系统我其实挺喜欢的，也许是第一次用吧，对于我这种老WIN用户来说还蛮新鲜的。既然喜欢ubuntu，那就找个轻量的ubuntu试下能不能运行咯。不搜不知道，一搜吓一跳，各种版本看的我眼花，无从选择，决定先搞个lubuntu吧，这个网上的评价还不错，直接&lt;a href=&#34;https://lubuntu.me&#34;&gt;官网&lt;/a&gt;下载32位的18.04版本，这个好像是最后一个支持32位的版本了，目测后面发布的都只支持64位。&lt;/p&gt;
+&lt;p&gt;制作启动U盘工具是rufus，这个是真的好用，简单粗暴，以前我是用老毛桃这一类PE工具制作启动U盘的，回想一下真的就是浪费时间，总被上面那些有的没的工具搞到这个问题，那个问题，或许，也许，根本是我自己不太会操作的原因吧。不过自从了解到rufus这个工具后，所有的烦恼都随风而去了，简单两步就轻松完成，而且没出现过什么岔子，再也不会出现明明在bios上能读取到硬盘，但进入到PE系统时就读取不出来的诸如此类问题。&lt;/p&gt;
+&lt;p&gt;安装过程就不赘述了，简单得很。下面随便说下lubuntu的使用感受，上网本的配置是Atom Z520 1.3GHZ，1核心，内存DDR2 1G，一般情况下，机子都能平顺、安静的运行，但在打开浏览器访问一些复杂点的网站时，风扇就会转动起来，伴随而来就是卡顿，所以想上网冲浪的话，还得乖乖地拿出手机来。配置摆在那，也是没有办法的事，总之给我的感觉就是，流畅度好像就比本子上预装的xp系统就好那么一丢丢而已，这个时候我就有了个大胆的想法，如果我装一个轻量的xp会不会更好呢？不过随着我慢慢去深入了解这个系统后，我就放弃了这个想法，因为就算是装个轻量的xp系统，还是解决不了不能打开一些吃内存的网页，例如直播平台这些。可lubuntu这个系统用来更新我的静态博客，可比xp方便太多了，打开一个终端就能完成全部工作，不得不说，瞬间感觉自己变得高大上了。当然这也只是自己的一厢情愿罢了，毕竟别人敲的是代码、命令，我敲的是家常。其实在lubuntu上安装typora，vscode这类软件也挺方便的，但一打开软件久了，我的小霸王就蠢蠢欲动，想要起飞，风扇直接高速旋转，发出其有声却无力的抵抗。&lt;/p&gt;
+&lt;p&gt;暂且就先忍受一下吧，就算到时真的要换本子了，也会优先考虑16寸的，太小的话我眼睛好像有点受不了。不过好像现在这个小霸王也能满足我基本的需求了，毕竟我就急需个手提打打字，更新一下博客而已。之前困在酒店十来天，只能偷偷利用办工的电脑更新了一篇。&lt;/p&gt;
 </description>
       
     </item>
@@ -274,215 +383,6 @@
 &lt;p&gt;一、 “美丽乡村”让村的变化很大，每次回去都觉得特别的舒服，而且开车回去也就十来分钟的车程，出行挺方便的。&lt;/p&gt;
 &lt;p&gt;二、 现在所在的城区房源太过充足了，感觉再投资在这一块的意义不大，毕竟一个三四线的城市，现在的房价竟然还那么高。&lt;/p&gt;
 &lt;p&gt;虽然回乡下建房子应该属于消费性支出，但毕竟这是老爸他的一个心愿，该怎么选择还是开个家庭会议再作决定吧。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>双节快乐</title>
-      <link>https://laomai.org/2020/post-27/</link>
-      <pubDate>Thu, 01 Oct 2020 10:35:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-27/</guid>
-      
-        <description>&lt;p&gt;首先在这里祝大家中秋、国庆快乐。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/10/01/af05d4b4dad9a.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;又到一年一度中秋佳节，每到这个节日，我都会想起一部电视剧，《我和僵尸有个约会》。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;云母屏风烛影深，长河渐落晓星沉。&lt;/p&gt;
-&lt;p&gt;嫦娥应悔偷灵药，碧海青天夜夜心。&lt;/p&gt;
-&lt;p&gt;——李商隐&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/10/01/3cbb53c7977ed.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;关于嫦娥的故事有很多，但在我眼中，她只是一个可怜的女人，一个只能在冰冷的广寒宫中度过无数个孤独岁月的女人。&lt;/p&gt;
-&lt;p&gt;中秋节和嫦娥其实是没有关系的，据说中秋节本来是为了纪念登月第一人嫦娥女士的，因为她就是在这一天登月成功的。可遗憾的是，只有《淮南子》这一本志怪小说对嫦娥登月这一事有记载，然而在《左传》、《春秋》、《史记》、《二十四史》、《资治通鉴》等等史书上却是没有关于嫦娥的任何记录。就是说，嫦娥登月是未经官方认可的。不过呢，这都不是事，反正中秋节有月饼吃就行啦，如今的社会，作为普通老百姓的我们，不用事事刨根挖底，时不时的装糊涂，反而活得更加轻松。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;这段时间趁着走访亲友，回乡下的“墟”走了一趟。熟悉的感觉，好怀念~&lt;/p&gt;
-&lt;p&gt;小时候经常跟着爷爷徒步走十多公里去趁墟，爷爷卖掉一些平时用竹子织成的鱼笼后总会买一碗云吞给我吃，超级满足，那味道，长大后就再没有吃到过了。&lt;/p&gt;
-
-
-
-&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
-    
-  
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://laomai.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://img.laomai.org/2020/10/01/cc250290261f7.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://img.laomai.org/2020/10/01/cc250290261f7.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://img.laomai.org/2020/10/01/cc250290261f7.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://img.laomai.org/2020/10/01/7b7ca92bc3d7c.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://img.laomai.org/2020/10/01/7b7ca92bc3d7c.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://img.laomai.org/2020/10/01/7b7ca92bc3d7c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://img.laomai.org/2020/10/01/df17c0604dbd9.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://img.laomai.org/2020/10/01/df17c0604dbd9.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://img.laomai.org/2020/10/01/df17c0604dbd9.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://img.laomai.org/2020/10/01/9d940edc2b437.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://img.laomai.org/2020/10/01/9d940edc2b437.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://img.laomai.org/2020/10/01/9d940edc2b437.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://img.laomai.org/2020/10/01/885d2574af3b3.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://img.laomai.org/2020/10/01/885d2574af3b3.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://img.laomai.org/2020/10/01/885d2574af3b3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://img.laomai.org/2020/10/01/0ebcd1782d695.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://img.laomai.org/2020/10/01/0ebcd1782d695.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://img.laomai.org/2020/10/01/0ebcd1782d695.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/10/01/8f2913ea67118.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;和记忆中相比，真的冷清太多了，以前人来人往的街道，现在却……&lt;/p&gt;
-&lt;p&gt;云吞也不再是记忆中的味道了，吃起来怪怪的，但又说不上是什么感觉。&lt;/p&gt;
-&lt;p&gt;很久没看到这种包装的月饼啦，买了包，开一个来回味一下童年时的味道，老实说，不好吃。&lt;/p&gt;
-&lt;p&gt;但细想一下，或许味道还是原来那个味道，变得不一样的只是我们罢了。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>回味一下《Shure SE846》</title>
-      <link>https://laomai.org/2020/post-26/</link>
-      <pubDate>Wed, 23 Sep 2020 16:05:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-26/</guid>
-      
-        <description>&lt;p&gt;难道世间就真这么奇妙的吗？之前收拾房间的时候，把一入耳式耳塞弄丢啦，找半天未果放弃了。结果今天把刚看完的《三体》放回架子上时竟然让我发现了它。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/09/23/654be19ca9ce5.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;盒子都积满了灰，其实蛮对不起它的，把它买回来后一直没怎么让它发光发热。严格意义来说，我算不上发烧级别，也许从小受老爸的影响，对听歌的设备有那么一丁点的要求，记忆中，老爸算得上是一个不折不扣的发烧友了，只要一有空，就折腾家里的功放、喇叭，当时给我的感觉这些东西挺高级的，大大的一堆，特别是那些磁带盒，满满的一抽屉，但好像大部份的徐小凤的，哈哈，老爸也是个追过星的人。&lt;/p&gt;
-&lt;p&gt;话说我的舒尔SE846买了也快四年咯，我记得是16年年底入手的。那个时候兴奋得就像个孩子一样，什么煲机啊，找音源啊，各种折腾。有一说一哈，这塞子的音质真的挺适合我的，当时我也在森海和舒尔之间犹豫过，去实体店试听完，直接选择了后者。因为我平时听流行较多，846在这方面完全满足我的要求，用它来听“天下最美女中音”降央卓玛的歌，简直就一享受。&lt;/p&gt;
-&lt;p&gt;当然啦，人无完人，塞子也一样，肯定也有缺点的。但这些缺点都已经被我忽略掉了，当时我选择它时就已经将其定位在流行人声塞，它在这方面的表现是绝对的称职。&lt;/p&gt;
-&lt;p&gt;后来因为耳朵有点小问题，老婆不让我戴这种入耳耳塞后，它也只能在角落里吃灰了。今天把它翻了出来，重温了一下，还是那种感觉，幸福感满满的。&lt;/p&gt;
-
-
-
-&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
-    
-  
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://laomai.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://img.laomai.org/2020/09/23/d446318b2834d.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://img.laomai.org/2020/09/23/d446318b2834d.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://img.laomai.org/2020/09/23/d446318b2834d.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://img.laomai.org/2020/09/23/8c406361e0358.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://img.laomai.org/2020/09/23/8c406361e0358.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://img.laomai.org/2020/09/23/8c406361e0358.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://img.laomai.org/2020/09/23/05fb4811d1e14.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://img.laomai.org/2020/09/23/05fb4811d1e14.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://img.laomai.org/2020/09/23/05fb4811d1e14.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://img.laomai.org/2020/09/23/2f16c980da516.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://img.laomai.org/2020/09/23/2f16c980da516.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://img.laomai.org/2020/09/23/2f16c980da516.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://img.laomai.org/2020/09/23/8205580b3e720.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://img.laomai.org/2020/09/23/8205580b3e720.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://img.laomai.org/2020/09/23/8205580b3e720.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://img.laomai.org/2020/09/23/fc914098dff90.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://img.laomai.org/2020/09/23/fc914098dff90.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://img.laomai.org/2020/09/23/fc914098dff90.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;p&gt;Aune M1s这个前端一般吧，比较中庸。功能不多，但该有的都有，属于性价比类的产物吧。当时选择它的原因就是因为“便宜”。&lt;/p&gt;
-&lt;p&gt;Shure SE846应该是我最后一款入耳式耳塞了，主要是因为耳朵遭不住折腾了。当然啦，偶尔拿出来回味一下还是很快乐的~&lt;/p&gt;
 </description>
       
     </item>
