@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 04 Dec 2020 14:06:23 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Dec 2020 14:06:23 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows 10上安装Linux子系统</title>
+      <link>https://laomai.org/2020/post-39/</link>
+      <pubDate>Thu, 10 Dec 2020 14:06:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-39/</guid>
+      <description>这段时间一直在学习一些Linux系统的基础知识，感觉还不错。虽然工作上是不可能用到这方面的知识，纯属个人爱好而已，也当作是给自己扩展一下技能</description>
+    </item>
+    
     <item>
       <title>学习.bashrc的基础使用与相关扩展</title>
       <link>https://laomai.org/2020/post-38/</link>
@@ -104,15 +113,6 @@
       
       <guid>https://laomai.org/2020/post-28/</guid>
       <description>最近，一直挺忙的。工作如此，生活也一样。 工作期间，每到一阶段快结束的时候都会忙活几天，加上前段时间其他点出了小事故，我们这个点也受到了牵连，</description>
-    </item>
-    
-    <item>
-      <title>双节快乐</title>
-      <link>https://laomai.org/2020/post-27/</link>
-      <pubDate>Thu, 01 Oct 2020 10:35:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-27/</guid>
-      <description>首先在这里祝大家中秋、国庆快乐。 又到一年一度中秋佳节，每到这个节日，我都会想起一部电视剧，《我和僵尸有个约会》。 云母屏风烛影深，长河渐落晓星</description>
     </item>
     
   </channel>

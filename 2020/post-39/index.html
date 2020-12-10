@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Linux · 老麦笔记 - 生命在于折腾</title>
+  <title>Windows 10上安装Linux子系统 - 老麦笔记 - 生命在于折腾</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="老麦" />
-  <meta name="description" content="记录生活、短暂的记忆、匆匆的灵感。" />
+  <meta name="description" content="这段时间一直在学习一些Linux系统的基础知识，感觉还不错。虽然工作上是不可能用到这方面的知识，纯属个人爱好而已，也当作是给自己扩展一下技能" />
+
   <meta name="keywords" content="老麦, 老麦笔记, laomai, Mai, iFTY, Hugo, Life, Log" />
 
 
@@ -34,8 +35,8 @@
 <meta name="generator" content="Hugo 0.79.0" />
 
 
-<link rel="canonical" href="https://laomai.org/tags/linux/" />
-<link href="/tags/linux/index.xml" rel="alternate" type="application/rss+xml" title="老麦笔记 - 生命在于折腾" />
+<link rel="canonical" href="https://laomai.org/2020/post-39/" />
+
 
 
 
@@ -56,16 +57,24 @@
 
 
 
-<meta property="og:title" content="Linux" />
-<meta property="og:description" content="记录生活、短暂的记忆、匆匆的灵感。" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://laomai.org/tags/linux/" />
-<meta property="og:updated_time" content="2020-12-10T14:06:23+08:00" />
-<meta itemprop="name" content="Linux">
-<meta itemprop="description" content="记录生活、短暂的记忆、匆匆的灵感。">
+<meta property="og:title" content="Windows 10上安装Linux子系统" />
+<meta property="og:description" content="这段时间一直在学习一些Linux系统的基础知识，感觉还不错。虽然工作上是不可能用到这方面的知识，纯属个人爱好而已，也当作是给自己扩展一下技能" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://laomai.org/2020/post-39/" />
+<meta property="article:published_time" content="2020-12-10T14:06:23+08:00" />
+<meta property="article:modified_time" content="2020-12-10T14:06:23+08:00" />
+<meta itemprop="name" content="Windows 10上安装Linux子系统">
+<meta itemprop="description" content="这段时间一直在学习一些Linux系统的基础知识，感觉还不错。虽然工作上是不可能用到这方面的知识，纯属个人爱好而已，也当作是给自己扩展一下技能">
+<meta itemprop="datePublished" content="2020-12-10T14:06:23+08:00" />
+<meta itemprop="dateModified" content="2020-12-10T14:06:23+08:00" />
+<meta itemprop="wordCount" content="941">
+
+
+
+<meta itemprop="keywords" content="Windows,Linux,Debian," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Linux"/>
-<meta name="twitter:description" content="记录生活、短暂的记忆、匆匆的灵感。"/>
+<meta name="twitter:title" content="Windows 10上安装Linux子系统"/>
+<meta name="twitter:description" content="这段时间一直在学习一些Linux系统的基础知识，感觉还不错。虽然工作上是不可能用到这方面的知识，纯属个人爱好而已，也当作是给自己扩展一下技能"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -307,66 +316,165 @@ if (!doNotTrack) {
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">Windows 10上安装Linux子系统</h1>
+      
+      
+    </header>
+
+    
+    
+
+    
+    <div class="post-content">
+      <p>这段时间一直在学习一些Linux系统的基础知识，感觉还不错。虽然工作上是不可能用到这方面的知识，纯属个人爱好而已，也当作是给自己扩展一下技能。</p>
+<p>话说B站这方面的学习课程还真够完善的，由浅入深的视频课程都能完整的找到，真好！当然啦，理论和实操要相结合才能记得牢固，所以今天做个小笔记，在Windows 10上安装一个Linux子系统。</p>
+<h3 id="安装">安装</h3>
+<p>先安装一个工具——「Windows Terminal」。有关Windows终端程序的相关说明请自行找度娘，安装这玩意主要是能很方便地操作我们接下来安装的Linux子系统。</p>
+<p><img src="https://img.laomai.org/2020/12/10/50aeefc065019.jpg" alt=""></p>
+<p>在Microsoft Store上直接安装就好了，也可以去<a href="https://github.com/microsoft/terminal">github</a>上下载自行安装。</p>
+<p>接下来到Windows设置里修改两个地方</p>
+<p><img src="https://img.laomai.org/2020/12/10/e15a63bbf3ed9.jpg" alt=""></p>
+<ol>
+<li>打开更新和安全，开启开发人员模式。</li>
+</ol>
+<p><img src="https://img.laomai.org/2020/12/10/3b3d00e16ddec.jpg" alt=""></p>
+<ol start="2">
+<li>打开应用，点击右上角的程序和功能</li>
+</ol>
+<p><img src="https://img.laomai.org/2020/12/10/234431eca940c.jpg" alt=""></p>
+<p>点击启用或关闭Windows功能</p>
+<p><img src="https://img.laomai.org/2020/12/10/55f13396483fc.jpg" alt=""></p>
+<p>找到适用于Linux的Windows子系统，勾选后确定。</p>
+<p><img src="C:%5CUsers%5Cskybb%5CDesktop%5C%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%5Cpost-39%5C6.jpg" alt=""></p>
+<p>这时会提示重启系统，重启完成后就可以安装Linux系统了。</p>
+<p>以安装Debian为例，打开Microsoft Store搜索Debian，获取安装。</p>
+<p><img src="https://img.laomai.org/2020/12/10/e1417bb1e333d.jpg" alt=""></p>
+<p>因为我的电脑C盘磁盘空间容量很小，所以这里我选择了另外一种方法安装，将子系统安装在D盘。</p>
+<p>输入网址<a href="https://docs.microsoft.com/en-us/windows/wsl/install-manual">https://docs.microsoft.com/en-us/windows/wsl/install-manual</a>，下载我们需要的系统。</p>
+<p><img src="https://img.laomai.org/2020/12/10/c3586ef033c68.jpg" alt=""></p>
+<p>下载完成后我们会得到一个后缀名为.Appx的文件，这时我们将文件的后缀修改成.zip并将文件移动到你要保存Debian系统的文件夹，将文件解压到当前目录。</p>
+<p><img src="https://img.laomai.org/2020/12/10/8ce53bb036926.jpg" alt=""></p>
+<p>打开debian.exe安装。</p>
+<p><img src="https://img.laomai.org/2020/12/10/5a664b506fac9.jpg" alt=""></p>
+<p>设置好用户名和密码，这样子系统已经安装完成了。这时看一下我们刚才解压文件的目录就会多出一个rootfs文件夹，这个rootfs文件夹就是保存Debian子系统的目录了。</p>
+<p>重新打开Windows Terminal，点一下地址栏上的展开小箭头，就会多出一个选项Debian，一键就能进入子系统，十分方便。</p>
+<p><img src="https://img.laomai.org/2020/12/10/ac1c4821efbb1.jpg" alt=""></p>
+<h3 id="思考">思考</h3>
+<p>这样子使用了两天后，发现比在虚拟机上安装和使用都简单得多，而且使用起来也特别顺手，比如说，我在Windows上在子系统的laomai文件夹里新建一个hugo的目录，在终端上就可以立马查询得到。还有，复制的命令也如此，直接就能在终端上进行粘贴。</p>
+<p><img src="https://img.laomai.org/2020/12/10/273907b9e103d.jpg" alt=""></p>
+
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">老麦</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+      2020-12-10
+      
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content">原创文章，如需转载请注明文章作者和出处。谢谢！</span>
+  </p>
+</div>
+
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="https://laomai.org/tags/windows/">Windows</a>
+          <a href="https://laomai.org/tags/linux/">Linux</a>
+          <a href="https://laomai.org/tags/debian/">Debian</a>
           
+        </div>
 
-<section id="archive" class="archive">
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/2020/post-38/">
+            <span class="next-text nav-default">学习.bashrc的基础使用与相关扩展</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
   
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
     
-      <div class="archive-title tag">
-        <h2 class="archive-name">标签： Linux</h2>
-      </div>
-    
-  
+
+  <div class="post bg-white">
+  <div id="comments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js'></script>
+  <script>
+    if(window.location.hash){
+        var checkExist = setInterval(function() {
+            if ($(window.location.hash).length) {
+              $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 700);
+              clearInterval(checkExist);
+            }
+        }, 10);
+    }
+  </script>
+  <script>
+    var valine = new Valine();
+    valine.init({
+        el: '#comments' ,
+        appId: '3PctnncfS1q52Xwr9nRy0LGM-MdYXbMMI',
+        appKey: '0DPUpt0jTnfnFwBqypC8sKNP',
+        notify: 'false', 
+        verify: 'false', 
+        avatar: 'mm', 
+        placeholder: 'Just go go',
+		master: '40ad6d1da543f0a89e3c1d68a10dde50',   
+		tagMeta: ["博主","伙伴","访客"],     
+		friends:  ["28d0e618666bf72c36270c99e643950b","698fdfd286d14f4c901406727dc7f982"],  
+		metaPlaceholder: {"nick":"昵称","mail":"邮箱"},
+        visitor:  false 
+    });
+  </script>
+  </div>
 
   
-    <div class="archive-post">
-      <time datetime="2020-12-10" class="archive-post-time">
-        2020-12-10
-      </time>
-      <span class="archive-post-title">
-        <a href="/2020/post-39/" class="archive-post-link">
-          Windows 10上安装Linux子系统
-        </a>
-      </span>
-    </div>
-  
-    <div class="archive-post">
-      <time datetime="2020-07-09" class="archive-post-time">
-        2020-07-09
-      </time>
-      <span class="archive-post-title">
-        <a href="/2020/post-5/" class="archive-post-link">
-          在CentOS系统上搭建Git仓库
-        </a>
-      </span>
-    </div>
-  
-</section>
-
-
-
-
-
-
-  
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-
-
-
 
         </div>
       </div>

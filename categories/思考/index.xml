@@ -6,7 +6,16 @@
     <description>Recent content in 思考 on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 04 Dec 2020 14:06:23 +0800</lastBuildDate><atom:link href="https://laomai.org/categories/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Dec 2020 14:06:23 +0800</lastBuildDate><atom:link href="https://laomai.org/categories/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows 10上安装Linux子系统</title>
+      <link>https://laomai.org/2020/post-39/</link>
+      <pubDate>Thu, 10 Dec 2020 14:06:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-39/</guid>
+      <description>这段时间一直在学习一些Linux系统的基础知识，感觉还不错。虽然工作上是不可能用到这方面的知识，纯属个人爱好而已，也当作是给自己扩展一下技能</description>
+    </item>
+    
     <item>
       <title>学习.bashrc的基础使用与相关扩展</title>
       <link>https://laomai.org/2020/post-38/</link>

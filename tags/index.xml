@@ -6,7 +6,34 @@
     <description>Recent content in Tags on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 04 Dec 2020 14:06:23 +0800</lastBuildDate><atom:link href="https://laomai.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Dec 2020 14:06:23 +0800</lastBuildDate><atom:link href="https://laomai.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debian</title>
+      <link>https://laomai.org/tags/debian/</link>
+      <pubDate>Thu, 10 Dec 2020 14:06:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/tags/debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://laomai.org/tags/linux/</link>
+      <pubDate>Thu, 10 Dec 2020 14:06:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://laomai.org/tags/windows/</link>
+      <pubDate>Thu, 10 Dec 2020 14:06:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/tags/windows/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>.bashrc</title>
       <link>https://laomai.org/tags/.bashrc/</link>
@@ -85,33 +112,6 @@
       <pubDate>Tue, 10 Nov 2020 16:02:23 +0800</pubDate>
       
       <guid>https://laomai.org/tags/%E5%84%BF%E5%A5%B3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>毛毛</title>
-      <link>https://laomai.org/tags/%E6%AF%9B%E6%AF%9B/</link>
-      <pubDate>Tue, 10 Nov 2020 16:02:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/tags/%E6%AF%9B%E6%AF%9B/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>同事</title>
-      <link>https://laomai.org/tags/%E5%90%8C%E4%BA%8B/</link>
-      <pubDate>Sat, 07 Nov 2020 20:45:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/tags/%E5%90%8C%E4%BA%8B/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>茶</title>
-      <link>https://laomai.org/tags/%E8%8C%B6/</link>
-      <pubDate>Sat, 07 Nov 2020 20:45:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/tags/%E8%8C%B6/</guid>
       <description></description>
     </item>
     

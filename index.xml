@@ -6,7 +6,7 @@
     <description>Recent content on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 04 Dec 2020 14:06:23 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 10 Dec 2020 14:06:23 +0800</lastBuildDate>
     
         <atom:link href="https://laomai.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -57,6 +57,53 @@
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;p&gt;博客使用&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;生成，主题使用&lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;Jane&lt;/a&gt;。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Windows 10上安装Linux子系统</title>
+      <link>https://laomai.org/2020/post-39/</link>
+      <pubDate>Thu, 10 Dec 2020 14:06:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-39/</guid>
+      
+        <description>&lt;p&gt;这段时间一直在学习一些Linux系统的基础知识，感觉还不错。虽然工作上是不可能用到这方面的知识，纯属个人爱好而已，也当作是给自己扩展一下技能。&lt;/p&gt;
+&lt;p&gt;话说B站这方面的学习课程还真够完善的，由浅入深的视频课程都能完整的找到，真好！当然啦，理论和实操要相结合才能记得牢固，所以今天做个小笔记，在Windows 10上安装一个Linux子系统。&lt;/p&gt;
+&lt;h3 id=&#34;安装&#34;&gt;安装&lt;/h3&gt;
+&lt;p&gt;先安装一个工具——「Windows Terminal」。有关Windows终端程序的相关说明请自行找度娘，安装这玩意主要是能很方便地操作我们接下来安装的Linux子系统。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/50aeefc065019.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在Microsoft Store上直接安装就好了，也可以去&lt;a href=&#34;https://github.com/microsoft/terminal&#34;&gt;github&lt;/a&gt;上下载自行安装。&lt;/p&gt;
+&lt;p&gt;接下来到Windows设置里修改两个地方&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/e15a63bbf3ed9.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;打开更新和安全，开启开发人员模式。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/3b3d00e16ddec.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;打开应用，点击右上角的程序和功能&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/234431eca940c.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;点击启用或关闭Windows功能&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/55f13396483fc.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;找到适用于Linux的Windows子系统，勾选后确定。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;C:%5CUsers%5Cskybb%5CDesktop%5C%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%5Cpost-39%5C6.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;这时会提示重启系统，重启完成后就可以安装Linux系统了。&lt;/p&gt;
+&lt;p&gt;以安装Debian为例，打开Microsoft Store搜索Debian，获取安装。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/e1417bb1e333d.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;因为我的电脑C盘磁盘空间容量很小，所以这里我选择了另外一种方法安装，将子系统安装在D盘。&lt;/p&gt;
+&lt;p&gt;输入网址&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/wsl/install-manual&#34;&gt;https://docs.microsoft.com/en-us/windows/wsl/install-manual&lt;/a&gt;，下载我们需要的系统。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/c3586ef033c68.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;下载完成后我们会得到一个后缀名为.Appx的文件，这时我们将文件的后缀修改成.zip并将文件移动到你要保存Debian系统的文件夹，将文件解压到当前目录。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/8ce53bb036926.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;打开debian.exe安装。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/5a664b506fac9.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;设置好用户名和密码，这样子系统已经安装完成了。这时看一下我们刚才解压文件的目录就会多出一个rootfs文件夹，这个rootfs文件夹就是保存Debian子系统的目录了。&lt;/p&gt;
+&lt;p&gt;重新打开Windows Terminal，点一下地址栏上的展开小箭头，就会多出一个选项Debian，一键就能进入子系统，十分方便。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/ac1c4821efbb1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;思考&#34;&gt;思考&lt;/h3&gt;
+&lt;p&gt;这样子使用了两天后，发现比在虚拟机上安装和使用都简单得多，而且使用起来也特别顺手，比如说，我在Windows上在子系统的laomai文件夹里新建一个hugo的目录，在终端上就可以立马查询得到。还有，复制的命令也如此，直接就能在终端上进行粘贴。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/273907b9e103d.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
       
     </item>
@@ -364,25 +411,6 @@
 &lt;p&gt;&lt;strong&gt;有爸爸在，我不怕了。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;瞬间泪在眼眶里打转，我家毛毛真的太棒了。&lt;/p&gt;
 &lt;p&gt;事情还有个小插曲，因为当时看到儿子的伤口，心很急、很躁，因为儿子的这次受伤是老妈造成的，又误以为只是小伤，所以在气急败坏的情况下和老妈说了些过份的话，话冲出口后立马就后悔了，希望老妈不要把这气话记心里。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>记录20201009</title>
-      <link>https://laomai.org/2020/post-28/</link>
-      <pubDate>Fri, 09 Oct 2020 22:25:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-28/</guid>
-      
-        <description>&lt;p&gt;最近，一直挺忙的。工作如此，生活也一样。&lt;/p&gt;
-&lt;p&gt;工作期间，每到一阶段快结束的时候都会忙活几天，加上前段时间其他点出了小事故，我们这个点也受到了牵连，领导来巡视、指导了几回。也充分让我感觉到自己的能力不足，特别是在语言表达能力这个方面，所以这段时间一直利用空余时间来学习一些基础的外语，在朋友的推荐下，得到一个网站——&lt;a href=&#34;https://www.duolingo.com/&#34;&gt;《多邻国》&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;至于国庆、中秋期间，堂弟结婚，兄弟新居入伙，把仅有的几天休息安排得妥妥的。好在领导给了点面子，帮我适当的安排了休息。这么多年也习惯了节假日要值班，骑着我心爱的小电驴去上班时总会停下来欣赏沿途长长的车龙。不过今年当车龙走后地上却多了很多生活垃圾，虽说在路上塞一晚上真的很辛苦，但这也不能成为大伙乱扔垃圾的借口对吧？我看到环卫部门还很贴心每隔二、三十米就安排了垃圾桶，可当我经过时，有些垃圾桶还是空的，地上却是满地垃圾。&lt;/p&gt;
-&lt;p&gt;今天回原单位开了个小会，主要是讲某同事的升迁任命，回头一看这位同事的升迁之路，真的是一脸茫然，一个平时不愿担责任、一直担心怕事的人，居然能一年一小升，两年一大升。我一直以为只要认真工作，踏实干活的话，领导还是会看到的。可一次又一次之后，证明自己还是太年轻了。这个社会也太欺负老实人，到底是老实人容易欺负，还是老实人已经没有了反抗的意识了？&lt;/p&gt;
-&lt;p&gt;这段时间一直在关注西瓜视频的《温义飞的脑洞财经》这个UP主的更新，发现这位大佬说的话挺中肯的，特别是有关房价走势的那个视频，结合我现在居住的城市，的确是城镇人口的比例越来越高了，农村的年轻人都到周边的城市发展了，现在回到村里，基本只剩下一些老人家留守咯，好在我们村的路修得不错，且离城区也就十来公里的路程，所以很多村里的人都喜欢常回乡下逛，我老爸就是如此，最近他一直惦记着回老家建个新的小洋房，然后老妈表示不同意，老妈说在城区多买一套房更实际。说真的，其实我也倾向老爸的想法，&lt;/p&gt;
-&lt;p&gt;一、 “美丽乡村”让村的变化很大，每次回去都觉得特别的舒服，而且开车回去也就十来分钟的车程，出行挺方便的。&lt;/p&gt;
-&lt;p&gt;二、 现在所在的城区房源太过充足了，感觉再投资在这一块的意义不大，毕竟一个三四线的城市，现在的房价竟然还那么高。&lt;/p&gt;
-&lt;p&gt;虽然回乡下建房子应该属于消费性支出，但毕竟这是老爸他的一个心愿，该怎么选择还是开个家庭会议再作决定吧。&lt;/p&gt;
 </description>
       
     </item>
