@@ -67,7 +67,7 @@
 <meta itemprop="description" content="这段时间一直在学习一些Linux系统的基础知识，感觉还不错。虽然工作上是不可能用到这方面的知识，纯属个人爱好而已，也当作是给自己扩展一下技能">
 <meta itemprop="datePublished" content="2020-12-10T14:06:23+08:00" />
 <meta itemprop="dateModified" content="2020-12-10T14:06:23+08:00" />
-<meta itemprop="wordCount" content="1187">
+<meta itemprop="wordCount" content="1220">
 
 
 
@@ -366,6 +366,7 @@ if (!doNotTrack) {
 <p>这样子使用了两天后，发现比在虚拟机上安装和使用都简单得多，而且使用起来也特别顺手，比如说，我在Windows上在子系统的laomai文件夹里新建一个hugo的目录，在终端上就可以立马查询得到。还有，复制的命令也如此，直接就能在终端上进行粘贴。</p>
 <p><img src="https://img.laomai.org/2020/12/10/273907b9e103d.jpg" alt=""></p>
 <h4 id="以下是与子系统相关的几个命令">以下是与子系统相关的几个命令</h4>
+<p>以下命令在Windows上使用CMD或者PowerShell运行。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -393,10 +394,10 @@ if (!doNotTrack) {
 <span class="c"># 关闭子系统 wsl.exe --terminate &lt;子系统名称&gt;</span>
 <span class="n">wsl</span><span class="p">.</span><span class="n">exe</span> <span class="p">-</span><span class="n">-terminate</span> <span class="n">Debian</span>
 
-<span class="c"># 导出Linux子系统 wsl --export &lt;子系统名称&gt; &lt;保存的路径&gt;</span>
+<span class="c"># 导出子系统 wsl --export &lt;子系统名称&gt; &lt;保存的路径&gt;</span>
 <span class="n">wsl</span> <span class="p">-</span><span class="n">-export</span> <span class="n">Debian</span> <span class="n">D:</span><span class="p">\</span><span class="n">Mai</span><span class="p">\</span><span class="n">Debian</span><span class="p">.</span><span class="n">tar</span>
 
-<span class="c"># wsl.exe --import &lt;新的子系统名称&gt; &lt;新的子系统路径&gt; &lt;要导入子系统的tar压缩文件路径及名称&gt;</span>
+<span class="c"># 导入子系统 wsl.exe --import &lt;新的子系统名称&gt; &lt;新的子系统路径&gt; &lt;要导入子系统的tar压缩文件路径及名称&gt;</span>
 <span class="n">wsl</span><span class="p">.</span><span class="n">exe</span> <span class="p">-</span><span class="n">-import</span> <span class="n">newDebian</span> <span class="n">D:</span><span class="p">\</span><span class="n">Mai</span><span class="p">\</span><span class="n">newDebian</span> <span class="n">D:</span><span class="p">\</span><span class="n">Mai</span><span class="p">\</span><span class="n">Debian</span><span class="p">.</span><span class="n">tar</span>
 
 <span class="c"># 运行刚刚导入的子系统 wsl --distribution &lt;新的子系统名称&gt;</span>
