@@ -10,41 +10,76 @@
   
   <url>
     <loc>https://laomai.org/categories/</loc>
-    <lastmod>2020-12-10T14:06:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://laomai.org/tags/debian/</loc>
-    <lastmod>2020-12-10T14:06:23+08:00</lastmod>
+    <lastmod>2020-12-21T16:46:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://laomai.org/tags/linux/</loc>
-    <lastmod>2020-12-10T14:06:23+08:00</lastmod>
+    <lastmod>2020-12-21T16:46:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://laomai.org/post/</loc>
-    <lastmod>2020-12-10T14:06:23+08:00</lastmod>
+    <lastmod>2020-12-21T16:46:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://laomai.org/tags/</loc>
-    <lastmod>2020-12-10T14:06:23+08:00</lastmod>
+    <lastmod>2020-12-21T16:46:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/tags/ubuntu/</loc>
+    <lastmod>2020-12-21T16:46:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://laomai.org/tags/windows/</loc>
+    <lastmod>2020-12-21T16:46:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/2020/post-40/</loc>
+    <lastmod>2020-12-21T16:46:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2020-12-21T16:46:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/tags/%E7%BD%91%E6%98%93%E4%BA%91/</loc>
+    <lastmod>2020-12-21T16:46:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/</loc>
+    <lastmod>2020-12-21T16:46:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/tags/debian/</loc>
     <lastmod>2020-12-10T14:06:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -59,13 +94,6 @@
   
   <url>
     <loc>https://laomai.org/categories/%E6%80%9D%E8%80%83/</loc>
-    <lastmod>2020-12-10T14:06:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://laomai.org/</loc>
     <lastmod>2020-12-10T14:06:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -93,13 +121,6 @@
   </url>
   
   <url>
-    <loc>https://laomai.org/tags/ubuntu/</loc>
-    <lastmod>2020-12-04T14:06:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://laomai.org/2020/post-38/</loc>
     <lastmod>2020-12-04T14:06:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -115,13 +136,6 @@
   
   <url>
     <loc>https://laomai.org/2020/post-37/</loc>
-    <lastmod>2020-12-03T12:29:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://laomai.org/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2020-12-03T12:29:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -570,13 +584,6 @@
   
   <url>
     <loc>https://laomai.org/tags/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85fm/</loc>
-    <lastmod>2020-08-18T17:42:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://laomai.org/tags/%E7%BD%91%E6%98%93%E4%BA%91/</loc>
     <lastmod>2020-08-18T17:42:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

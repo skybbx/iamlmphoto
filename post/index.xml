@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 10 Dec 2020 14:06:23 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Dec 2020 16:46:23 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>是金子就一定会发光</title>
+      <link>https://laomai.org/2020/post-40/</link>
+      <pubDate>Mon, 21 Dec 2020 16:46:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-40/</guid>
+      <description>经过这段时间半系统的学习，对Linux是越来越喜欢了。特别是Ubuntu这个系统的界面，使用起来真不错，虽然还不能说可以代替Windows，</description>
+    </item>
+    
     <item>
       <title>Windows 10上安装Linux子系统</title>
       <link>https://laomai.org/2020/post-39/</link>
@@ -104,15 +113,6 @@
       
       <guid>https://laomai.org/2020/post-29/</guid>
       <description>毛毛的手指被门夹了，因为奶奶的误判，以为只是掉了层皮，就简单的包扎起来，当我和老婆回家后拆开才发现原来是掉了一小块肉，当我看到那受伤的小手时</description>
-    </item>
-    
-    <item>
-      <title>记录20201009</title>
-      <link>https://laomai.org/2020/post-28/</link>
-      <pubDate>Fri, 09 Oct 2020 22:25:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-28/</guid>
-      <description>最近，一直挺忙的。工作如此，生活也一样。 工作期间，每到一阶段快结束的时候都会忙活几天，加上前段时间其他点出了小事故，我们这个点也受到了牵连，</description>
     </item>
     
   </channel>

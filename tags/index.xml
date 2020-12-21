@@ -6,31 +6,49 @@
     <description>Recent content in Tags on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 10 Dec 2020 14:06:23 +0800</lastBuildDate><atom:link href="https://laomai.org/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Debian</title>
-      <link>https://laomai.org/tags/debian/</link>
-      <pubDate>Thu, 10 Dec 2020 14:06:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/tags/debian/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 21 Dec 2020 16:46:23 +0800</lastBuildDate><atom:link href="https://laomai.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux</title>
       <link>https://laomai.org/tags/linux/</link>
-      <pubDate>Thu, 10 Dec 2020 14:06:23 +0800</pubDate>
+      <pubDate>Mon, 21 Dec 2020 16:46:23 +0800</pubDate>
       
       <guid>https://laomai.org/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>ubuntu</title>
+      <link>https://laomai.org/tags/ubuntu/</link>
+      <pubDate>Mon, 21 Dec 2020 16:46:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Windows</title>
       <link>https://laomai.org/tags/windows/</link>
-      <pubDate>Thu, 10 Dec 2020 14:06:23 +0800</pubDate>
+      <pubDate>Mon, 21 Dec 2020 16:46:23 +0800</pubDate>
       
       <guid>https://laomai.org/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>网易云</title>
+      <link>https://laomai.org/tags/%E7%BD%91%E6%98%93%E4%BA%91/</link>
+      <pubDate>Mon, 21 Dec 2020 16:46:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/tags/%E7%BD%91%E6%98%93%E4%BA%91/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Debian</title>
+      <link>https://laomai.org/tags/debian/</link>
+      <pubDate>Thu, 10 Dec 2020 14:06:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/tags/debian/</guid>
       <description></description>
     </item>
     
@@ -58,15 +76,6 @@
       <pubDate>Fri, 04 Dec 2020 14:06:23 +0800</pubDate>
       
       <guid>https://laomai.org/tags/ssh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ubuntu</title>
-      <link>https://laomai.org/tags/ubuntu/</link>
-      <pubDate>Fri, 04 Dec 2020 14:06:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/tags/ubuntu/</guid>
       <description></description>
     </item>
     
@@ -103,15 +112,6 @@
       <pubDate>Tue, 10 Nov 2020 16:02:23 +0800</pubDate>
       
       <guid>https://laomai.org/tags/%E4%BD%A9%E4%BD%A9/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>儿女</title>
-      <link>https://laomai.org/tags/%E5%84%BF%E5%A5%B3/</link>
-      <pubDate>Tue, 10 Nov 2020 16:02:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/tags/%E5%84%BF%E5%A5%B3/</guid>
       <description></description>
     </item>
     
