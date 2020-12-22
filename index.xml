@@ -178,11 +178,11 @@
 
 &lt;span class=&#34;nc&#34;&gt;.tk-meta&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
   &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;16px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-  &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;EB Garamond&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Noto Serif SC&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;serif&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 
 &lt;span class=&#34;nc&#34;&gt;.tk-extra&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-  &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;14px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;12px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;EB Garamond&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Noto Serif SC&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;serif&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 
 &lt;span class=&#34;nc&#34;&gt;.tk-content&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
@@ -190,7 +190,7 @@
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 
 &lt;span class=&#34;nc&#34;&gt;.tk-footer&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-  &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;13px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;12px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
   &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;EB Garamond&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;serif&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
