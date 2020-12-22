@@ -189,7 +189,7 @@
 
 &lt;span class=&#34;nc&#34;&gt;.tk-footer&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
   &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;13px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-  &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;EB Garamond&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Noto Serif SC&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Microsoft&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;Yahei&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;serif&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;EB Garamond&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Noto Serif SC&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;serif&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -206,7 +206,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;至此修改完成，其实也就是简单地对相应的样式定义。以上记录只作为本人的笔记使用，用作预防以后自己忘记。请根据自己使用的主题进行定义你喜欢的样式。&lt;/p&gt;
 &lt;p&gt;最后将valine上的数据导入到Twikoo里，使用Twikoo官方提供的迁移脚本，轻易搞定。&lt;/p&gt;
-&lt;p&gt;Valine到Twikoo迁移脚本：https://github.com/imaegoo/twikoo-import-tools&lt;/p&gt;
+&lt;p&gt;Valine到Twikoo迁移脚本：&lt;a href=&#34;https://github.com/imaegoo/twikoo-import-tools&#34;&gt;https://github.com/imaegoo/twikoo-import-tools&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>
