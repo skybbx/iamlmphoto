@@ -53,7 +53,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.e2025df0356479dd27746dcff05b6ddae002f3f01acce2d92bb99a6adc73d8e7.css" integrity="sha256-4gJd8DVked0ndG3P8Ftt2uAC8/AazOLZK7maatxz2Oc=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.068dc1f29f0d8ce9f69fd4b5f265a4dd536ae3a20a0125abf5668cf5f6d78057.css" integrity="sha256-Bo3B8p8NjOn2n9S18mWk3VNq46IKASWr9WaM9fbXgFc=" media="screen" crossorigin="anonymous">
 
 
 
@@ -99,7 +99,6 @@ if (!doNotTrack) {
 
 
 
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="mobile-navbar" class="mobile-navbar">
@@ -516,40 +515,15 @@ if (!doNotTrack) {
 
     
 
-  <div class="post bg-white">
-  <div id="comments"></div>
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src='//cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js'></script>
-  <script>
-    if(window.location.hash){
-        var checkExist = setInterval(function() {
-            if ($(window.location.hash).length) {
-              $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 700);
-              clearInterval(checkExist);
-            }
-        }, 10);
-    }
-  </script>
-  <script>
-    var valine = new Valine();
-    valine.init({
-        el: '#comments' ,
-        appId: '3PctnncfS1q52Xwr9nRy0LGM-MdYXbMMI',
-        appKey: '0DPUpt0jTnfnFwBqypC8sKNP',
-        notify: 'false', 
-        verify: 'false', 
-        avatar: 'mm', 
-        placeholder: 'Just go go',
-		master: '40ad6d1da543f0a89e3c1d68a10dde50',   
-		tagMeta: ["博主","伙伴","访客"],     
-		friends:  ["28d0e618666bf72c36270c99e643950b","698fdfd286d14f4c901406727dc7f982"],  
-		metaPlaceholder: {"nick":"昵称","mail":"邮箱"},
-        visitor:  false 
-    });
-  </script>
-  </div>
+  
 
   
+
+  <div class="post bg-white">
+  <div id="tcomment"></div>
+  <script src="https://cdn.jsdelivr.net/npm/twikoo@0.4.1/dist/twikoo.all.min.js"></script>
+  <script>twikoo.init({ envId: 'laomai-1gw1eupl98c90b23', el: '#tcomment' })</script>
+  </div>
 
         </div>
       </div>
@@ -661,7 +635,9 @@ if (!doNotTrack) {
       </i>
     </div>
   </div>
-  
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+
 <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
 
