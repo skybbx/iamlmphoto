@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 21 Dec 2020 16:46:23 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Dec 2020 23:56:23 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>评论系统从valine转到twikoo</title>
+      <link>https://laomai.org/2020/post-41/</link>
+      <pubDate>Tue, 22 Dec 2020 23:56:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-41/</guid>
+      <description>其实我想换评论系统有一段时间了，因为valine加载变得很慢，而且我知道的就有过三次抽风，一直无法把评论加载出来。但碍于一直没有找到喜欢的评</description>
+    </item>
+    
     <item>
       <title>是金子就一定会发光</title>
       <link>https://laomai.org/2020/post-40/</link>
@@ -104,15 +113,6 @@
       
       <guid>https://laomai.org/2020/post-30/</guid>
       <description>那个时候正就读高三，面临着人生重要的转折，迷茫且无助；那个时候街上的商铺还能尽情的播放各种类型的音乐，正是这样的环境下，我们一起逛街，偶然听</description>
-    </item>
-    
-    <item>
-      <title>有爸爸在，我不怕了。</title>
-      <link>https://laomai.org/2020/post-29/</link>
-      <pubDate>Tue, 13 Oct 2020 17:30:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-29/</guid>
-      <description>毛毛的手指被门夹了，因为奶奶的误判，以为只是掉了层皮，就简单的包扎起来，当我和老婆回家后拆开才发现原来是掉了一小块肉，当我看到那受伤的小手时</description>
     </item>
     
   </channel>

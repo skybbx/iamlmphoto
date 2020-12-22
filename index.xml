@@ -6,7 +6,7 @@
     <description>Recent content on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 21 Dec 2020 16:46:23 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2020 23:56:23 +0800</lastBuildDate>
     
         <atom:link href="https://laomai.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -57,6 +57,156 @@
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;p&gt;博客使用&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;生成，主题使用&lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;Jane&lt;/a&gt;。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>评论系统从valine转到twikoo</title>
+      <link>https://laomai.org/2020/post-41/</link>
+      <pubDate>Tue, 22 Dec 2020 23:56:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-41/</guid>
+      
+        <description>&lt;p&gt;其实我想换评论系统有一段时间了，因为valine加载变得很慢，而且我知道的就有过三次抽风，一直无法把评论加载出来。但碍于一直没有找到喜欢的评论系统，就让它继续在边上凉着。&lt;/p&gt;
+&lt;p&gt;最近在逛博客圈时，看到&lt;a href=&#34;https://immmmm.com/&#34;&gt;林木木&lt;/a&gt;大佬新启用的评论系统Twikoo，一看觉得还不错，就试着去&lt;a href=&#34;https://twikoo.js.org/&#34;&gt;官网&lt;/a&gt;看了一下，此评论系统是选择部署在腾讯云——云开发 CloudBase上的，正所谓大树好乘凉，我也有了转投之心。想干就干~&lt;/p&gt;
+&lt;p&gt;跟着Twikoo中文文档一步步去进行相关的环境部署，简单且顺利，看得出作者@iMaeGoo_虹墨很用心，教程写得相当的易懂。不一会儿我就顺利的搭建完成了。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;tcomment&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://cdn.jsdelivr.net/npm/twikoo@0.4.1/dist/twikoo.all.min.js&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;twikoo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;init&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;envId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;您的环境id&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;el&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;#tcomment&amp;#39;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;})&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;可当我将上面代码修改成我的环境ID后引入到Hugo时，却直接报错。直接懵掉，我记得我是完全按照教程来的，而且我自问自己也很注意细节的，所以这次报错真让我懵圈了，检查了两三次有没有输错函数名，环境ID之类的，无果，也确定了我的操作没有出错。&lt;/p&gt;
+&lt;p&gt;这时看到官网上有个QQ群的二围码，我也申请了进去，准备向人求教。没想到群里的大佬、小伙伴们如此热心，帮我出各种各样的主意，最后评论系统的作者还亲自一步一步帮我排查，下午几个小时里群里基本都在围绕我出现的这个问题在讨论，可惜最终我们也没有找到问题所在，但可以确定的是我部署的步骤是没有出错的。&lt;/p&gt;
+&lt;p&gt;最后因为我到点要去接两大神兽放学，讨论也就此结束。这里不禁多提一句，之前我接入valine上时也出现了部分评论只显示&lt;code&gt;[]&lt;/code&gt;，自己研究无果后也加入了valine的QQ群，在上面请教了几次，却没有人理会我，也不知道是不是我乱入的姿势不对还是其他什么原因。总之跟这次的感觉差距太大了。&lt;/p&gt;
+&lt;p&gt;回到正题，接完孩子回家后我心不死，继续在Twikoo这个问题上纠结，回想了一下下午在群友交流的方案，当时有个小伙伴说有可能你遇到腾讯云——云开发 CloudBase的BUG了，当时我在想，死马当活马医吧，也许真就这个问题，于是把环境、云函数，数据库全删了，重新激活、重新部署。当然这波操作的结果显而易见，要是成功了也没接下来的事了。&lt;/p&gt;
+&lt;p&gt;不过回想到这里时，我心中就有了另一个想法，因为我确信自己没有操作错误，作者和群友也说教程是完全可以部署成功的，所以我想是不是我选择的这个“广州”节点出问题了，CloudBase上有两个节点，一个广州，一个上海，反正问题都这样了，不如去上海这个节点再建个环境部署试试，结果这一试，成了。&lt;/p&gt;
+&lt;p&gt;终于松了口气，折腾了一个下午，可算找到原因了，向作者反映了情况，他也没想到，他说，广州这个节点是12月17号才开放的，之前只有一个上海节点，所以就没往这个方面去想。他向腾讯的开发提问，得到的回复&lt;code&gt;cloudbase-js-sdk&lt;/code&gt;上需添加地域参数，具体可查阅&lt;a href=&#34;https://github.com/TencentCloudBase/cloudbase-js-sdk/issues/5&#34;&gt;https://github.com/TencentCloudBase/cloudbase-js-sdk/issues/5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;反正我是不懂了，如果你也想使用Twikoo的话，记得选择上海的节点哦，不过我相信作者在下个版本更新肯定会修正这个问题的。&lt;/p&gt;
+&lt;p&gt;既然我的问题解决了，接下就针对主题进行相应的样式修改吧。其实要修改的地方也不多，毕竟一眼讨喜的东西，我因为主题字体设置问题，才要稍微进行改动，相信一般的直接引用就可以了。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在主题/layouts/partials/comments.html适当位置添加引用&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;post bg-white&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;tcomment&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://cdn.jsdelivr.net/npm/twikoo@0.4.1/dist/twikoo.all.min.js&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;twikoo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;init&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;envId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;环境ID&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;el&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;#tcomment&amp;#39;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;})&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;在主题/assets/sass/_partial/ _post/文件夹新建一个twikoo.scss&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;37
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// ==============================
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// twikoo comment
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// ==============================
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;.tk-comments-title&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;span&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;20px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;nc&#34;&gt;.tk-action-link&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;span&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;18px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;nc&#34;&gt;.OwO-logo&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;svg&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;18px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;18px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;nc&#34;&gt;.tk-action-icon&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;svg&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;18px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;18px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;nc&#34;&gt;.tk-meta&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;16px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;nc&#34;&gt;.tk-extra&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;14px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;nc&#34;&gt;.tk-content&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;16px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;nc&#34;&gt;.tk-footer&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;13px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;EB Garamond&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Noto Serif SC&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Microsoft&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;Yahei&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;serif&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;在主题/assets/sass/_partial/ _post.scss适当位置添加一行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span class=&#34;k&#34;&gt;@import&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;_post/twikoo&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;至此修改完成，其实也就是简单地对相应的样式定义。以上记录只作为本人的笔记使用，用作预防以后自己忘记。请根据自己使用的主题进行定义你喜欢的样式。&lt;/p&gt;
+&lt;p&gt;最后将valine上的数据导入到Twikoo里，使用Twikoo官方提供的迁移脚本，轻易搞定。&lt;/p&gt;
+&lt;p&gt;Valine到Twikoo迁移脚本：https://github.com/imaegoo/twikoo-import-tools&lt;/p&gt;
 </description>
       
     </item>
@@ -406,61 +556,6 @@
         <description>&lt;p&gt;有时候真的挺佩服自己，就是喜欢瞎折腾。昨天决定把&lt;a href=&#34;https://www.iamlm.com&#34;&gt;https://www.iamlm.com&lt;/a&gt;这个网址301跳转到&lt;a href=&#34;https://laomai.org&#34;&gt;https://laomai.org&lt;/a&gt;，顺手把「备」案什么的给注销了，也许是头脑一时发热吧，反正就这样吧，毕竟自己之前也考虑把「iamlm」这个域名丢弃掉。真就瞎搞一通~所以在这里麻烦各位博友，如果加了我友链的麻烦帮我改下域名，不过我印象中好像没怎么去申请友链，哈哈。对了，有在用RSS订阅的朋友也改一下呗，&lt;a href=&#34;https://laomai.org/index.xml&#34;&gt;订阅地址&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;最近一直捣鼓在腾讯云撸的香港服务器，只是最基础的1C1G配置，但已经够我折腾了，放个仓库，顺道练习一下各方面的基础知识。在docker上部署各式各样的项目，例如：halo,isso,fedora,frp等等，虽然也可以在NAS上部署，但那时候100不到一年的价格看着就香，就撸了3年，如果在NAS上瞎搞的话，把机器搞个半废就得不偿失了，但在云服务器上就没这顾虑咯。&lt;/p&gt;
 &lt;p&gt;话说这次双十一阿里云的优惠好吸引人啊，1C2G3年才255，还要什么自行车啊？要不是我已经有了台云服务器，我也搞一个2C4G的，3年508，嗯，真香。不过有了就行，要再多也是浪费！主要自己也没项目，搞了也是浪费，而且这个东西续费太贵了。像我这样就搞个静态博客的，好像真心没这个必要，github+vercel不香吗？实测速度完全可以接受，而且重点是免费。如果500左右能买个3年来玩玩是没关系的，但是要上千一年的话就算了吧。当然啦，这个还是看个人需求吧。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>「你」</title>
-      <link>https://laomai.org/2020/post-30/</link>
-      <pubDate>Wed, 21 Oct 2020 13:52:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-30/</guid>
-      
-        <description>&lt;p&gt;那个时候正就读高三，面临着人生重要的转折，迷茫且无助；那个时候街上的商铺还能尽情的播放各种类型的音乐，正是这样的环境下，我们一起逛街，偶然听到了这首歌——《最初的梦想》。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;如果骄傲没被现实大海冷冷拍下&lt;/p&gt;
-&lt;p&gt;又怎会懂得要多努力 才走得到远方&lt;/p&gt;
-&lt;p&gt;如果梦想不曾坠落悬崖 千钧一发&lt;/p&gt;
-&lt;p&gt;又怎会晓得执着的人 拥有隐形翅牓&lt;/p&gt;
-&lt;p&gt;把眼泪装在心上 会开出勇敢的花&lt;/p&gt;
-&lt;p&gt;可以在疲惫的时光 闭上眼睛闻到一种芬芳&lt;/p&gt;
-&lt;p&gt;就像好好睡了一夜直到天亮&lt;/p&gt;
-&lt;p&gt;又能边走着边哼着歌 用轻快的步伐&lt;/p&gt;
-&lt;p&gt;沮丧时总会明显感到孤独的重量&lt;/p&gt;
-&lt;p&gt;多渴望懂得的人给些温暖借个肩膀&lt;/p&gt;
-&lt;p&gt;很高兴一路上 我们的默契那么长&lt;/p&gt;
-&lt;p&gt;穿过风 又绕个弯 心还连着 像往常一样&lt;/p&gt;
-&lt;p&gt;最初的梦想 紧握在手上&lt;/p&gt;
-&lt;p&gt;最想要去的地方 怎么能在半路就返航&lt;/p&gt;
-&lt;p&gt;最初的梦想 绝对会到达&lt;/p&gt;
-&lt;p&gt;实现了真的渴望 才能够算到过了天堂&lt;/p&gt;
-&lt;p&gt;如果骄傲没被现实大海冷冷拍下&lt;/p&gt;
-&lt;p&gt;又怎会懂得要多努力 才走得到远方&lt;/p&gt;
-&lt;p&gt;如果梦想不曾坠落悬崖 千钧一发&lt;/p&gt;
-&lt;p&gt;又怎会晓得执着的人 拥有隐形翅牓&lt;/p&gt;
-&lt;p&gt;把眼泪装在心上 会开出勇敢的花&lt;/p&gt;
-&lt;p&gt;可以在疲惫的时光 闭上眼睛闻到一种芬芳&lt;/p&gt;
-&lt;p&gt;就像好好睡了一夜直到天亮&lt;/p&gt;
-&lt;p&gt;又能边走着边哼着歌 用轻快的步伐&lt;/p&gt;
-&lt;p&gt;沮丧时总会明显感到孤独的重量&lt;/p&gt;
-&lt;p&gt;多渴望懂得的人给些温暖借个肩膀&lt;/p&gt;
-&lt;p&gt;很高兴一路上 我们的默契那么长&lt;/p&gt;
-&lt;p&gt;穿过风 又绕个弯 心还连着 像往常一样&lt;/p&gt;
-&lt;p&gt;最初的梦想 紧握在手上&lt;/p&gt;
-&lt;p&gt;最想要去的地方 怎么能在半路就返航&lt;/p&gt;
-&lt;p&gt;最初的梦想 绝对会到达&lt;/p&gt;
-&lt;p&gt;实现了真的渴望 才能够算到过了天堂&lt;/p&gt;
-&lt;p&gt;最初的梦想 绝对会到达&lt;/p&gt;
-&lt;p&gt;实现了真的渴望 才能够算到过了天堂&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这个世界有着太多的诱惑，「你」还记得你最初的梦想是什么吗？在一个又一个诱惑之下，还能坚守自己的信仰去守护这个梦想么？可悲的是，我越走越远……&lt;/p&gt;
-&lt;p&gt;无意翻开相簿，竟然发现了「你」的相片，虽然我们已经是两个世界的人，这么近又那么远……&lt;/p&gt;
-&lt;p&gt;「你」是一条直线，我亦如此。虽然曾经交汇成一个点，但也仅此这么一个点而已……&lt;/p&gt;
-&lt;p&gt;还记得「你」去上大学前，我们一起看的那部电影——《伊丽莎白镇》吗？女主角Kirsten Dunst在那个时候就成了我的偶像中的一员，因为「你」和她有点像。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/10/21/4ff3851c3b1cf.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;多年后回忆起那时候的点点滴滴，还是那么的“清新”。&lt;/p&gt;
-&lt;p&gt;愿「你」一切安好！&lt;/p&gt;
 </description>
       
     </item>

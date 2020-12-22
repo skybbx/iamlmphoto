@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>老麦笔记 - 生命在于折腾</title>
+  <title>评论系统从valine转到twikoo - 老麦笔记 - 生命在于折腾</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="老麦" />
-  <meta name="description" content="记录生活、短暂的记忆、匆匆的灵感。" />
+  <meta name="description" content="其实我想换评论系统有一段时间了，因为valine加载变得很慢，而且我知道的就有过三次抽风，一直无法把评论加载出来。但碍于一直没有找到喜欢的评" />
+
   <meta name="keywords" content="老麦, 老麦笔记, laomai, Mai, iFTY, Hugo, Life, Log" />
 
 
@@ -34,8 +35,8 @@
 <meta name="generator" content="Hugo 0.79.0" />
 
 
-<link rel="canonical" href="https://laomai.org/" />
-<link href="/index.xml" rel="alternate" type="application/rss+xml" title="老麦笔记 - 生命在于折腾" />
+<link rel="canonical" href="https://laomai.org/2020/post-41/" />
+
 
 
 
@@ -56,16 +57,24 @@
 
 
 
-<meta property="og:title" content="老麦笔记 - 生命在于折腾" />
-<meta property="og:description" content="记录生活、短暂的记忆、匆匆的灵感。" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://laomai.org/" />
-<meta property="og:updated_time" content="2020-12-22T23:56:23+08:00" />
-<meta itemprop="name" content="老麦笔记 - 生命在于折腾">
-<meta itemprop="description" content="记录生活、短暂的记忆、匆匆的灵感。">
+<meta property="og:title" content="评论系统从valine转到twikoo" />
+<meta property="og:description" content="其实我想换评论系统有一段时间了，因为valine加载变得很慢，而且我知道的就有过三次抽风，一直无法把评论加载出来。但碍于一直没有找到喜欢的评" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://laomai.org/2020/post-41/" />
+<meta property="article:published_time" content="2020-12-22T23:56:23+08:00" />
+<meta property="article:modified_time" content="2020-12-22T23:56:23+08:00" />
+<meta itemprop="name" content="评论系统从valine转到twikoo">
+<meta itemprop="description" content="其实我想换评论系统有一段时间了，因为valine加载变得很慢，而且我知道的就有过三次抽风，一直无法把评论加载出来。但碍于一直没有找到喜欢的评">
+<meta itemprop="datePublished" content="2020-12-22T23:56:23+08:00" />
+<meta itemprop="dateModified" content="2020-12-22T23:56:23+08:00" />
+<meta itemprop="wordCount" content="1787">
+
+
+
+<meta itemprop="keywords" content="Hugo,Jane,折腾," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="老麦笔记 - 生命在于折腾"/>
-<meta name="twitter:description" content="记录生活、短暂的记忆、匆匆的灵感。"/>
+<meta name="twitter:title" content="评论系统从valine转到twikoo"/>
+<meta name="twitter:description" content="其实我想换评论系统有一段时间了，因为valine加载变得很慢，而且我知道的就有过三次抽风，一直无法把评论加载出来。但碍于一直没有找到喜欢的评"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -223,7 +232,7 @@ if (!doNotTrack) {
 <nav class="site-navbar">
   <ul id="menu" class="menu">
     
-        <li class="menu-item active">
+        <li class="menu-item">
         
           
           
@@ -306,244 +315,243 @@ if (!doNotTrack) {
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">评论系统从valine转到twikoo</h1>
+      
+      
+    </header>
+
+    
+    
+
+    
+    <div class="post-content">
+      <p>其实我想换评论系统有一段时间了，因为valine加载变得很慢，而且我知道的就有过三次抽风，一直无法把评论加载出来。但碍于一直没有找到喜欢的评论系统，就让它继续在边上凉着。</p>
+<p>最近在逛博客圈时，看到<a href="https://immmmm.com/">林木木</a>大佬新启用的评论系统Twikoo，一看觉得还不错，就试着去<a href="https://twikoo.js.org/">官网</a>看了一下，此评论系统是选择部署在腾讯云——云开发 CloudBase上的，正所谓大树好乘凉，我也有了转投之心。想干就干~</p>
+<p>跟着Twikoo中文文档一步步去进行相关的环境部署，简单且顺利，看得出作者@iMaeGoo_虹墨很用心，教程写得相当的易懂。不一会儿我就顺利的搭建完成了。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;tcomment&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/npm/twikoo@0.4.1/dist/twikoo.all.min.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span><span class="nx">twikoo</span><span class="p">.</span><span class="nx">init</span><span class="p">({</span> <span class="nx">envId</span><span class="o">:</span> <span class="s1">&#39;您的环境id&#39;</span><span class="p">,</span> <span class="nx">el</span><span class="o">:</span> <span class="s1">&#39;#tcomment&#39;</span> <span class="p">})&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>可当我将上面代码修改成我的环境ID后引入到Hugo时，却直接报错。直接懵掉，我记得我是完全按照教程来的，而且我自问自己也很注意细节的，所以这次报错真让我懵圈了，检查了两三次有没有输错函数名，环境ID之类的，无果，也确定了我的操作没有出错。</p>
+<p>这时看到官网上有个QQ群的二围码，我也申请了进去，准备向人求教。没想到群里的大佬、小伙伴们如此热心，帮我出各种各样的主意，最后评论系统的作者还亲自一步一步帮我排查，下午几个小时里群里基本都在围绕我出现的这个问题在讨论，可惜最终我们也没有找到问题所在，但可以确定的是我部署的步骤是没有出错的。</p>
+<p>最后因为我到点要去接两大神兽放学，讨论也就此结束。这里不禁多提一句，之前我接入valine上时也出现了部分评论只显示<code>[]</code>，自己研究无果后也加入了valine的QQ群，在上面请教了几次，却没有人理会我，也不知道是不是我乱入的姿势不对还是其他什么原因。总之跟这次的感觉差距太大了。</p>
+<p>回到正题，接完孩子回家后我心不死，继续在Twikoo这个问题上纠结，回想了一下下午在群友交流的方案，当时有个小伙伴说有可能你遇到腾讯云——云开发 CloudBase的BUG了，当时我在想，死马当活马医吧，也许真就这个问题，于是把环境、云函数，数据库全删了，重新激活、重新部署。当然这波操作的结果显而易见，要是成功了也没接下来的事了。</p>
+<p>不过回想到这里时，我心中就有了另一个想法，因为我确信自己没有操作错误，作者和群友也说教程是完全可以部署成功的，所以我想是不是我选择的这个“广州”节点出问题了，CloudBase上有两个节点，一个广州，一个上海，反正问题都这样了，不如去上海这个节点再建个环境部署试试，结果这一试，成了。</p>
+<p>终于松了口气，折腾了一个下午，可算找到原因了，向作者反映了情况，他也没想到，他说，广州这个节点是12月17号才开放的，之前只有一个上海节点，所以就没往这个方面去想。他向腾讯的开发提问，得到的回复<code>cloudbase-js-sdk</code>上需添加地域参数，具体可查阅<a href="https://github.com/TencentCloudBase/cloudbase-js-sdk/issues/5">https://github.com/TencentCloudBase/cloudbase-js-sdk/issues/5</a></p>
+<p>反正我是不懂了，如果你也想使用Twikoo的话，记得选择上海的节点哦，不过我相信作者在下个版本更新肯定会修正这个问题的。</p>
+<p>既然我的问题解决了，接下就针对主题进行相应的样式修改吧。其实要修改的地方也不多，毕竟一眼讨喜的东西，我因为主题字体设置问题，才要稍微进行改动，相信一般的直接引用就可以了。</p>
+<ol>
+<li>在主题/layouts/partials/comments.html适当位置添加引用</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-html" data-lang="html">  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;post bg-white&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;tcomment&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/npm/twikoo@0.4.1/dist/twikoo.all.min.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span><span class="nx">twikoo</span><span class="p">.</span><span class="nx">init</span><span class="p">({</span> <span class="nx">envId</span><span class="o">:</span> <span class="s1">&#39;环境ID&#39;</span><span class="p">,</span> <span class="nx">el</span><span class="o">:</span> <span class="s1">&#39;#tcomment&#39;</span> <span class="p">})&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>在主题/assets/sass/_partial/ _post/文件夹新建一个twikoo.scss</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-scss" data-lang="scss"><span class="c1">// ==============================
+</span><span class="c1">// twikoo comment
+</span><span class="c1">// ==============================
+</span><span class="c1"></span><span class="nc">.tk-comments-title</span> <span class="nt">span</span> <span class="p">{</span>
+  <span class="nt">font-size</span><span class="nd">:</span> <span class="nt">20px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.tk-action-link</span> <span class="nt">span</span> <span class="p">{</span>
+  <span class="nt">font-size</span><span class="nd">:</span> <span class="nt">18px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.OwO-logo</span> <span class="nt">svg</span> <span class="p">{</span>
+  <span class="nt">width</span><span class="nd">:</span> <span class="nt">18px</span><span class="p">;</span>
+  <span class="nt">height</span><span class="nd">:</span> <span class="nt">18px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.tk-action-icon</span> <span class="nt">svg</span> <span class="p">{</span>
+  <span class="nt">width</span><span class="nd">:</span> <span class="nt">18px</span><span class="p">;</span>
+  <span class="nt">height</span><span class="nd">:</span> <span class="nt">18px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.tk-meta</span> <span class="p">{</span>
+  <span class="nt">font-size</span><span class="nd">:</span> <span class="nt">16px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.tk-extra</span> <span class="p">{</span>
+  <span class="nt">font-size</span><span class="nd">:</span> <span class="nt">14px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.tk-content</span> <span class="p">{</span>
+  <span class="nt">font-size</span><span class="nd">:</span> <span class="nt">16px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.tk-footer</span> <span class="p">{</span>
+  <span class="nt">font-size</span><span class="nd">:</span> <span class="nt">13px</span><span class="p">;</span>
+  <span class="nt">font-family</span><span class="nd">:</span> <span class="s1">&#39;EB Garamond&#39;</span><span class="o">,</span><span class="s1">&#39;Noto Serif SC&#39;</span><span class="o">,</span><span class="nt">Microsoft</span> <span class="nt">Yahei</span><span class="o">,</span><span class="nt">serif</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>在主题/assets/sass/_partial/ _post.scss适当位置添加一行</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-scss" data-lang="scss"><span class="k">@import</span> <span class="s1">&#39;_post/twikoo&#39;</span><span class="p">;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>至此修改完成，其实也就是简单地对相应的样式定义。以上记录只作为本人的笔记使用，用作预防以后自己忘记。请根据自己使用的主题进行定义你喜欢的样式。</p>
+<p>最后将valine上的数据导入到Twikoo里，使用Twikoo官方提供的迁移脚本，轻易搞定。</p>
+<p>Valine到Twikoo迁移脚本：https://github.com/imaegoo/twikoo-import-tools</p>
+
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">老麦</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+      2020-12-22
+      
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content">原创文章，如需转载请注明文章作者和出处。谢谢！</span>
+  </p>
+</div>
+
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="https://laomai.org/tags/hugo/">Hugo</a>
+          <a href="https://laomai.org/tags/jane/">Jane</a>
+          <a href="https://laomai.org/tags/%E6%8A%98%E8%85%BE/">折腾</a>
           
-<section id="posts" class="posts">
-  
-  
-    
-  
-  
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
+        </div>
+
       
-      <a class="post-link" href="/2020/post-29/">有爸爸在，我不怕了。</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-10-13" class="post-time">
-        2020-10-13
-      </time>
-      
-    </div>
-  </header>
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/2020/post-40/">
+            <span class="next-text nav-default">是金子就一定会发光</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
   
-  <div class="post-content">
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
     
-    <div class="post-summary">
-      毛毛的手指被门夹了，因为奶奶的误判，以为只是掉了层皮，就简单的包扎起来，当我和老婆回家后拆开才发现原来是掉了一小块肉，当我看到那受伤的小手时
-    </div>
-    <div class="read-more">
-      <a href="/2020/post-29/" class="read-more-link">阅读全文</a>
-    </div>
-    
+
+  
+
+  
+
+  <div class="post bg-white">
+  <div id="tcomment"></div>
+  <script src="https://cdn.jsdelivr.net/npm/twikoo@0.4.1/dist/twikoo.all.min.js"></script>
+  <script>twikoo.init({ envId: 'laomai-1gw1eupl98c90b23', el: '#tcomment' })</script>
   </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/2020/post-28/">记录20201009</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-10-09" class="post-time">
-        2020-10-09
-      </time>
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      最近，一直挺忙的。工作如此，生活也一样。 工作期间，每到一阶段快结束的时候都会忙活几天，加上前段时间其他点出了小事故，我们这个点也受到了牵连，
-    </div>
-    <div class="read-more">
-      <a href="/2020/post-28/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/2020/post-27/">双节快乐</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-10-01" class="post-time">
-        2020-10-01
-      </time>
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      首先在这里祝大家中秋、国庆快乐。 又到一年一度中秋佳节，每到这个节日，我都会想起一部电视剧，《我和僵尸有个约会》。 云母屏风烛影深，长河渐落晓星
-    </div>
-    <div class="read-more">
-      <a href="/2020/post-27/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/2020/post-26/">回味一下《Shure SE846》</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-09-23" class="post-time">
-        2020-09-23
-      </time>
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      难道世间就真这么奇妙的吗？之前收拾房间的时候，把一入耳式耳塞弄丢啦，找半天未果放弃了。结果今天把刚看完的《三体》放回架子上时竟然让我发现了它
-    </div>
-    <div class="read-more">
-      <a href="/2020/post-26/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/2020/post-25/">老婆，祝你生日快乐。</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-09-20" class="post-time">
-        2020-09-20
-      </time>
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      感谢这个日子，为我送来了你； 感谢这个日子，诞生我的爱妻； 你的生日我将永生谨记，你的生日我将祝福到底。 老婆，祝你生日快乐。 —— 2020-9-20 这是我们最喜欢
-    </div>
-    <div class="read-more">
-      <a href="/2020/post-25/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/2020/post-24/">他</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-09-15" class="post-time">
-        2020-09-15
-      </time>
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      此记录来自早上和他的一段小对话所引起。 1.你说人活着到底是为了什么？ 2.简单的说为了活而活。 1.精辟！ 2.我想你这个问题，每个人都有不一样的
-    </div>
-    <div class="read-more">
-      <a href="/2020/post-24/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-</section>
-
-
-
-
-
-
-  
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  <nav class="pagination">
-    <ul>
-      
-      <li >
-        <a href="/">1</a>
-      </li>
-      
-      <li >
-        <a href="/page/2/">2</a>
-      </li>
-      
-      <li  class="active" >
-        <a href="/page/3/">3</a>
-      </li>
-      
-      <li >
-        <a href="/page/4/">4</a>
-      </li>
-      
-      <li >
-        <a href="/page/5/">5</a>
-      </li>
-      
-      <li >
-        <a href="/page/6/">6</a>
-      </li>
-      
-      <li >
-        <a href="/page/7/">7</a>
-      </li>
-      
-    </ul>
-  </nav>
-
-  
-  
-
-
-
-
 
         </div>
       </div>

@@ -6,7 +6,16 @@
     <description>Recent content in hugo on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 08 Aug 2020 17:50:23 +0800</lastBuildDate><atom:link href="https://laomai.org/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Dec 2020 23:56:23 +0800</lastBuildDate><atom:link href="https://laomai.org/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>评论系统从valine转到twikoo</title>
+      <link>https://laomai.org/2020/post-41/</link>
+      <pubDate>Tue, 22 Dec 2020 23:56:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-41/</guid>
+      <description>其实我想换评论系统有一段时间了，因为valine加载变得很慢，而且我知道的就有过三次抽风，一直无法把评论加载出来。但碍于一直没有找到喜欢的评</description>
+    </item>
+    
     <item>
       <title>投奔Hugo和主题的相关修改</title>
       <link>https://laomai.org/2020/post-14/</link>
