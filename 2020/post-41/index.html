@@ -67,7 +67,7 @@
 <meta itemprop="description" content="其实我想换评论系统有一段时间了，因为valine加载变得很慢，而且我知道的就有过三次抽风，一直无法把评论加载出来。但碍于一直没有找到喜欢的评">
 <meta itemprop="datePublished" content="2020-12-22T23:56:23+08:00" />
 <meta itemprop="dateModified" content="2020-12-22T23:56:23+08:00" />
-<meta itemprop="wordCount" content="1787">
+<meta itemprop="wordCount" content="1819">
 
 
 
@@ -349,7 +349,7 @@ if (!doNotTrack) {
 <p>回到正题，接完孩子回家后我心不死，继续在Twikoo这个问题上纠结，回想了一下下午在群友交流的方案，当时有个小伙伴说有可能你遇到腾讯云——云开发 CloudBase的BUG了，当时我在想，死马当活马医吧，也许真就这个问题，于是把环境、云函数，数据库全删了，重新激活、重新部署。当然这波操作的结果显而易见，要是成功了也没接下来的事了。</p>
 <p>不过回想到这里时，我心中就有了另一个想法，因为我确信自己没有操作错误，作者和群友也说教程是完全可以部署成功的，所以我想是不是我选择的这个“广州”节点出问题了，CloudBase上有两个节点，一个广州，一个上海，反正问题都这样了，不如去上海这个节点再建个环境部署试试，结果这一试，成了。</p>
 <p>终于松了口气，折腾了一个下午，可算找到原因了，向作者反映了情况，他也没想到，他说，广州这个节点是12月17号才开放的，之前只有一个上海节点，所以就没往这个方面去想。他向腾讯的开发提问，得到的回复<code>cloudbase-js-sdk</code>上需添加地域参数，具体可查阅<a href="https://github.com/TencentCloudBase/cloudbase-js-sdk/issues/5">https://github.com/TencentCloudBase/cloudbase-js-sdk/issues/5</a></p>
-<p>反正我是不懂了，如果你也想使用Twikoo的话，记得选择上海的节点哦，不过我相信作者在下个版本更新肯定会修正这个问题的。</p>
+<p>反正我是不懂了，<del>如果你也想使用Twikoo的话，记得选择上海的节点哦，不过我相信作者在下个版本更新肯定会修正这个问题的。</del><strong>作者在第二天的零晨就已经更新了版本，也修复了上述问题。点赞~</strong></p>
 <p>既然我的问题解决了，接下就针对主题进行相应的样式修改吧。其实要修改的地方也不多，毕竟一眼讨喜的东西，我因为主题字体设置问题，才要稍微进行改动，相信一般的直接引用就可以了。</p>
 <ol>
 <li>在主题/layouts/partials/comments.html适当位置添加引用</li>
@@ -365,8 +365,8 @@ if (!doNotTrack) {
 <td class="lntd">
 <pre class="chroma"><code class="language-html" data-lang="html">  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;post bg-white&#34;</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;tcomment&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/npm/twikoo@0.4.1/dist/twikoo.all.min.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span><span class="nx">twikoo</span><span class="p">.</span><span class="nx">init</span><span class="p">({</span> <span class="nx">envId</span><span class="o">:</span> <span class="s1">&#39;环境ID&#39;</span><span class="p">,</span> <span class="nx">el</span><span class="o">:</span> <span class="s1">&#39;#tcomment&#39;</span> <span class="p">})&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/npm/twikoo@0.4.2/dist/twikoo.all.min.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span><span class="nx">twikoo</span><span class="p">.</span><span class="nx">init</span><span class="p">({</span> <span class="nx">envId</span><span class="o">:</span> <span class="s1">&#39;环境ID&#39;</span><span class="p">,</span> <span class="nx">region</span><span class="o">:</span> <span class="s1">&#39;ap-guangzhou&#39;</span><span class="p">,</span> <span class="nx">el</span><span class="o">:</span> <span class="s1">&#39;#tcomment&#39;</span> <span class="p">})&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
   <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
 </code></pre></td></tr></table>
 </div>
@@ -548,9 +548,15 @@ if (!doNotTrack) {
   
 
   <div class="post bg-white">
-  <div id="tcomment"></div>
-  <script src="https://cdn.jsdelivr.net/npm/twikoo@0.4.1/dist/twikoo.all.min.js"></script>
-  <script>twikoo.init({ envId: 'laomai-1gw1eupl98c90b23', el: '#tcomment' })</script>
+    <div id="tcomment"></div>
+    <script src="https://cdn.jsdelivr.net/npm/twikoo@0.4.2/dist/twikoo.all.min.js"></script>
+    <script>
+    twikoo.init({
+      envId: 'laomai-3gk8ukum10f3f137',
+        region: 'ap-guangzhou',
+      el: '#tcomment'
+    })
+    </script>
   </div>
 
         </div>
