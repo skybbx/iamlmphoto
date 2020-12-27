@@ -6,7 +6,16 @@
     <description>Recent content in hugo on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 22 Dec 2020 23:56:23 +0800</lastBuildDate><atom:link href="https://laomai.org/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Dec 2020 13:31:23 +0800</lastBuildDate><atom:link href="https://laomai.org/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test</title>
+      <link>https://laomai.org/2020/post-test/</link>
+      <pubDate>Sun, 27 Dec 2020 13:31:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-test/</guid>
+      <description>测试本地图片</description>
+    </item>
+    
     <item>
       <title>评论系统从valine转到twikoo</title>
       <link>https://laomai.org/2020/post-41/</link>

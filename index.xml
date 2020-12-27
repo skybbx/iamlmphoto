@@ -6,7 +6,7 @@
     <description>Recent content on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 22 Dec 2020 23:56:23 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 27 Dec 2020 13:31:23 +0800</lastBuildDate>
     
         <atom:link href="https://laomai.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -57,6 +57,18 @@
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;p&gt;博客使用&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;生成，主题使用&lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;Jane&lt;/a&gt;。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://laomai.org/2020/post-test/</link>
+      <pubDate>Sun, 27 Dec 2020 13:31:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-test/</guid>
+      
+        <description>&lt;p&gt;测试本地图片&lt;/p&gt;
 </description>
       
     </item>
@@ -250,38 +262,38 @@
 &lt;p&gt;话说B站这方面的学习课程还真够完善的，由浅入深的视频课程都能完整的找到，真好！当然啦，理论和实操要相结合才能记得牢固，所以今天做个小笔记，在Windows 10上安装一个Linux子系统。&lt;/p&gt;
 &lt;h3 id=&#34;安装&#34;&gt;安装&lt;/h3&gt;
 &lt;p&gt;先安装一个工具——「Windows Terminal」。有关Windows终端程序的相关说明请自行找度娘，安装这玩意主要是能很方便地操作我们接下来安装的Linux子系统。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/50aeefc065019.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laomai.org/image/post-39/50aeefc065019.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;在Microsoft Store上直接安装就好了，也可以去&lt;a href=&#34;https://github.com/microsoft/terminal&#34;&gt;github&lt;/a&gt;上下载自行安装。&lt;/p&gt;
 &lt;p&gt;接下来到Windows设置里修改两个地方&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/e15a63bbf3ed9.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laomai.org/image/post-39/e15a63bbf3ed9.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;打开『更新和安全』，开启『开发人员模式』。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/3b3d00e16ddec.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laomai.org/image/post-39/3b3d00e16ddec.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;打开『应用』，点击右上角的『程序和功能』&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/234431eca940c.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laomai.org/image/post-39/234431eca940c.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;点击『启用或关闭Windows功能』&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/55f13396483fc.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laomai.org/image/post-39/55f13396483fc.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;找到『适用于Linux的Windows子系统』，勾选后确定。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/8cc3b77f8cf7e.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laomai.org/image/post-39/8cc3b77f8cf7e.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;这时会提示重启系统，重启完成后就可以安装Linux系统了。&lt;/p&gt;
 &lt;p&gt;以安装Debian为例，打开Microsoft Store搜索Debian，获取安装。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/e1417bb1e333d.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laomai.org/image/post-39/e1417bb1e333d.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;因为我的电脑C盘磁盘空间容量很小，所以这里我选择了另外一种方法安装，将子系统安装在D盘。&lt;/p&gt;
 &lt;p&gt;输入网址&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/wsl/install-manual&#34;&gt;https://docs.microsoft.com/en-us/windows/wsl/install-manual&lt;/a&gt;，下载我们需要的系统。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/c3586ef033c68.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laomai.org/image/post-39/c3586ef033c68.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;下载完成后我们会得到一个后缀名为.Appx的文件，这时我们将文件的后缀修改成.zip并将文件移动到你要保存Debian系统的文件夹，将文件解压到当前目录。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/8ce53bb036926.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laomai.org/image/post-39/8ce53bb036926.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;打开debian.exe安装。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/5a664b506fac9.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laomai.org/image/post-39/5a664b506fac9.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;设置好用户名和密码，这样子系统已经安装完成了。这时看一下我们刚才解压文件的目录就会多出一个rootfs文件夹，这个rootfs文件夹就是保存Debian子系统的目录了。&lt;/p&gt;
 &lt;p&gt;重新打开Windows Terminal，点一下地址栏上的展开小箭头，就会多出一个选项Debian，一键就能进入子系统，十分方便。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/ac1c4821efbb1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laomai.org/image/post-39/ac1c4821efbb1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;思考&#34;&gt;思考&lt;/h3&gt;
 &lt;p&gt;这样子使用了两天后，发现比在虚拟机上安装和使用都简单得多，而且使用起来也特别顺手，比如说，我在Windows上在子系统的laomai文件夹里新建一个hugo的目录，在终端上就可以立马查询得到。还有，复制的命令也如此，直接就能在终端上进行粘贴。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/12/10/273907b9e103d.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laomai.org/image/post-39/273907b9e103d.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;以下是与子系统相关的几个命令&#34;&gt;以下是与子系统相关的几个命令&lt;/h4&gt;
 &lt;p&gt;命令在Windows上使用CMD或者PowerShell运行。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -503,7 +515,7 @@
 &lt;/ol&gt;
 &lt;p&gt;重要的事情说三遍，哈哈。泡金骏眉最佳的水温是煮沸后自然凉至85℃-90℃左右。因为我刚接触茶不久，所以之前我都是直接用100℃的水去泡茶，今天被我同事指点了一下才知泡茶的水温如此重要，特别是这类茶毫多的茶，如果水温太高就会破坏茶本身的活性。还有就是不要悬壶高冲，要不然会起很多泡沫，虽然这些泡沫只是茶皂素，可以饮用，但一直浮在茶汤上面，还是感觉不对劲，喝茶本身就是喝个感觉，为尽量减少这类泡沫产生，可以避免高冲水，减缓水势，不要急冲。&lt;/p&gt;
 &lt;p&gt;经我同事一顿指点，总算是找到了点感觉，看来以后得多点向这位老茶客请教请教啊。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.laomai.org/2020/11/07/abfd45ef51dbb.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://laomai.org/image/post-34/abfd45ef51dbb.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
       
     </item>
@@ -542,20 +554,6 @@
 &lt;p&gt;该书作者出生于1883年10月26日，卒于1970年11月8日，所以这书很有历史咯。与现代书籍的不同之处在于，当时在美国，有些事情是司空见惯的，但现在却有所不同，相互对比下，你可以感受到时代与时代之间的差异。但是人类的成功并不会随着时代的不同而改变，毕竟成功的基本组成要素是相同的，所以阅读这些属于历史的事例还是很有用。相反的，我们还可以回味一番旧时代的背景与种种，这不是很有趣么？&lt;/p&gt;
 &lt;p&gt;这本书让我喜欢的另一个点就是诠释了，为了获取成功，人对事物的思考方式和态度的转变，在特定的环境里，什么样的人可能对我有益。&lt;/p&gt;
 &lt;p&gt;回到现实中，对于那些想要取得成功的人、那些想要在工作中取得成果和出色表现的人来说，这本书值得一读。但个人觉得书中写的情节、故事，在现实中就显得有点不合理，我们只能从中得到启发并好好地利用它，吸取到的经验好与不好并不重要，重要的是我们如何去总结与使用。即使你觉得自己失败了也不要气馁，因为所有事情都是基于失败而起的，毕竟失败乃成功之母嘛。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>又到了瞎捣鼓的时候</title>
-      <link>https://laomai.org/2020/post-31/</link>
-      <pubDate>Wed, 28 Oct 2020 17:02:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-31/</guid>
-      
-        <description>&lt;p&gt;有时候真的挺佩服自己，就是喜欢瞎折腾。昨天决定把&lt;a href=&#34;https://www.iamlm.com&#34;&gt;https://www.iamlm.com&lt;/a&gt;这个网址301跳转到&lt;a href=&#34;https://laomai.org&#34;&gt;https://laomai.org&lt;/a&gt;，顺手把「备」案什么的给注销了，也许是头脑一时发热吧，反正就这样吧，毕竟自己之前也考虑把「iamlm」这个域名丢弃掉。真就瞎搞一通~所以在这里麻烦各位博友，如果加了我友链的麻烦帮我改下域名，不过我印象中好像没怎么去申请友链，哈哈。对了，有在用RSS订阅的朋友也改一下呗，&lt;a href=&#34;https://laomai.org/index.xml&#34;&gt;订阅地址&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;最近一直捣鼓在腾讯云撸的香港服务器，只是最基础的1C1G配置，但已经够我折腾了，放个仓库，顺道练习一下各方面的基础知识。在docker上部署各式各样的项目，例如：halo,isso,fedora,frp等等，虽然也可以在NAS上部署，但那时候100不到一年的价格看着就香，就撸了3年，如果在NAS上瞎搞的话，把机器搞个半废就得不偿失了，但在云服务器上就没这顾虑咯。&lt;/p&gt;
-&lt;p&gt;话说这次双十一阿里云的优惠好吸引人啊，1C2G3年才255，还要什么自行车啊？要不是我已经有了台云服务器，我也搞一个2C4G的，3年508，嗯，真香。不过有了就行，要再多也是浪费！主要自己也没项目，搞了也是浪费，而且这个东西续费太贵了。像我这样就搞个静态博客的，好像真心没这个必要，github+vercel不香吗？实测速度完全可以接受，而且重点是免费。如果500左右能买个3年来玩玩是没关系的，但是要上千一年的话就算了吧。当然啦，这个还是看个人需求吧。&lt;/p&gt;
 </description>
       
     </item>
