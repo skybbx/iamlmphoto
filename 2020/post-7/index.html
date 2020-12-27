@@ -423,7 +423,7 @@ ERROR Deployer not found: git</p>
 <pre class="chroma"><code class="language-bash" data-lang="bash">hexo d
 </code></pre></td></tr></table>
 </div>
-</div><p><img src="https://img.laomai.org/img/2020-07-10%20182302.png" alt=""></p>
+</div><p><img src="/image/post-7/2020-07-10%20182302.png" alt=""></p>
 <p>可以看到我们已经成功将静态文件推到云服务器上了。</p>
 <h3 id="安装宝塔实现域名访问">安装宝塔实现域名访问</h3>
 <p>首先通过SSH连接到我们的服务器，使用下面的命令进行安装</p>
@@ -435,22 +435,22 @@ ERROR Deployer not found: git</p>
 <pre class="chroma"><code class="language-bash" data-lang="bash">yum install -y wget <span class="o">&amp;&amp;</span> wget -O install.sh http://download.bt.cn/install/install_6.0.sh <span class="o">&amp;&amp;</span> sh install.sh
 </code></pre></td></tr></table>
 </div>
-</div><p><img src="https://img.laomai.org/img/2020-07-10%20230318.png" alt=""></p>
+</div><p><img src="/image/post-7/2020-07-10%20230318.png" alt=""></p>
 <p>这里输入&quot;y&quot;，等待安装结束。</p>
-<p><img src="https://img.laomai.org/img/2020-07-10%20230754.png" alt=""></p>
+<p><img src="/image/post-7/2020-07-10%20230754.png" alt=""></p>
 <p>出现这个界面的时候就可以使用宝塔的面板了。</p>
 <p>浏览器上输入宝塔面板的地址，进去会提示安装套件，可以选择Nginx或者Apache。这里我们选择Nginx</p>
-<p><img src="https://img.laomai.org/img/2020-07-10%20232039.png" alt=""></p>
+<p><img src="/image/post-7/2020-07-10%20232039.png" alt=""></p>
 <p>这里版本我选择了MySQL 5.7，PHP7.3，phpMyAdmin 4.7，其他的不改变。你们根据自己的云服务器配置去选择一下，或者不选直接点一键安装就好，因为这些都是可以通过宝塔的软件商店进行更新的。</p>
-<p><img src="https://img.laomai.org/img/2020-07-10%20232225.png" alt=""></p>
+<p><img src="/image/post-7/2020-07-10%20232225.png" alt=""></p>
 <p>等待安装结束后，你就可以在面板设置上改一下相关的端口（这里要注意，你改的端口要到服务器上的防火墙/安全组，做相应的开放），用户名，密码什么的，这里我就不过多的说了。</p>
 <p>接下来我们要做的是添加站点，点击面板左边的<strong>网站</strong>，添加站点，在目录上选择git仓库绑定的静态文件目录/home/www/hexo，域名就按要求填上你购买好的域名，域名要记得解析到你服务器上的ip哦。备注随便写，FTP和数据库我们都用不上，所以就不创建了，点击提交。</p>
-<p><img src="https://img.laomai.org/img/2020-07-11%20003625.png" alt=""></p>
+<p><img src="/image/post-7/2020-07-11%20003625.png" alt=""></p>
 <p>至此，我们就已经可以通过域名来访问我们的博客了。</p>
 <hr>
-<p><a href="https://www.iamlm.com/2020/post-5/">在CentOS系统上搭建Git仓库</a></p>
-<p><a href="https://www.iamlm.com/2020/post-6/">在Windows上使用Hexo来搭建一个属于自己的博客</a></p>
-<p><a href="https://www.iamlm.com/2020/post-7/">在CentOS上安装宝塔来呈现我们的博客</a></p>
+<p><a href="https://laomai.org/2020/post-5/">在CentOS系统上搭建Git仓库</a></p>
+<p><a href="https://laomai.org/2020/post-6/">在Windows上使用Hexo来搭建一个属于自己的博客</a></p>
+<p><a href="https://laomai.org/2020/post-7/">在CentOS上安装宝塔来呈现我们的博客</a></p>
 
     </div>
 

@@ -6,16 +6,7 @@
     <description>Recent content in Posts on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 27 Dec 2020 13:31:23 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>test</title>
-      <link>https://laomai.org/2020/post-test/</link>
-      <pubDate>Sun, 27 Dec 2020 13:31:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-test/</guid>
-      <description>测试本地图片</description>
-    </item>
-    
+    <lastBuildDate>Tue, 22 Dec 2020 23:56:23 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>评论系统从valine转到twikoo</title>
       <link>https://laomai.org/2020/post-41/</link>
@@ -41,6 +32,15 @@
       
       <guid>https://laomai.org/2020/post-39/</guid>
       <description>这段时间一直在学习一些Linux系统的基础知识，感觉还不错。虽然工作上是不可能用到这方面的知识，纯属个人爱好而已，也当作是给自己扩展一下技能</description>
+    </item>
+    
+    <item>
+      <title>「Typora」是真的香</title>
+      <link>https://laomai.org/2020/post-42/</link>
+      <pubDate>Thu, 10 Dec 2020 14:06:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/2020/post-42/</guid>
+      <description>我是自从接触静态博客系统后才知道MarkDown这种文本格式的标记语言。在使用了半年之后，发现这个语言还真的方便，虽然我到现在为止都不能熟练</description>
     </item>
     
     <item>
