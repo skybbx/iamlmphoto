@@ -6,13 +6,49 @@
     <description>Recent content in Tags on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 22 Dec 2020 23:56:23 +0800</lastBuildDate><atom:link href="https://laomai.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Dec 2020 23:56:23 +0800</lastBuildDate><atom:link href="https://laomai.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hexo</title>
+      <link>https://laomai.org/tags/hexo/</link>
+      <pubDate>Sun, 27 Dec 2020 23:56:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/tags/hexo/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hugo</title>
       <link>https://laomai.org/tags/hugo/</link>
-      <pubDate>Tue, 22 Dec 2020 23:56:23 +0800</pubDate>
+      <pubDate>Sun, 27 Dec 2020 23:56:23 +0800</pubDate>
       
       <guid>https://laomai.org/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://laomai.org/tags/markdown/</link>
+      <pubDate>Sun, 27 Dec 2020 23:56:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PicGo</title>
+      <link>https://laomai.org/tags/picgo/</link>
+      <pubDate>Sun, 27 Dec 2020 23:56:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/tags/picgo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typora</title>
+      <link>https://laomai.org/tags/typora/</link>
+      <pubDate>Sun, 27 Dec 2020 23:56:23 +0800</pubDate>
+      
+      <guid>https://laomai.org/tags/typora/</guid>
       <description></description>
     </item>
     
@@ -76,42 +112,6 @@
       <pubDate>Thu, 10 Dec 2020 14:06:23 +0800</pubDate>
       
       <guid>https://laomai.org/tags/debian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>.bashrc</title>
-      <link>https://laomai.org/tags/.bashrc/</link>
-      <pubDate>Fri, 04 Dec 2020 14:06:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/tags/.bashrc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NAS</title>
-      <link>https://laomai.org/tags/nas/</link>
-      <pubDate>Fri, 04 Dec 2020 14:06:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/tags/nas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SSH</title>
-      <link>https://laomai.org/tags/ssh/</link>
-      <pubDate>Fri, 04 Dec 2020 14:06:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/tags/ssh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Macbook</title>
-      <link>https://laomai.org/tags/macbook/</link>
-      <pubDate>Thu, 03 Dec 2020 12:29:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/tags/macbook/</guid>
       <description></description>
     </item>
     

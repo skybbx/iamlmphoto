@@ -10,14 +10,77 @@
   
   <url>
     <loc>https://laomai.org/categories/</loc>
-    <lastmod>2020-12-22T23:56:23+08:00</lastmod>
+    <lastmod>2020-12-27T23:56:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/tags/hexo/</loc>
+    <lastmod>2020-12-27T23:56:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://laomai.org/tags/hugo/</loc>
-    <lastmod>2020-12-22T23:56:23+08:00</lastmod>
+    <lastmod>2020-12-27T23:56:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/tags/markdown/</loc>
+    <lastmod>2020-12-27T23:56:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/tags/picgo/</loc>
+    <lastmod>2020-12-27T23:56:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/post/</loc>
+    <lastmod>2020-12-27T23:56:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/tags/</loc>
+    <lastmod>2020-12-27T23:56:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/tags/typora/</loc>
+    <lastmod>2020-12-27T23:56:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/2020/post-42/</loc>
+    <lastmod>2020-12-27T23:56:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/categories/%E6%80%9D%E8%80%83/</loc>
+    <lastmod>2020-12-27T23:56:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/</loc>
+    <lastmod>2020-12-27T23:56:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -30,35 +93,7 @@
   </url>
   
   <url>
-    <loc>https://laomai.org/post/</loc>
-    <lastmod>2020-12-22T23:56:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://laomai.org/tags/</loc>
-    <lastmod>2020-12-22T23:56:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://laomai.org/categories/%E6%80%9D%E8%80%83/</loc>
-    <lastmod>2020-12-22T23:56:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://laomai.org/tags/%E6%8A%98%E8%85%BE/</loc>
-    <lastmod>2020-12-22T23:56:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://laomai.org/</loc>
     <lastmod>2020-12-22T23:56:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -122,13 +157,6 @@
   
   <url>
     <loc>https://laomai.org/2020/post-39/</loc>
-    <lastmod>2020-12-10T14:06:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://laomai.org/2020/post-42/</loc>
     <lastmod>2020-12-10T14:06:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -689,13 +717,6 @@
   
   <url>
     <loc>https://laomai.org/tags/git/</loc>
-    <lastmod>2020-08-08T17:50:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://laomai.org/tags/hexo/</loc>
     <lastmod>2020-08-08T17:50:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
