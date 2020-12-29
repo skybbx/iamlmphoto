@@ -13,7 +13,7 @@
       <pubDate>Sun, 27 Dec 2020 23:56:23 +0800</pubDate>
       
       <guid>https://laomai.org/2020/post-42/</guid>
-      <description>我是自从接触静态博客系统后才知道MarkDown这种文本格式的标记语言。在使用了半年之后，发现这个语言还真的方便，虽然我到现在为止都不能熟练</description>
+      <description>我是自从接触静态博客系统后才知道MarkDown这种文本格式的标记语言。在使用了半年之后，发现这个语言还真的方便，虽然我到现在为止都不能熟练的操作起来，但我已经喜欢上了。 供我们选择的MarkDown编辑工具有很多，我刚接触MarkDown时就简单的体验了一下几个主流的工具，最后选择了今天的主角「Typora」。 这个软件吸引我的地方主要有以下几点： 简洁，极致的简洁。新建文档时就是白白的一片，看起来是极度的舒服。 其次就是</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@
       <pubDate>Tue, 22 Dec 2020 23:56:23 +0800</pubDate>
       
       <guid>https://laomai.org/2020/post-41/</guid>
-      <description>其实我想换评论系统有一段时间了，因为valine加载变得很慢，而且我知道的就有过三次抽风，一直无法把评论加载出来。但碍于一直没有找到喜欢的评</description>
+      <description>其实我想换评论系统有一段时间了，因为valine加载变得很慢，而且我知道的就有过三次抽风，一直无法把评论加载出来。但碍于一直没有找到喜欢的评论系统，就让它继续在边上凉着。 最近在逛博客圈时，看到林木木大佬新启用的评论系统Twikoo，一看觉得还不错，就试着去官网看了一下，此评论系统是选择部署在腾讯云——云开发 CloudBase上的，正所谓大树好乘凉，我也有了转投之心。想干就干~ 跟着Twikoo中文文档一步步去进行相关的</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@
       <pubDate>Sat, 08 Aug 2020 17:50:23 +0800</pubDate>
       
       <guid>https://laomai.org/2020/post-14/</guid>
-      <description>写在前面 重启博客时选择了Hexo这个静态博客生成工具，毕竟容易上手。当时没有选择Hugo的原因是没有喜欢的主题，没想到前段时间将Hexo换成</description>
+      <description>写在前面 重启博客时选择了Hexo这个静态博客生成工具，毕竟容易上手。当时没有选择Hugo的原因是没有喜欢的主题，没想到前段时间将Hexo换成Hugo也是因为主题。 我比较喜欢简约一点的主题，无意中看到Jane这个Hugo主题就喜欢上了。布局，样式各个方面都很合我口味，所以就毅然的投奔到Hugo的怀抱。在此感谢贤民老师把主题分享出来，也在这立个flag吧，未来三年不再折腾主题。 相关修改 虽然Jane这个主题各方面都已经很完</description>
     </item>
     
   </channel>
