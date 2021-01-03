@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 31 Dec 2020 19:57:00 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jan 2021 21:00:00 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为Hugo博客添加搜索功能</title>
+      <link>https://laomai.org/2021/post-44/</link>
+      <pubDate>Sun, 03 Jan 2021 21:00:00 +0800</pubDate>
+      
+      <guid>https://laomai.org/2021/post-44/</guid>
+      <description>起因 一直以来我对博客的功能要求都不高，比如说wordpress上一些强大的主题，虽然有些功能的确是很吸引人，但我觉得很多都是可有可无的，博客发展到现在，基本都已经成了个人自娱自乐的自留地了，所以大家都各有各的选择，没有好与不好之分，只要适合就好。 昨天有个博友圈的朋友和我说，为什么你的博客连个搜索功能都没有的啊？太Low了。 其实嘛，我现在用的主题是带搜索功能的，不过是使用google的ces，所以国内都使用不了，我就把</description>
+    </item>
+    
     <item>
       <title>别了2020</title>
       <link>https://laomai.org/2020/post-43/</link>
@@ -104,15 +113,6 @@
       
       <guid>https://laomai.org/2020/post-33/</guid>
       <description>今天PCS3开打了，我喜欢的iFTY战队以PCL四号种子出战（这个是以PCL秋季赛的排名来算的）。感觉最近iFTY的状态有所下滑，其中这里有各种原因吧，有可能是PCS2最后一天被TSG反超而痛失冠军造成的心理落差没能缓过来，也有可能单纯是竞技状态没能保持住，毕竟iFTY今年斩获的冠军已经足够证明其实力的可怕了。 最近状态的下滑原因是什么，这里我也不得而知，特别是微博杯就能看出来，状态很不稳定，打架时没有配合等等。加上昨</description>
-    </item>
-    
-    <item>
-      <title>Kindle读书记——《思考致富》</title>
-      <link>https://laomai.org/2020/post-32/</link>
-      <pubDate>Mon, 02 Nov 2020 15:10:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-32/</guid>
-      <description>最近我开始用Kindle阅读电子书，一向只喜欢纸质书的我，是一个新的尝试。老实说，不怎么习惯，选择Kindle的原因主要是我准备要出行一段时间，如果背几本书出行的话实在是不方便。在Kindle上我读的第一本书是《思考致富》。内容是阐述各种人成功背后的原因以及如何获得成功所必备的要素，是披露和研究成功人士的致富秘诀。 成功很难把握，因为它具有模糊和粗糙的抽象，每个人都有不同的起点与目标。人们获得各种形式的成功，在获得以及</description>
     </item>
     
   </channel>

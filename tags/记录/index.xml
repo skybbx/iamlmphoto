@@ -6,7 +6,16 @@
     <description>Recent content in 记录 on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 31 Dec 2020 19:57:00 +0800</lastBuildDate><atom:link href="https://laomai.org/tags/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jan 2021 21:00:00 +0800</lastBuildDate><atom:link href="https://laomai.org/tags/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为Hugo博客添加搜索功能</title>
+      <link>https://laomai.org/2021/post-44/</link>
+      <pubDate>Sun, 03 Jan 2021 21:00:00 +0800</pubDate>
+      
+      <guid>https://laomai.org/2021/post-44/</guid>
+      <description>起因 一直以来我对博客的功能要求都不高，比如说wordpress上一些强大的主题，虽然有些功能的确是很吸引人，但我觉得很多都是可有可无的，博客发展到现在，基本都已经成了个人自娱自乐的自留地了，所以大家都各有各的选择，没有好与不好之分，只要适合就好。 昨天有个博友圈的朋友和我说，为什么你的博客连个搜索功能都没有的啊？太Low了。 其实嘛，我现在用的主题是带搜索功能的，不过是使用google的ces，所以国内都使用不了，我就把</description>
+    </item>
+    
     <item>
       <title>别了2020</title>
       <link>https://laomai.org/2020/post-43/</link>
