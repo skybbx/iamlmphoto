@@ -519,15 +519,22 @@ if (!doNotTrack) {
 
   
 
+
+  <div style="text-align:center;" id="load_twikoo" onclick="load_twikoo()">
+    <b>点击发表您的评论<b>
+  </div>  
   <div class="post bg-white">
     <div id="tcomment"></div>
     <script src="https://cdn.jsdelivr.net/npm/twikoo@0.5.2/dist/twikoo.all.min.js"></script>
     <script>
+    function load_twikoo() {  
     twikoo.init({
       envId: 'laomai-3gk8ukum10f3f137',
         region: 'ap-guangzhou',
       el: '#tcomment'
     })
+    $('#load_twikoo').remove();
+    };
     </script>
   </div>
 
