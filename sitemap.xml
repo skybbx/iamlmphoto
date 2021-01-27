@@ -10,48 +10,76 @@
   
   <url>
     <loc>https://laomai.org/categories/</loc>
-    <lastmod>2021-01-24T21:43:00+08:00</lastmod>
+    <lastmod>2021-01-27T12:21:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://laomai.org/post/</loc>
-    <lastmod>2021-01-24T21:43:00+08:00</lastmod>
+    <lastmod>2021-01-27T12:21:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://laomai.org/tags/</loc>
-    <lastmod>2021-01-24T21:43:00+08:00</lastmod>
+    <lastmod>2021-01-27T12:21:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://laomai.org/2021/post-47/</loc>
-    <lastmod>2021-01-24T21:43:00+08:00</lastmod>
+    <loc>https://laomai.org/tags/%E6%AC%A7%E6%B4%B2%E5%8D%A1%E8%BD%A6%E6%A8%A1%E6%8B%9F2/</loc>
+    <lastmod>2021-01-27T12:21:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/tags/%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2021-01-27T12:21:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/categories/%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2021-01-27T12:21:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://laomai.org/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2021-01-24T21:43:00+08:00</lastmod>
+    <lastmod>2021-01-27T12:21:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://laomai.org/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2021-01-24T21:43:00+08:00</lastmod>
+    <lastmod>2021-01-27T12:21:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://laomai.org/</loc>
+    <lastmod>2021-01-27T12:21:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/2021/post-48/</loc>
+    <lastmod>2021-01-27T12:21:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://laomai.org/2021/post-47/</loc>
     <lastmod>2021-01-24T21:43:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -73,20 +101,6 @@
   
   <url>
     <loc>https://laomai.org/tags/%E6%9A%97%E9%BB%91%E7%A0%B4%E5%9D%8F%E7%A5%9E/</loc>
-    <lastmod>2021-01-07T21:10:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://laomai.org/tags/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2021-01-07T21:10:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://laomai.org/categories/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2021-01-07T21:10:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
