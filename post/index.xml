@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 27 Jan 2021 12:21:00 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Feb 2021 11:01:00 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>享受假期</title>
+      <link>https://laomai.org/2021/post-49/</link>
+      <pubDate>Wed, 03 Feb 2021 11:01:00 +0800</pubDate>
+      
+      <guid>https://laomai.org/2021/post-49/</guid>
+      <description>不知不觉已经在家自我隔离了十四天了，这段日子过得还是很惬意的，虽然几乎都被俩娃围得团团转，想干点别的事都得等他们累了、休息了，可他们的精力实在是太好了，所以我这段时间基本上可以说是什么事情都没有做。但想想平时自己陪他们的时间实在是太少了，这段时间算是补偿吧。更何况等他们长大了，你想他们亲近你，他们也未必肯咯。 在居家隔离期间，收到单位的通知，说我可以回原单位上班，前线工作由其他同事顶上。老实说，早就应该换人了，毕竟从2</description>
+    </item>
+    
     <item>
       <title>重新开始我的司机生涯</title>
       <link>https://laomai.org/2021/post-48/</link>
@@ -104,15 +113,6 @@
       
       <guid>https://laomai.org/2020/post-38/</guid>
       <description>闲来无事，整理一下学习笔记。 因为上网本安装了lubuntu，所以最近基础地去学习了一下。活到老，学到老！不求都懂，只要稍微了解一些基本的使用方法就好。 利用.bashrc设置命令别名 本地电脑ssh登陆远程服务器时，我们会用到下面的方法 1 ssh 用户名@远程服务器IP 不是那么方便，特别是IP，还是有点难记的。这个时候就可以利用.bashrc进行个性化设置了。首先我们使用编辑器打开.bashrc配置文件 1 sudo vim ~/.bashrc 按i进入编辑模式，</description>
-    </item>
-    
-    <item>
-      <title>小霸王ASUS 1101HA复活记</title>
-      <link>https://laomai.org/2020/post-37/</link>
-      <pubDate>Thu, 03 Dec 2020 12:29:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-37/</guid>
-      <description>之前一直在考虑是否要卖个肾来买个新的macbook pro，最后因为各种原因选择做个等等党。想到以后外出的机会还是蛮多的，在外面如果没有一个笔记本用下的话也实在是麻烦了点，之前拿了老婆09年买的笔记本稍微用下，但发现就算是重新装回xp系统还是有点卡，而且习惯了win10，突然用回xp，真的很不惯。特别是这小上网本用的还是32位的CPU，只能装32位的系统，基本上很多软件都不更新了，反正就是各种各样的问题。趁着这个假期，</description>
     </item>
     
   </channel>

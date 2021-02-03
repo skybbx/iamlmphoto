@@ -6,7 +6,7 @@
     <description>Recent content on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 27 Jan 2021 12:21:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 03 Feb 2021 11:01:00 +0800</lastBuildDate>
     
         <atom:link href="https://laomai.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -111,6 +111,24 @@
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;p&gt;更新于2021/01/10&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>享受假期</title>
+      <link>https://laomai.org/2021/post-49/</link>
+      <pubDate>Wed, 03 Feb 2021 11:01:00 +0800</pubDate>
+      
+      <guid>https://laomai.org/2021/post-49/</guid>
+      
+        <description>&lt;p&gt;不知不觉已经在家自我隔离了十四天了，这段日子过得还是很惬意的，虽然几乎都被俩娃围得团团转，想干点别的事都得等他们累了、休息了，可他们的精力实在是太好了，所以我这段时间基本上可以说是什么事情都没有做。但想想平时自己陪他们的时间实在是太少了，这段时间算是补偿吧。更何况等他们长大了，你想他们亲近你，他们也未必肯咯。&lt;/p&gt;
+&lt;p&gt;在居家隔离期间，收到单位的通知，说我可以回原单位上班，前线工作由其他同事顶上。老实说，早就应该换人了，毕竟从20年2月就抽调出去了，整整一年。2月1号那天回了原单位上班，主要是做一些交接和写假单，19年和20年的公休假我都还没休，堆积了一大堆假期，现在单位也不允许累积太多假期，所以响应号召，决定把假期都消耗光。到办公室一算，休到22号，留了几天假期，以备不时之需。&lt;/p&gt;
+&lt;p&gt;临近春节，各种聚会也多了起来，村里的兄弟、同学、同事……往年我是很少参加的，要上班。昨天和老婆说我休假的事，她说了一句挺心酸的话，和你结婚八年了，算上今年，你年三十晚在家吃团圆饭就这么两回。&lt;/p&gt;
+&lt;p&gt;以前村里有些兄弟埋汰我，说我不参加聚会。大哥，我也没有办法啊，工作就是这样安排。为了生活，各有各的难处，我也想我的工作能每天坐在开着25度空调的房间，准时的上下班，可实力不允许啊。这不禁让我想起小时候老舅和我说的一句话，「现在要你努力读书，不是要你和别人比，是要让你将来有选择的机会。」&lt;/p&gt;
+&lt;p&gt;以前我不懂这句话的意思，现在懂了，可我已然是没得选择的那类人。&lt;/p&gt;
+&lt;p&gt;没错，没读好书的人也有成功的案例，但概率很低，就算成功，必然也遭受这个世间更多的蹂躏。当然，有读好书的人也有失败的时候，但概率同样的也相对很低。&lt;/p&gt;
+&lt;p&gt;一想这些东西就脑瓜「嗡嗡」的，不想了。&lt;/p&gt;
 </description>
       
     </item>
@@ -1226,98 +1244,6 @@ typora-root-url: ..\..\static
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>学习.bashrc的基础使用与相关扩展</title>
-      <link>https://laomai.org/2020/post-38/</link>
-      <pubDate>Fri, 04 Dec 2020 14:06:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-38/</guid>
-      
-        <description>&lt;h3 id=&#34;闲来无事整理一下学习笔记&#34;&gt;闲来无事，整理一下学习笔记。&lt;/h3&gt;
-&lt;p&gt;因为上网本安装了lubuntu，所以最近基础地去学习了一下。活到老，学到老！不求都懂，只要稍微了解一些基本的使用方法就好。&lt;/p&gt;
-&lt;h3 id=&#34;利用bashrc设置命令别名&#34;&gt;利用.bashrc设置命令别名&lt;/h3&gt;
-&lt;p&gt;本地电脑ssh登陆远程服务器时，我们会用到下面的方法&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;ssh 用户名@远程服务器IP
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;不是那么方便，特别是IP，还是有点难记的。这个时候就可以利用.bashrc进行个性化设置了。首先我们使用编辑器打开.bashrc配置文件&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;sudo vim ~/.bashrc
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;按i进入编辑模式，在文件最后添加以下内容&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;alias 别名=&amp;#39;ssh 用户名@远程服务器IP&amp;#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;这里举个例子，我设置一个命令别名为nas用作登陆家里的群晖。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;alias nas=&amp;#39;ssh laomai@192.168.1.225
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;保存退出后，我们要重新加载一下配置文件，输入以下命令&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;source ~/.bashrc
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;这样我们在终端里输入刚才设置的别名就能直接登陆远程服务器了。&lt;/p&gt;
-&lt;h3 id=&#34;扩展-免密码登陆&#34;&gt;扩展 免密码登陆&lt;/h3&gt;
-&lt;p&gt;配置完个性化别名后，输入别名，我们还是要用密码登陆一下才行，麻烦不说，在安全性上来说也不好，所以这个时候我们可以利用公钥来解决。
-在本地电脑上生成密钥对，输入&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;ssh-keygen
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;这个时候窗口会提示你设置密码来保证密钥的安全，这里我们直接按回车键确认，密码留空。这样我们使用密钥认证的时候就可以免去输入密码的麻烦。以时我们进入密钥的保存目录&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;cd ~/.ssh/
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;在这里我们可以看到生成的私钥id_rsa和公钥id_rsa.pub了，要说一下的是，无论什么情况下，都不能暴露自己的私钥文件id_rsa。接下来需要将公钥文件复制到远程服务器上，输入&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;ssh-copy-id 用户名@远程服务器IP
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;设置完成后就可以在本地电脑输入别名来免密码登陆远程服务器了。&lt;/p&gt;
-&lt;h3 id=&#34;思考&#34;&gt;思考&lt;/h3&gt;
-&lt;p&gt;通过上面的方法，可以轻松且快速的免密码登陆远程服务器，那么是不是也可以利用设置命令别名来提高工作效率呢？例如一些我们经常切换的目录路径、经常使用且长的命令等等，我们都可以分别设置一个别名，这样不但提高效率，而且能有效防止出现常见的拼写错误与规避容易忘记的命令语法。&lt;/p&gt;
-</description>
       
     </item>
     
