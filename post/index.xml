@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 03 Feb 2021 11:01:00 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Feb 2021 12:21:00 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>你认真的样子真帅</title>
+      <link>https://laomai.org/2021/post-50/</link>
+      <pubDate>Wed, 10 Feb 2021 12:21:00 +0800</pubDate>
+      
+      <guid>https://laomai.org/2021/post-50/</guid>
+      <description>前阵子让孩子们参加了一个兴趣班，姐姐选择了写字，弟弟选择了画画。 老实说，我是不怎么愿意这么快让孩子参加什么培训班的，不过老婆强调这只是兴趣启蒙，而且每天就只上两个小时课，我就答应了。 说到教育下一代，我想我的思想真的要改变一下。我一直觉得孩子就应该率性而为，而父母则要告诉他们什么叫适可而止。但感觉这很容易走进一个误区，矛盾得很，看来我是时候找些书看一下咯。在京东书城了选了《教子有方》这个系列的书，希望看完能对自己有点感</description>
+    </item>
+    
     <item>
       <title>享受假期</title>
       <link>https://laomai.org/2021/post-49/</link>
@@ -104,15 +113,6 @@
       
       <guid>https://laomai.org/2020/post-39/</guid>
       <description>这段时间一直在学习一些Linux系统的基础知识，感觉还不错。虽然工作上是不可能用到这方面的知识，纯属个人爱好而已，也当作是给自己扩展一下技能。 话说B站这方面的学习课程还真够完善的，由浅入深的视频课程都能完整的找到，真好！当然啦，理论和实操要相结合才能记得牢固，所以今天做个小笔记，在Windows 10上安装一个Linux子系统。 安装 先安装一个工具——「Windows Terminal」。有关Windows终端程序的相关说</description>
-    </item>
-    
-    <item>
-      <title>学习.bashrc的基础使用与相关扩展</title>
-      <link>https://laomai.org/2020/post-38/</link>
-      <pubDate>Fri, 04 Dec 2020 14:06:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-38/</guid>
-      <description>闲来无事，整理一下学习笔记。 因为上网本安装了lubuntu，所以最近基础地去学习了一下。活到老，学到老！不求都懂，只要稍微了解一些基本的使用方法就好。 利用.bashrc设置命令别名 本地电脑ssh登陆远程服务器时，我们会用到下面的方法 1 ssh 用户名@远程服务器IP 不是那么方便，特别是IP，还是有点难记的。这个时候就可以利用.bashrc进行个性化设置了。首先我们使用编辑器打开.bashrc配置文件 1 sudo vim ~/.bashrc 按i进入编辑模式，</description>
     </item>
     
   </channel>
