@@ -6,7 +6,7 @@
     <description>Recent content on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 10 Feb 2021 12:21:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 19 Feb 2021 17:17:00 +0800</lastBuildDate>
     
         <atom:link href="https://laomai.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -111,6 +111,21 @@
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;p&gt;更新于2021/01/10&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>今年春节喝大发了</title>
+      <link>https://laomai.org/2021/post-51/</link>
+      <pubDate>Fri, 19 Feb 2021 17:17:00 +0800</pubDate>
+      
+      <guid>https://laomai.org/2021/post-51/</guid>
+      
+        <description>&lt;p&gt;不知不觉的假期只剩下两天，今年春节假期是近十年最多的一次，可没想到也是最忙的一年，导致到今天才有空写这新春的第一篇。祝福虽迟但到，在这里跟大家说声「新年好」。&lt;/p&gt;
+&lt;p&gt;与往年不一样的是，今年的假期很长，所以在假期刚开始的时候，还给自己制定一系列的计划，比如看书、学习剪辑视频啥的，可没想到的是什么都没有完成，只能上班后再慢慢抽时间去完成了。&lt;/p&gt;
+&lt;p&gt;这些年因为工作关系，春节串门走亲戚我几乎都没空参与，今年既然有假期，就陪家里人一起到处串串门，结果没想到这事会如此累人，从初二开始就档期排得满满的。一天跑两趟，中午一顿，晚上一顿，酒肉干了不少，这段时间喝的酒比我平时三年喝的还要多，前段时间辛苦把体重降了十斤，现在好了，一下子就回来了。我不是好酒之人，但老表们这些年在言语中多少透露出一点不满之意，说我一直不和他们喝两杯，无奈的我本想意思一下，结果他们不但追酒喝，还强迫别人陪，十分无语。酒这东西就像是把双刃剑，适量喝点酒聊起事的确很带劲，但喝多就变味了，对身体也不好，最近几年的体检报告是越来越不好看了。年轻时和几个好兄弟喝酒，喝得兴起都是一苹果一苹果的来，现在随着年纪大了，大家都爱惜身体了，聚会一次每人最多四两酒，五个人，一升装的，这个量度对于现在的我们可以说是刚刚好。喝酒一定要适量，就拿我岳父来说，他每天都喝，但他每天只喝一小杯，据他说这样可以增强心脏功能和防治高血压等老年人常见疾病，虽然不知真假，但连我那学医的老婆也赞同，肯定还是有理可依的。&lt;/p&gt;
+&lt;p&gt;老实说，今年走亲戚喝的酒实在有点多了，搞得我现在都没能回过气，以后我还是乖乖回去值班算了，搞不过搞不过。&lt;/p&gt;
 </description>
       
     </item>
@@ -1267,34 +1282,6 @@ typora-root-url: ..\..\static
 &lt;/div&gt;&lt;p&gt;至此修改完成，其实也就是简单地对相应的样式定义。以上记录只作为本人的笔记使用，用作预防以后自己忘记。请根据自己使用的主题进行定义你喜欢的样式。&lt;/p&gt;
 &lt;p&gt;最后将valine上的数据导入到Twikoo里，使用Twikoo官方提供的迁移脚本，轻易搞定。&lt;/p&gt;
 &lt;p&gt;Valine到Twikoo迁移脚本：&lt;a href=&#34;https://github.com/imaegoo/twikoo-import-tools&#34;&gt;https://github.com/imaegoo/twikoo-import-tools&lt;/a&gt;&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>是金子就一定会发光</title>
-      <link>https://laomai.org/2020/post-40/</link>
-      <pubDate>Mon, 21 Dec 2020 16:46:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-40/</guid>
-      
-        <description>&lt;p&gt;经过这段时间半系统的学习，对Linux是越来越喜欢了。特别是Ubuntu这个系统的界面，使用起来真不错，虽然还不能说可以代替Windows，但相比起来真的一点不差。不过呢，这些都是看个人喜好而定的，没有好与差，只要适合自己就行。就拿我使用电脑的情况来说吧，有很多时候都是离不开Windows的，特别是玩游戏的时候。哈哈哈……&lt;/p&gt;
-&lt;p&gt;是金子就一定会发光，所以好的东西肯定会得到越来越多的人认可，相信以后的系统都会越做越好，越来越便捷的。&lt;/p&gt;
-&lt;p&gt;在学习之余，追了部电视剧，还没播完，《了不起的儿科医生》。这剧给我最多的体会就是感动吧，特别是第25集王航给患白血病的婷婷表演时，配上主题曲，瞬间觉得这世上超级温暖。&lt;/p&gt;
-&lt;p&gt;老实说，让我对这剧提起兴趣的是梁博的歌声，那时老婆正在追这部剧，到播主题曲『我不知道2020』时我听见了，一耳就喜欢上了，歌声里充满了感动和力量，特别是童声部份，直击人心。&lt;/p&gt;
-&lt;p&gt;说起梁博，总会让我想起《中国好声音》第一季，那时参加的选手实力都好强，例如我挺喜欢的吉克隽逸。当梁博夺冠时，身边有好几个人都有质疑的声音，可我不这么认为，那时我就觉得梁博的歌声有种说不出的感觉，是实至名归的。依稀记得当他唱完《我爱你中国》说的那句，想让大家好好听到他写的歌。结果这些年过去了，也证实他真的做到了一直用心在写歌、唱歌。&lt;/p&gt;
-&lt;p&gt;所以还是那句，是金子就一定会发光，虽然一开始可能会有人质疑，但坚定自己的信念走下去，一定会得到自己想要的。&lt;/p&gt;
-&lt;p&gt;希望梁博继续为我们带来更多优秀的作品，像之前的《男孩》，现在的《我不知道2020》。期待哦~&lt;/p&gt;
-  &lt;iframe style=&#34;max-width: 100%&#34;
-      class=&#34;music163&#34;
-      frameborder=&#34;no&#34;
-      border=&#34;0&#34;
-      marginwidth=&#34;0&#34;
-      marginheight=&#34;0&#34;
-      width=&#34;330&#34;
-      height=&#34;86&#34;
-      src=&#34;//music.163.com/outchain/player?type=2&amp;id=1499345116&amp;auto=1&amp;height=66&#34;&gt;
-    &lt;/iframe&gt;
 </description>
       
     </item>
