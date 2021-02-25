@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 19 Feb 2021 17:17:00 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Feb 2021 16:08:00 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>显示器折腾记</title>
+      <link>https://laomai.org/2021/post-52/</link>
+      <pubDate>Thu, 25 Feb 2021 16:08:00 +0800</pubDate>
+      
+      <guid>https://laomai.org/2021/post-52/</guid>
+      <description>春节假期发现家里的显示器「都」出了点问题，这个「都」就很烦，导致我这些天都没有电脑可用。你说坏一个我还勉强可以有电脑可用，也就将就一下不用买新的显示器。现在倒好，两个一起坏，都不知道是不是因为本命年的原因？ 22号上班顺便把两个显示器拿到单位旁的维修店维修，结果师傅说，“大兄弟，你这两个显示器维修很麻烦，其中一个更是不建议你修了，太古老了，这个三星维修的话要更换背光驱动板，价格要差不多两百元，而且这个三星也有五年历史了</description>
+    </item>
+    
     <item>
       <title>今年春节喝大发了</title>
       <link>https://laomai.org/2021/post-51/</link>
@@ -104,15 +113,6 @@
       
       <guid>https://laomai.org/2020/post-41/</guid>
       <description>其实我想换评论系统有一段时间了，因为valine加载变得很慢，而且我知道的就有过三次抽风，一直无法把评论加载出来。但碍于一直没有找到喜欢的评论系统，就让它继续在边上凉着。 最近在逛博客圈时，看到林木木大佬新启用的评论系统Twikoo，一看觉得还不错，就试着去官网看了一下，此评论系统是选择部署在腾讯云——云开发 CloudBase上的，正所谓大树好乘凉，我也有了转投之心。想干就干~ 跟着Twikoo中文文档一步步去进行相关的</description>
-    </item>
-    
-    <item>
-      <title>是金子就一定会发光</title>
-      <link>https://laomai.org/2020/post-40/</link>
-      <pubDate>Mon, 21 Dec 2020 16:46:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-40/</guid>
-      <description>经过这段时间半系统的学习，对Linux是越来越喜欢了。特别是Ubuntu这个系统的界面，使用起来真不错，虽然还不能说可以代替Windows，但相比起来真的一点不差。不过呢，这些都是看个人喜好而定的，没有好与差，只要适合自己就行。就拿我使用电脑的情况来说吧，有很多时候都是离不开Windows的，特别是玩游戏的时候。哈哈哈…… 是金子就一定会发光，所以好的东西肯定会得到越来越多的人认可，相信以后的系统都会越做越好，越来越便</description>
     </item>
     
   </channel>
