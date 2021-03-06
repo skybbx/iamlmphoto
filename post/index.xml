@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 25 Feb 2021 16:08:00 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Mar 2021 14:40:00 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>等待、体验、收获、惊叹</title>
+      <link>https://laomai.org/2021/post-53/</link>
+      <pubDate>Sat, 06 Mar 2021 14:40:00 +0800</pubDate>
+      
+      <guid>https://laomai.org/2021/post-53/</guid>
+      <description>在等待「赘婿」更新的这段时间，我选择重温漫威系列的电影，因为换了4K的显示器，所以这次在MT上下载的片源我都选择了4K的，也顺道好好的体验一下这个显示器的效果。整体来说中规中矩吧，没有那种一下子惊艳的感觉。这是我第一次下载这么高码率的片源在电脑上播放，之前都是下载后用在客厅的电视上播放，在电脑上播放的感觉与电视相比较，差距还是有点大的，可毕竟这两个东西没什么可比性，都不同性质。 但这次在电脑上体验也有我意料之外的收获，</description>
+    </item>
+    
     <item>
       <title>显示器折腾记</title>
       <link>https://laomai.org/2021/post-52/</link>
@@ -104,15 +113,6 @@
       
       <guid>https://laomai.org/2020/post-42/</guid>
       <description>我是自从接触静态博客系统后才知道MarkDown这种文本格式的标记语言。在使用了半年之后，发现这个语言还真的方便，虽然我到现在为止都不能熟练的操作起来，但我已经喜欢上了。 供我们选择的MarkDown编辑工具有很多，我刚接触MarkDown时就简单的体验了一下几个主流的工具，最后选择了今天的主角「Typora」。 这个软件吸引我的地方主要有以下几点： 简洁，极致的简洁。新建文档时就是白白的一片，看起来是极度的舒服。 其次就是</description>
-    </item>
-    
-    <item>
-      <title>评论系统从valine转到twikoo</title>
-      <link>https://laomai.org/2020/post-41/</link>
-      <pubDate>Tue, 22 Dec 2020 23:56:23 +0800</pubDate>
-      
-      <guid>https://laomai.org/2020/post-41/</guid>
-      <description>其实我想换评论系统有一段时间了，因为valine加载变得很慢，而且我知道的就有过三次抽风，一直无法把评论加载出来。但碍于一直没有找到喜欢的评论系统，就让它继续在边上凉着。 最近在逛博客圈时，看到林木木大佬新启用的评论系统Twikoo，一看觉得还不错，就试着去官网看了一下，此评论系统是选择部署在腾讯云——云开发 CloudBase上的，正所谓大树好乘凉，我也有了转投之心。想干就干~ 跟着Twikoo中文文档一步步去进行相关的</description>
     </item>
     
   </channel>
