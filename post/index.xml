@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 21 Mar 2021 17:00:00 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Mar 2021 13:13:00 +0800</lastBuildDate><atom:link href="https://laomai.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>套路之「诱饵」「保险」</title>
+      <link>https://laomai.org/2021/post-56/</link>
+      <pubDate>Fri, 26 Mar 2021 13:13:00 +0800</pubDate>
+      
+      <guid>https://laomai.org/2021/post-56/</guid>
+      <description>老爸这段时间都想待在老家，但又怕晚上无聊，决定在老家装个广电，然后再添置一台电视机，就吩咐我去办。看他挺急的样子，就决定直接去商场购买电视机，反正正好我有个朋友在某商场能说上点话，想着到时让他给打个折。我这个人多少有点选择困难症，和他说了下大概的尺寸，直接让他给我推荐。朋友的办事效率也不错，最终选了小米的60寸，价格嘛，比某东便宜。简单的体验了一下后，感觉还不错，比我前两年购买的索尼大法一点也不逊色。当然啦，这样的感</description>
+    </item>
+    
     <item>
       <title>HAPPY BIRTHDAY TO ME</title>
       <link>https://laomai.org/2021/post-55/</link>
@@ -104,15 +113,6 @@
       
       <guid>https://laomai.org/2021/post-45/</guid>
       <description>工作近况 不知不觉的已经是2021年的第七天了，本来通知是元旦回工作岗位，但因为实在是有很多工作上的事情需要交接，所以选择了提前两天回到岗位。 因为各部门相互配合已经有一段时间了，所以工作效率一直很高且井然有序。在这里给我亲爱的同事们点个赞，毕竟在这个小集体里，大家伙们都相互帮忙、相互照顾，在离开家的十多天日子里，也感受到家的温暖。 生活近况 最近天气又变来变去了，昨天还暖暖的，今天又突然冷了超级多。不过对于在广东生活了三十</description>
-    </item>
-    
-    <item>
-      <title>为Hugo博客添加搜索功能</title>
-      <link>https://laomai.org/2021/post-44/</link>
-      <pubDate>Sun, 03 Jan 2021 21:00:00 +0800</pubDate>
-      
-      <guid>https://laomai.org/2021/post-44/</guid>
-      <description>起因 一直以来我对博客的功能要求都不高，比如说wordpress上一些强大的主题，虽然有些功能的确是很吸引人，但我觉得很多都是可有可无的，博客发展到现在，基本都已经成了个人自娱自乐的自留地了，所以大家都各有各的选择，没有好与不好之分，只要适合就好。 昨天有个博友圈的朋友和我说，为什么你的博客连个搜索功能都没有的啊？太Low了。 其实嘛，我现在用的主题是带搜索功能的，不过是使用google的ces，所以国内都使用不了，我就把</description>
     </item>
     
   </channel>
