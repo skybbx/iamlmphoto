@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://laomai.org/sitemap.xml
+Sitemap: https://iamlm.com/sitemap.xml
