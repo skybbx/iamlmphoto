@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://iamlm.com/sitemap.xml
+Disallow: /
