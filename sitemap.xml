@@ -9,28 +9,63 @@
   </url>
   
   <url>
+    <loc>https://iamlm.com/2021/post-64/</loc>
+    <lastmod>2021-05-04T16:26:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://iamlm.com/categories/</loc>
-    <lastmod>2021-04-27T23:15:00+08:00</lastmod>
+    <lastmod>2021-05-04T16:26:20+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://iamlm.com/post/</loc>
-    <lastmod>2021-04-27T23:15:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://iamlm.com/tags/qq/</loc>
-    <lastmod>2021-04-27T23:15:00+08:00</lastmod>
+    <lastmod>2021-05-04T16:26:20+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://iamlm.com/tags/</loc>
+    <lastmod>2021-05-04T16:26:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlm.com/tags/%E5%A4%A9%E7%BF%BC%E4%BA%91%E7%9B%98/</loc>
+    <lastmod>2021-05-04T16:26:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlm.com/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2021-05-04T16:26:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlm.com/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2021-05-04T16:26:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlm.com/</loc>
+    <lastmod>2021-05-04T16:26:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlm.com/tags/qq/</loc>
     <lastmod>2021-04-27T23:15:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -52,27 +87,6 @@
   
   <url>
     <loc>https://iamlm.com/tags/%E6%89%8B%E6%9C%BA/</loc>
-    <lastmod>2021-04-27T23:15:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://iamlm.com/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2021-04-27T23:15:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://iamlm.com/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2021-04-27T23:15:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://iamlm.com/</loc>
     <lastmod>2021-04-27T23:15:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
