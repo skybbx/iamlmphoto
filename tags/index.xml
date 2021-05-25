@@ -6,13 +6,67 @@
     <description>Recent content in Tags on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 16 May 2021 22:46:20 +0800</lastBuildDate><atom:link href="https://iamlm.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 May 2021 23:56:20 +0800</lastBuildDate><atom:link href="https://iamlm.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bitwarden</title>
+      <link>https://iamlm.com/tags/bitwarden/</link>
+      <pubDate>Tue, 25 May 2021 23:56:20 +0800</pubDate>
+      
+      <guid>https://iamlm.com/tags/bitwarden/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://iamlm.com/tags/docker/</link>
+      <pubDate>Tue, 25 May 2021 23:56:20 +0800</pubDate>
+      
+      <guid>https://iamlm.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESXi</title>
+      <link>https://iamlm.com/tags/esxi/</link>
+      <pubDate>Tue, 25 May 2021 23:56:20 +0800</pubDate>
+      
+      <guid>https://iamlm.com/tags/esxi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NAS</title>
+      <link>https://iamlm.com/tags/nas/</link>
+      <pubDate>Tue, 25 May 2021 23:56:20 +0800</pubDate>
+      
+      <guid>https://iamlm.com/tags/nas/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>生活</title>
       <link>https://iamlm.com/tags/%E7%94%9F%E6%B4%BB/</link>
-      <pubDate>Sun, 16 May 2021 22:46:20 +0800</pubDate>
+      <pubDate>Tue, 25 May 2021 23:56:20 +0800</pubDate>
       
       <guid>https://iamlm.com/tags/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>群晖</title>
+      <link>https://iamlm.com/tags/%E7%BE%A4%E6%99%96/</link>
+      <pubDate>Tue, 25 May 2021 23:56:20 +0800</pubDate>
+      
+      <guid>https://iamlm.com/tags/%E7%BE%A4%E6%99%96/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>软路由</title>
+      <link>https://iamlm.com/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/</link>
+      <pubDate>Tue, 25 May 2021 23:56:20 +0800</pubDate>
+      
+      <guid>https://iamlm.com/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/</guid>
       <description></description>
     </item>
     
@@ -58,60 +112,6 @@
       <pubDate>Fri, 16 Apr 2021 15:38:00 +0800</pubDate>
       
       <guid>https://iamlm.com/tags/logo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wordpress</title>
-      <link>https://iamlm.com/tags/wordpress/</link>
-      <pubDate>Fri, 16 Apr 2021 15:38:00 +0800</pubDate>
-      
-      <guid>https://iamlm.com/tags/wordpress/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>毛毛</title>
-      <link>https://iamlm.com/tags/%E6%AF%9B%E6%AF%9B/</link>
-      <pubDate>Fri, 16 Apr 2021 15:38:00 +0800</pubDate>
-      
-      <guid>https://iamlm.com/tags/%E6%AF%9B%E6%AF%9B/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>佩佩</title>
-      <link>https://iamlm.com/tags/%E4%BD%A9%E4%BD%A9/</link>
-      <pubDate>Mon, 12 Apr 2021 01:20:00 +0800</pubDate>
-      
-      <guid>https://iamlm.com/tags/%E4%BD%A9%E4%BD%A9/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>儿女</title>
-      <link>https://iamlm.com/tags/%E5%84%BF%E5%A5%B3/</link>
-      <pubDate>Mon, 12 Apr 2021 01:20:00 +0800</pubDate>
-      
-      <guid>https://iamlm.com/tags/%E5%84%BF%E5%A5%B3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://iamlm.com/tags/hugo/</link>
-      <pubDate>Wed, 31 Mar 2021 15:50:00 +0800</pubDate>
-      
-      <guid>https://iamlm.com/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iFTY</title>
-      <link>https://iamlm.com/tags/ifty/</link>
-      <pubDate>Sun, 14 Mar 2021 14:40:00 +0800</pubDate>
-      
-      <guid>https://iamlm.com/tags/ifty/</guid>
       <description></description>
     </item>
     
