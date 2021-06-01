@@ -6,7 +6,34 @@
     <description>Recent content in Tags on 老麦笔记 - 生命在于折腾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 30 May 2021 00:00:20 +0800</lastBuildDate><atom:link href="https://iamlm.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jun 2021 09:00:20 +0800</lastBuildDate><atom:link href="https://iamlm.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Edge</title>
+      <link>https://iamlm.com/tags/edge/</link>
+      <pubDate>Tue, 01 Jun 2021 09:00:20 +0800</pubDate>
+      
+      <guid>https://iamlm.com/tags/edge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://iamlm.com/tags/windows/</link>
+      <pubDate>Tue, 01 Jun 2021 09:00:20 +0800</pubDate>
+      
+      <guid>https://iamlm.com/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>万国觉醒</title>
+      <link>https://iamlm.com/tags/%E4%B8%87%E5%9B%BD%E8%A7%89%E9%86%92/</link>
+      <pubDate>Tue, 01 Jun 2021 09:00:20 +0800</pubDate>
+      
+      <guid>https://iamlm.com/tags/%E4%B8%87%E5%9B%BD%E8%A7%89%E9%86%92/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>生活</title>
       <link>https://iamlm.com/tags/%E7%94%9F%E6%B4%BB/</link>
@@ -85,33 +112,6 @@
       <pubDate>Thu, 27 May 2021 22:56:20 +0800</pubDate>
       
       <guid>https://iamlm.com/tags/%E6%B8%B8%E6%88%8F/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bitwarden</title>
-      <link>https://iamlm.com/tags/bitwarden/</link>
-      <pubDate>Tue, 25 May 2021 23:56:20 +0800</pubDate>
-      
-      <guid>https://iamlm.com/tags/bitwarden/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://iamlm.com/tags/docker/</link>
-      <pubDate>Tue, 25 May 2021 23:56:20 +0800</pubDate>
-      
-      <guid>https://iamlm.com/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ESXi</title>
-      <link>https://iamlm.com/tags/esxi/</link>
-      <pubDate>Tue, 25 May 2021 23:56:20 +0800</pubDate>
-      
-      <guid>https://iamlm.com/tags/esxi/</guid>
       <description></description>
     </item>
     
