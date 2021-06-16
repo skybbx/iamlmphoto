@@ -1,756 +1,513 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>老麦笔记 - 生命在于折腾</title>
-    <link>https://iamlm.com/</link>
-    <description>Recent content on 老麦笔记 - 生命在于折腾</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 12 Jun 2021 13:19:20 +0800</lastBuildDate>
-    
-        <atom:link href="https://iamlm.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>关于</title>
-      <link>https://iamlm.com/about/</link>
-      <pubDate>Tue, 14 Jul 2020 21:38:52 +0800</pubDate>
-      
-      <guid>https://iamlm.com/about/</guid>
-      
-        <description>&lt;p&gt;一个简单的博客，一个平凡的博主，用最扑实的话记录最真实的自己！&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;关于我&#34;&gt;关于我&lt;/h3&gt;
-&lt;p&gt;麦生，80后大叔，故身边很多朋友都称呼我一声老麦，曾经也为此苦恼过，毕竟我还有一颗年轻的心。&lt;/p&gt;
-&lt;p&gt;接触互联网的时间比较早，那时申请QQ还是六位数的。曾用过的昵称不多，婚前昵称基本都是和青蛙有关的，如“沉睡的青蛙”这类，婚后一直使用姓氏的全拼作为昵称，2020年开始使用“老麦”作为昵称。&lt;/p&gt;
-&lt;p&gt;农民出身，没有远大的理想，故一直在小县城过着平淡的生活。&lt;/p&gt;
-&lt;p&gt;爱玩游戏，从帝国、红警那个年代一步步走过来的人。&lt;/p&gt;
-&lt;p&gt;对HTML、CSS、PHP、MYSQL、JSP、ASP、JAVA、PYTHON、DOCKER、GO、NODEJS等等都是只知其名不知其意。&lt;/p&gt;
-&lt;p&gt;宠物史，十年前养过一只吉娃娃，名字叫febb，它走后就不再养了。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;关于博客&#34;&gt;关于博客&lt;/h3&gt;
-&lt;p&gt;这是我第二次开独立博客，从QQ空间开始，到2010年关闭博客，期间一直在折腾，那个时候的内容大多数是转载，也就是大家伙说的CTRL+C，CTRL+V大法。&lt;/p&gt;
-&lt;p&gt;这次开博客主要是记录一下自己平淡的生活，方便自己老时回忆。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;2020-12-30&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;对主题进行了一次小修改，主要是参照adobe color色轮进行重新配色。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;2020-12-22&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;更换第三方评论系统，采用Twikoo。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;2020-09-09&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;域名更换成laomai.org。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;2020-08-30&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;正式成为《十年之约》这个神秘组织的一员。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;2020-08-08&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;博客更换成Hugo，并使用主题Jane。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;2020-06-28&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;选择使用Hexo来重新开始博客之旅。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;2010&amp;ndash;2020&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;空窗期。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;2005&amp;ndash;2010&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;不提也罢。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;喜欢的博客&#34;&gt;喜欢的博客&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://www.foreverblog.cn/&#34;&gt;十年之约&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://blog.loli.top/&#34;&gt;城南旧事&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://www.qylao.com/&#34;&gt;穷游佬&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://4311346.com/&#34;&gt;Andy烧麦&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://www.wys.me/&#34;&gt;wys&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://www.savouer.com/&#34;&gt;夜未央&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://www.mhcf.net/&#34;&gt;梦幻辰风&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://hisherry.com/&#34;&gt;燕渡寒潭&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://yiws.net/&#34;&gt;忆往事&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;http://www.dushangself.site/emlog/&#34;&gt;独殇小册&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://lmbk.net/&#34;&gt;老猫博客&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://springwood.me&#34;&gt;沉舟侧畔&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://illl.xyz&#34;&gt;大峰笔记&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://www.parak.top&#34;&gt;Khighness&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;等待加入&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;p&gt;更新于2021/01/10&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>毛毛发烧</title>
-      <link>https://iamlm.com/maomaofashao/</link>
-      <pubDate>Sat, 12 Jun 2021 13:19:20 +0800</pubDate>
-      
-      <guid>https://iamlm.com/maomaofashao/</guid>
-      
-        <description>&lt;p&gt;昨天下午接到幼儿园老师的电话，说孩子有点发烧，让我们去接孩子回家。因为老婆工作地点离家有点远，所以我就跑了一趟。接毛毛回家后就开始帮他测体温，38℃，低发热，毛毛的精神也不错，所以应该没什么大问题，一边陪他玩奥特曼玩具，一边让他多喝点温开水。&lt;/p&gt;
-&lt;p&gt;老婆下班后简单看了下毛毛的情况，表扬我处理得不错。但我们都知道考验晚上才开始，老婆第二天要回去值班，晚上照顾毛毛的任务很自然的落在我身上，睡前帮毛毛测体温，这时毛毛的体温已然进入中度发热的区间，达到了38.5℃，而且感觉还有上升的趋势，和老婆商量后决定使用药物，5毫升的美林，半个小时后，毛毛开始大量的出汗，擦汗、换衣服、换汗巾、让他喝水，一顿操作后，体温已经开始下降，就叫老婆先睡，而我则每隔一小时帮毛毛测下体温与擦一下身上的汗。&lt;/p&gt;
-&lt;p&gt;今天早上老婆上班前帮毛毛测体温，37.7℃，还是低发热，简单用温水帮毛毛物理降温后就上班去了。佩佩和毛毛都习惯了早起，就算是假期也一样，虽然我折腾了一晚上，但还是得艰难的爬起床出去帮孩子们买早餐。&lt;/p&gt;
-&lt;p&gt;中午时发现毛毛的体温又上升了，38.8℃，虽然精神一直很好，但我还是很担心的，打电话给老婆说了一下情况，她说再给5毫升美林给毛毛喝，反应和昨天晚上差不多，半小时后开始出汗，然后体温也降了下来。&lt;/p&gt;
-&lt;p&gt;孩子发烧最怕的就是这样，反反复复。还好毛毛精神状态很好，陪他游戏、聊天都表现得十分积极主动。我发现毛毛每次生病都会变成一话痨，嘴巴说个不停，问题一个接一个的问，我也很耐心地为他解答，然而他点点头，好像听懂了一样，鬼灵精。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>躺平、看剧、游戏、疫情</title>
-      <link>https://iamlm.com/tp-kj-yx-yq/</link>
-      <pubDate>Wed, 09 Jun 2021 11:11:20 +0800</pubDate>
-      
-      <guid>https://iamlm.com/tp-kj-yx-yq/</guid>
-      
-        <description>&lt;h3 id=&#34;躺平&#34;&gt;躺平&lt;/h3&gt;
-&lt;p&gt;再次陷入迷茫的泥潭，庆幸的是又一次从家人那里得到了支持与理解。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;家是安稳的归宿，家是彼此的约定，家是永恒的追寻；无论家多么贫苦，它依旧是我们最安逸、最豪华的驿站。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;每个人都有迷茫的时候，我选择了接纳它，因为我相信我一定可以战胜这种消极的情绪。然后我选择尊重自己的感受，懒一回，什么都不想、不做，申请了一个星期的假期，在家试试「躺平」的感觉如何，一周体验下来，感觉真不错。&lt;/p&gt;
-&lt;h3 id=&#34;看剧&#34;&gt;看剧&lt;/h3&gt;
-&lt;p&gt;很久之前找了部韩剧，一直没有时间看，趁着这个机会终于把剧消化了，剧名叫《大力女子都奉顺》，其实当时我也不知道为什么会找这部剧来看，或许是因为林宝英吧，哈哈哈……&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-71/2021-06-08-194035.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;我个人看的韩剧其实不算多，印象最深刻的韩剧要属我个人看的第一部——《新娘十八岁》，这几年偶尔也和老婆一起看过两、三部韩剧，感觉剧情都差不多，都是看了两集后几乎就能猜到结局的那种，《大力女子都奉顺》这部剧也不例外，即便如此我也把剧快进完了，理由很简单，女主很治愈。老实说，这部剧我真找不到第二个值得花时间去看的点了，编剧的逻辑怪怪的，剧情拖拉，我严重怀疑这原本是电影剧本，硬生生扯成电视剧。&lt;/p&gt;
-&lt;h3 id=&#34;游戏&#34;&gt;游戏&lt;/h3&gt;
-&lt;p&gt;虽说这个假期的主题是「躺平」，但还是动手收拾了一下电脑桌，因为抽烟的原因，桌面铺了一层的烟灰，虽然我经常用抹布清洁，效果也就那样，最明显就是我的鼠标垫，和刚买回来时的手感差太多了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-71/IMG_20210609_094439.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;这是收拾后的效果，把吃灰两年多PS4也搬了出来，打算重温一下血源这个游戏。因为连了个圆刚的采集盒，偶尔要插拔线材，所以就懒得整理了，现在主张无线桌面，然而我的设备都是有线的，哈哈哈，噢，对了，除了两个手柄。以后更新设备，我肯定能选无线就必选无线。&lt;/p&gt;
-&lt;p&gt;说到这个圆刚采集盒，型号是GC550，买了有几年咯，当时为什么买，我忘了，用了五六次的样子，采集质量最高可达60Mbps@1080p60，应付PS4足够了，但我完全没有发挥出它应有的价值，浪费了。这次拿出来用，在电脑上安装好驱动和软件后，出问题了，采集的颜色不对，一开始我还以为是HDMI线的问题，因为我收拾时发现线材的接口处都有生锈的迹象，广东这边潮湿天气，不用的线材接口如果不加以保护，很容易出现锈迹。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-71/2021060813564589.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;这画面颜色，紫的可以。换了三根线都一样，应该就是采集盒的问题了，准备放弃时想到试着把驱动和软件都删了重装，问题解决。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-71/2021-06-09-104353.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;不知道是不是因为这个采集软件是测试版本的原因。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>老麦笔记 - 生命在于折腾</title><link>https://iamlm.com/</link><description>Recent content on 老麦笔记 - 生命在于折腾</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 12 Jun 2021 13:19:20 +0800</lastBuildDate><atom:link href="https://iamlm.com/index.xml" rel="self" type="application/rss+xml"/><item><title>关于</title><link>https://iamlm.com/about/</link><pubDate>Tue, 14 Jul 2020 21:38:52 +0800</pubDate><guid>https://iamlm.com/about/</guid><description>&lt;p>一个简单的博客，一个平凡的博主，用最扑实的话记录最真实的自己！&lt;/p>
+&lt;hr>
+&lt;h3 id="关于我">关于我&lt;/h3>
+&lt;p>麦生，80后大叔，故身边很多朋友都称呼我一声老麦，曾经也为此苦恼过，毕竟我还有一颗年轻的心。&lt;/p>
+&lt;p>接触互联网的时间比较早，那时申请QQ还是六位数的。曾用过的昵称不多，婚前昵称基本都是和青蛙有关的，如“沉睡的青蛙”这类，婚后一直使用姓氏的全拼作为昵称，2020年开始使用“老麦”作为昵称。&lt;/p>
+&lt;p>农民出身，没有远大的理想，故一直在小县城过着平淡的生活。&lt;/p>
+&lt;p>爱玩游戏，从帝国、红警那个年代一步步走过来的人。&lt;/p>
+&lt;p>对HTML、CSS、PHP、MYSQL、JSP、ASP、JAVA、PYTHON、DOCKER、GO、NODEJS等等都是只知其名不知其意。&lt;/p>
+&lt;p>宠物史，十年前养过一只吉娃娃，名字叫febb，它走后就不再养了。&lt;/p>
+&lt;hr>
+&lt;h3 id="关于博客">关于博客&lt;/h3>
+&lt;p>这是我第二次开独立博客，从QQ空间开始，到2010年关闭博客，期间一直在折腾，那个时候的内容大多数是转载，也就是大家伙说的CTRL+C，CTRL+V大法。&lt;/p>
+&lt;p>这次开博客主要是记录一下自己平淡的生活，方便自己老时回忆。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">&lt;/th>
+&lt;th style="text-align:left">&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">2020-12-30&lt;/td>
+&lt;td style="text-align:left">对主题进行了一次小修改，主要是参照adobe color色轮进行重新配色。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">2020-12-22&lt;/td>
+&lt;td style="text-align:left">更换第三方评论系统，采用Twikoo。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">2020-09-09&lt;/td>
+&lt;td style="text-align:left">域名更换成laomai.org。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">2020-08-30&lt;/td>
+&lt;td style="text-align:left">正式成为《十年之约》这个神秘组织的一员。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">2020-08-08&lt;/td>
+&lt;td style="text-align:left">博客更换成Hugo，并使用主题Jane。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">2020-06-28&lt;/td>
+&lt;td style="text-align:left">选择使用Hexo来重新开始博客之旅。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">2010&amp;ndash;2020&lt;/td>
+&lt;td style="text-align:left">空窗期。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">2005&amp;ndash;2010&lt;/td>
+&lt;td style="text-align:left">不提也罢。&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="喜欢的博客">喜欢的博客&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">&lt;/th>
+&lt;th style="text-align:center">&lt;/th>
+&lt;th style="text-align:center">&lt;/th>
+&lt;th style="text-align:center">&lt;/th>
+&lt;th style="text-align:center">&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">&lt;a href="https://www.foreverblog.cn/">十年之约&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://blog.loli.top/">城南旧事&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://www.qylao.com/">穷游佬&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://4311346.com/">Andy烧麦&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://www.wys.me/">wys&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">&lt;a href="https://www.savouer.com/">夜未央&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://www.mhcf.net/">梦幻辰风&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://hisherry.com/">燕渡寒潭&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://yiws.net/">忆往事&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="http://www.dushangself.site/emlog/">独殇小册&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">&lt;a href="https://lmbk.net/">老猫博客&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://springwood.me">沉舟侧畔&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://illl.xyz">大峰笔记&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://www.parak.top">Khighness&lt;/a>&lt;/td>
+&lt;td style="text-align:center">等待加入&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;p>更新于2021/01/10&lt;/p></description></item><item><title>毛毛发烧</title><link>https://iamlm.com/maomaofashao/</link><pubDate>Sat, 12 Jun 2021 13:19:20 +0800</pubDate><guid>https://iamlm.com/maomaofashao/</guid><description>&lt;p>昨天下午接到幼儿园老师的电话，说孩子有点发烧，让我们去接孩子回家。因为老婆工作地点离家有点远，所以我就跑了一趟。接毛毛回家后就开始帮他测体温，38℃，低发热，毛毛的精神也不错，所以应该没什么大问题，一边陪他玩奥特曼玩具，一边让他多喝点温开水。&lt;/p>
+&lt;p>老婆下班后简单看了下毛毛的情况，表扬我处理得不错。但我们都知道考验晚上才开始，老婆第二天要回去值班，晚上照顾毛毛的任务很自然的落在我身上，睡前帮毛毛测体温，这时毛毛的体温已然进入中度发热的区间，达到了38.5℃，而且感觉还有上升的趋势，和老婆商量后决定使用药物，5毫升的美林，半个小时后，毛毛开始大量的出汗，擦汗、换衣服、换汗巾、让他喝水，一顿操作后，体温已经开始下降，就叫老婆先睡，而我则每隔一小时帮毛毛测下体温与擦一下身上的汗。&lt;/p>
+&lt;p>今天早上老婆上班前帮毛毛测体温，37.7℃，还是低发热，简单用温水帮毛毛物理降温后就上班去了。佩佩和毛毛都习惯了早起，就算是假期也一样，虽然我折腾了一晚上，但还是得艰难的爬起床出去帮孩子们买早餐。&lt;/p>
+&lt;p>中午时发现毛毛的体温又上升了，38.8℃，虽然精神一直很好，但我还是很担心的，打电话给老婆说了一下情况，她说再给5毫升美林给毛毛喝，反应和昨天晚上差不多，半小时后开始出汗，然后体温也降了下来。&lt;/p>
+&lt;p>孩子发烧最怕的就是这样，反反复复。还好毛毛精神状态很好，陪他游戏、聊天都表现得十分积极主动。我发现毛毛每次生病都会变成一话痨，嘴巴说个不停，问题一个接一个的问，我也很耐心地为他解答，然而他点点头，好像听懂了一样，鬼灵精。&lt;/p></description></item><item><title>躺平、看剧、游戏、疫情</title><link>https://iamlm.com/tp-kj-yx-yq/</link><pubDate>Wed, 09 Jun 2021 11:11:20 +0800</pubDate><guid>https://iamlm.com/tp-kj-yx-yq/</guid><description>&lt;h3 id="躺平">躺平&lt;/h3>
+&lt;p>再次陷入迷茫的泥潭，庆幸的是又一次从家人那里得到了支持与理解。&lt;/p>
+&lt;blockquote>
+&lt;p>家是安稳的归宿，家是彼此的约定，家是永恒的追寻；无论家多么贫苦，它依旧是我们最安逸、最豪华的驿站。&lt;/p>
+&lt;/blockquote>
+&lt;p>每个人都有迷茫的时候，我选择了接纳它，因为我相信我一定可以战胜这种消极的情绪。然后我选择尊重自己的感受，懒一回，什么都不想、不做，申请了一个星期的假期，在家试试「躺平」的感觉如何，一周体验下来，感觉真不错。&lt;/p>
+&lt;h3 id="看剧">看剧&lt;/h3>
+&lt;p>很久之前找了部韩剧，一直没有时间看，趁着这个机会终于把剧消化了，剧名叫《大力女子都奉顺》，其实当时我也不知道为什么会找这部剧来看，或许是因为林宝英吧，哈哈哈……&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-71/2021-06-08-194035.jpg" alt="">&lt;/p>
+&lt;p>我个人看的韩剧其实不算多，印象最深刻的韩剧要属我个人看的第一部——《新娘十八岁》，这几年偶尔也和老婆一起看过两、三部韩剧，感觉剧情都差不多，都是看了两集后几乎就能猜到结局的那种，《大力女子都奉顺》这部剧也不例外，即便如此我也把剧快进完了，理由很简单，女主很治愈。老实说，这部剧我真找不到第二个值得花时间去看的点了，编剧的逻辑怪怪的，剧情拖拉，我严重怀疑这原本是电影剧本，硬生生扯成电视剧。&lt;/p>
+&lt;h3 id="游戏">游戏&lt;/h3>
+&lt;p>虽说这个假期的主题是「躺平」，但还是动手收拾了一下电脑桌，因为抽烟的原因，桌面铺了一层的烟灰，虽然我经常用抹布清洁，效果也就那样，最明显就是我的鼠标垫，和刚买回来时的手感差太多了。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-71/IMG_20210609_094439.jpg" alt="">&lt;/p>
+&lt;p>这是收拾后的效果，把吃灰两年多PS4也搬了出来，打算重温一下血源这个游戏。因为连了个圆刚的采集盒，偶尔要插拔线材，所以就懒得整理了，现在主张无线桌面，然而我的设备都是有线的，哈哈哈，噢，对了，除了两个手柄。以后更新设备，我肯定能选无线就必选无线。&lt;/p>
+&lt;p>说到这个圆刚采集盒，型号是GC550，买了有几年咯，当时为什么买，我忘了，用了五六次的样子，采集质量最高可达60Mbps@1080p60，应付PS4足够了，但我完全没有发挥出它应有的价值，浪费了。这次拿出来用，在电脑上安装好驱动和软件后，出问题了，采集的颜色不对，一开始我还以为是HDMI线的问题，因为我收拾时发现线材的接口处都有生锈的迹象，广东这边潮湿天气，不用的线材接口如果不加以保护，很容易出现锈迹。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-71/2021060813564589.jpg" alt="">&lt;/p>
+&lt;p>这画面颜色，紫的可以。换了三根线都一样，应该就是采集盒的问题了，准备放弃时想到试着把驱动和软件都删了重装，问题解决。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-71/2021-06-09-104353.jpg" alt="">&lt;/p>
+&lt;p>不知道是不是因为这个采集软件是测试版本的原因。&lt;/p>
 &lt;iframe
-    src=&#34;//player.bilibili.com/player.html?bvid=BV1ky4y1u72C&amp;page=1&#34;
-    scrolling=&#34;no&#34;
-    height=&#34;768px&#34;
-    width=&#34;1024px&#34;
-    frameborder=&#34;no&#34;
-    framespacing=&#34;0&#34;
-    allowfullscreen=&#34;true&#34;
-&gt;
-&lt;/iframe&gt;
-&lt;p&gt;昨天传了个视频到B站，没想到居然有人投币评论。哈哈哈~&lt;/p&gt;
-&lt;p&gt;放下这游戏很久了，枪反的时机也有那么一点瑕疵，视频剪得也有瑕疵，有一秒花了，软件用的是 &lt;strong&gt;Movavi Video Suite 17&lt;/strong&gt; ，Steam上花了28块钱买的，非专业，对于我这种小白来说，足够使用了，话说这个软件原价也太贵了。&lt;/p&gt;
-&lt;h3 id=&#34;疫情&#34;&gt;疫情&lt;/h3&gt;
-&lt;p&gt;大清远也开始了全民核酸筛查，很认同政府这次的积极、主动。可是因为各方面的原因，昨天晚上排队验核酸的队伍出了点状况，导致场面一度尴尬。希望以后这样的事情不要发生，在这个如此困难的时刻，身为老百姓的我们更加要配合好政府的工作。这么热的天气，戴个口罩都觉得难受，何况是穿着防护服的医护人员与志愿者，你们真的辛苦了。烈日炎炎，一个个坚守的背影成为了火辣辣天气下最动人的画面。致敬！清远加油，广州加油。祈祷我们能早日战胜疫情，让前线辛苦奋战的人们可以休息休息。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>微软输入法添加自定义词组</title>
-      <link>https://iamlm.com/microsoft-input-phrases/</link>
-      <pubDate>Tue, 01 Jun 2021 09:00:20 +0800</pubDate>
-      
-      <guid>https://iamlm.com/microsoft-input-phrases/</guid>
-      
-        <description>&lt;p&gt;我一直在玩一款手游，莉莉丝的《万国觉醒》。一开始这个游戏还是很吸引我的，毕竟里面有很多武将，很是新奇。后来嘛，不说了，都是泪！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-70/2021-05-31-224214.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;游戏已经连续登陆677天了，战力也将近1亿，VIP15，但这都是浮云，这个游戏最重要的还是传说武将，除非是一直氪和肝，要不然后期玩起来还是很不爽，前期氪的都会浪费的，譬如我。唉~&lt;/p&gt;
-&lt;p&gt;好像扯远了，这个游戏我回家后都选择在电脑上开模拟器来玩，在众多模拟器中选择了蓝叠，但不知为什么这个模拟器在WIN10自带的输入法下无法输入中文，后来在蓝叠的官网上找到了解决方法。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.bluestacks.cn/faq_detail.html?id=93&#34;&gt;【BlueStacks安卓模拟器】安卓模拟器_Android模拟器_手游模拟器_蓝叠安卓模拟器官网&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;其实就是使用旧版本的微软输入法，可这样设置后系统就会在所有场景都使用旧版本的输入法，老实说，体验真的一般，特别是当我使用Notion这个软件记笔记后，可能是兼容性的问题，在使用旧版本的微软输入法时偶尔会出现BUG，输入法的备选框会飘移到整个桌面左上角，十分的难受。&lt;/p&gt;
-&lt;p&gt;或许是因为使用了几年的微软自带的输入法，所以就算有上面这样那样的问题，我还是将就地使用着。&lt;/p&gt;
-&lt;p&gt;正巧最近林兄好像一直在找合适的输入法，我也向他简单的推荐了一下微软这个自带的五笔输入法，听他意思觉得还不错，但好像有点缺点，就是不知如何添加自定义词组，或许因为我平时习惯了默认的词组且平时不用大量打一些重复的词组，所以我也没有一直去研究它如何添加。&lt;/p&gt;
-&lt;p&gt;今天看到林兄关于Edge这个浏览器的文章，在上面看到输入法可以直接输入Emoji表情，这个敢情好啊，所以我就进设置那里看了一下，结果调不出林兄截图的效果，想到是不是我打开旧版输入法的原因，将选项关闭后，直接出来了，使用 &lt;strong&gt;Win+.&lt;/strong&gt; 组合键就能直接调出，输入我喜欢使用的「」号就简单方便多了。&lt;/p&gt;
-&lt;p&gt;这一捣鼓我也发现在微软自带的五笔输入法如何添加自定义词组了，方法其实蛮简单的，只是一直没这个需求，所以没去留意相关的设置。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;右键单击右下角任务栏的英/中语言图标进入「设置」或者使用Win+i打开Windows设置——时间和语言——选择语言——添加语言下面的中文选项卡——选项——微软五笔选项卡——选项。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-70/2021-05-31-232948.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;点击红线标记的「添加或编辑自定义短语」&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-70/2021-05-31-233051.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;这样我们就可以添加一些常用的词组来加强码字效率了，而且自定义短语还可以导入导出，相信可以直接从搜狗输入法导出已经设置好的自定义词组，然后在这里直接导入。不过我电脑上只有一个输入法，所以不能进行实验。&lt;/p&gt;
-&lt;p&gt;随着系统的更新，微软自带的输入法可能也有跟着升级，我把兼容性的选项关闭后，在蓝叠模拟上也可以直接进行中文输入了。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>说话技巧</title>
-      <link>https://iamlm.com/shuohua-jq/</link>
-      <pubDate>Sun, 30 May 2021 00:00:20 +0800</pubDate>
-      
-      <guid>https://iamlm.com/shuohua-jq/</guid>
-      
-        <description>&lt;p&gt;“麦哥，有件事想请教一下你，工程队这边有点小状况，想请教一下你以前是怎么和工程队的人沟通的。”&lt;/p&gt;
-&lt;p&gt;这是我在&lt;a href=&#34;https://laomai.org/2240.html&#34;&gt;「谁没有年少轻狂过」&lt;/a&gt;记录过的年轻人打电话过来和我说的话，听他意思是最近和工程队的人沟通出了点问题，进度一直起不来。以前这种在外面顶着个大太阳工作的任务一般都是我来干的，后来领导看来了个年轻人，这种脏活累活就让小伙子接手了，算是对他的一种锻炼吧。其实工作任务不重，就是安排工人将一些违规的户外广告牌拆除。&lt;/p&gt;
-&lt;p&gt;刚开始我都有和他一起到现场跟着工程队的人，领导的意思是让他处理，所以我只是跟过去看看，全程都是他自己一个人安排的，我看他处理得还不错，心想应该没什么问题了，就回去处理自己的任务了，没想到还是出了点小状况。&lt;/p&gt;
-&lt;p&gt;“你平时是不是有看大司马的直播？”&lt;/p&gt;
-&lt;p&gt;“吓？这个你怎么知道的？这和我问你的问题有直接关系么？”&lt;/p&gt;
-&lt;p&gt;“还是有点关系的，你有没有发现你很习惯说这样一句话，「你懂我意思么」。这就是我为什么知道你在看大司马直播的原因，因为我也偶尔看他的直播，无可厚非他的直播很有意思。但问题就是这句话本身是带有讽刺味道的，我知道这是网络流行语，平时我听你说说也觉得没什么，但那些工人哪知道什么网络流行语，当你偶尔来这么一句话结尾时，别人会怎么想？我觉得说「你懂我意思么」是一个很不好的习惯，这句话给人的感觉就是你在怀疑对方。有时候懂得照顾别人的感受会让我们的工作进行得更加顺利。如果你真要在说的话后面咨询对方，你可以将「你懂我意思么」换成「我说清楚了吗」，你感觉一下，是不是谦虚的态度就出来了？”&lt;/p&gt;
-&lt;p&gt;“现实中还有很多这样的例子，比如领导问你会不会office，就算自己不会，我们也不能直接回答，我们应该将「我不会」换成「我可以学」。「我不会」措辞太过强硬，而「我可以学」则表示谦虚的态度，这样或多或少领导就会高看你三分。”&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-69/team-2894828_1920.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;说话不只是一种“感觉”，还是一门“技术”！&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;一句恰到好处的话，甚至可以改变一个人的命运。特别是说话的场合和时机，这里最有代表的莫过于京东副总裁与刘老板的一席对话。&lt;/p&gt;
+src="//player.bilibili.com/player.html?bvid=BV1ky4y1u72C&amp;page=1"
+scrolling="no"
+height="768px"
+width="1024px"
+frameborder="no"
+framespacing="0"
+allowfullscreen="true"
+>
+&lt;/iframe>
+&lt;p>昨天传了个视频到B站，没想到居然有人投币评论。哈哈哈~&lt;/p>
+&lt;p>放下这游戏很久了，枪反的时机也有那么一点瑕疵，视频剪得也有瑕疵，有一秒花了，软件用的是 &lt;strong>Movavi Video Suite 17&lt;/strong> ，Steam上花了28块钱买的，非专业，对于我这种小白来说，足够使用了，话说这个软件原价也太贵了。&lt;/p>
+&lt;h3 id="疫情">疫情&lt;/h3>
+&lt;p>大清远也开始了全民核酸筛查，很认同政府这次的积极、主动。可是因为各方面的原因，昨天晚上排队验核酸的队伍出了点状况，导致场面一度尴尬。希望以后这样的事情不要发生，在这个如此困难的时刻，身为老百姓的我们更加要配合好政府的工作。这么热的天气，戴个口罩都觉得难受，何况是穿着防护服的医护人员与志愿者，你们真的辛苦了。烈日炎炎，一个个坚守的背影成为了火辣辣天气下最动人的画面。致敬！清远加油，广州加油。祈祷我们能早日战胜疫情，让前线辛苦奋战的人们可以休息休息。&lt;/p></description></item><item><title>微软输入法添加自定义词组</title><link>https://iamlm.com/microsoft-input-phrases/</link><pubDate>Tue, 01 Jun 2021 09:00:20 +0800</pubDate><guid>https://iamlm.com/microsoft-input-phrases/</guid><description>&lt;p>我一直在玩一款手游，莉莉丝的《万国觉醒》。一开始这个游戏还是很吸引我的，毕竟里面有很多武将，很是新奇。后来嘛，不说了，都是泪！&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-70/2021-05-31-224214.jpg" alt="">&lt;/p>
+&lt;p>游戏已经连续登陆677天了，战力也将近1亿，VIP15，但这都是浮云，这个游戏最重要的还是传说武将，除非是一直氪和肝，要不然后期玩起来还是很不爽，前期氪的都会浪费的，譬如我。唉~&lt;/p>
+&lt;p>好像扯远了，这个游戏我回家后都选择在电脑上开模拟器来玩，在众多模拟器中选择了蓝叠，但不知为什么这个模拟器在WIN10自带的输入法下无法输入中文，后来在蓝叠的官网上找到了解决方法。&lt;/p>
+&lt;p>&lt;a href="https://www.bluestacks.cn/faq_detail.html?id=93">【BlueStacks安卓模拟器】安卓模拟器_Android模拟器_手游模拟器_蓝叠安卓模拟器官网&lt;/a>&lt;/p>
+&lt;p>其实就是使用旧版本的微软输入法，可这样设置后系统就会在所有场景都使用旧版本的输入法，老实说，体验真的一般，特别是当我使用Notion这个软件记笔记后，可能是兼容性的问题，在使用旧版本的微软输入法时偶尔会出现BUG，输入法的备选框会飘移到整个桌面左上角，十分的难受。&lt;/p>
+&lt;p>或许是因为使用了几年的微软自带的输入法，所以就算有上面这样那样的问题，我还是将就地使用着。&lt;/p>
+&lt;p>正巧最近林兄好像一直在找合适的输入法，我也向他简单的推荐了一下微软这个自带的五笔输入法，听他意思觉得还不错，但好像有点缺点，就是不知如何添加自定义词组，或许因为我平时习惯了默认的词组且平时不用大量打一些重复的词组，所以我也没有一直去研究它如何添加。&lt;/p>
+&lt;p>今天看到林兄关于Edge这个浏览器的文章，在上面看到输入法可以直接输入Emoji表情，这个敢情好啊，所以我就进设置那里看了一下，结果调不出林兄截图的效果，想到是不是我打开旧版输入法的原因，将选项关闭后，直接出来了，使用 &lt;strong>Win+.&lt;/strong> 组合键就能直接调出，输入我喜欢使用的「」号就简单方便多了。&lt;/p>
+&lt;p>这一捣鼓我也发现在微软自带的五笔输入法如何添加自定义词组了，方法其实蛮简单的，只是一直没这个需求，所以没去留意相关的设置。&lt;/p>
+&lt;p>&lt;strong>右键单击右下角任务栏的英/中语言图标进入「设置」或者使用Win+i打开Windows设置——时间和语言——选择语言——添加语言下面的中文选项卡——选项——微软五笔选项卡——选项。&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-70/2021-05-31-232948.jpg" alt="">&lt;/p>
+&lt;p>&lt;strong>点击红线标记的「添加或编辑自定义短语」&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-70/2021-05-31-233051.jpg" alt="">&lt;/p>
+&lt;p>这样我们就可以添加一些常用的词组来加强码字效率了，而且自定义短语还可以导入导出，相信可以直接从搜狗输入法导出已经设置好的自定义词组，然后在这里直接导入。不过我电脑上只有一个输入法，所以不能进行实验。&lt;/p>
+&lt;p>随着系统的更新，微软自带的输入法可能也有跟着升级，我把兼容性的选项关闭后，在蓝叠模拟上也可以直接进行中文输入了。&lt;/p></description></item><item><title>说话技巧</title><link>https://iamlm.com/shuohua-jq/</link><pubDate>Sun, 30 May 2021 00:00:20 +0800</pubDate><guid>https://iamlm.com/shuohua-jq/</guid><description>&lt;p>“麦哥，有件事想请教一下你，工程队这边有点小状况，想请教一下你以前是怎么和工程队的人沟通的。”&lt;/p>
+&lt;p>这是我在&lt;a href="https://laomai.org/2240.html">「谁没有年少轻狂过」&lt;/a>记录过的年轻人打电话过来和我说的话，听他意思是最近和工程队的人沟通出了点问题，进度一直起不来。以前这种在外面顶着个大太阳工作的任务一般都是我来干的，后来领导看来了个年轻人，这种脏活累活就让小伙子接手了，算是对他的一种锻炼吧。其实工作任务不重，就是安排工人将一些违规的户外广告牌拆除。&lt;/p>
+&lt;p>刚开始我都有和他一起到现场跟着工程队的人，领导的意思是让他处理，所以我只是跟过去看看，全程都是他自己一个人安排的，我看他处理得还不错，心想应该没什么问题了，就回去处理自己的任务了，没想到还是出了点小状况。&lt;/p>
+&lt;p>“你平时是不是有看大司马的直播？”&lt;/p>
+&lt;p>“吓？这个你怎么知道的？这和我问你的问题有直接关系么？”&lt;/p>
+&lt;p>“还是有点关系的，你有没有发现你很习惯说这样一句话，「你懂我意思么」。这就是我为什么知道你在看大司马直播的原因，因为我也偶尔看他的直播，无可厚非他的直播很有意思。但问题就是这句话本身是带有讽刺味道的，我知道这是网络流行语，平时我听你说说也觉得没什么，但那些工人哪知道什么网络流行语，当你偶尔来这么一句话结尾时，别人会怎么想？我觉得说「你懂我意思么」是一个很不好的习惯，这句话给人的感觉就是你在怀疑对方。有时候懂得照顾别人的感受会让我们的工作进行得更加顺利。如果你真要在说的话后面咨询对方，你可以将「你懂我意思么」换成「我说清楚了吗」，你感觉一下，是不是谦虚的态度就出来了？”&lt;/p>
+&lt;p>“现实中还有很多这样的例子，比如领导问你会不会office，就算自己不会，我们也不能直接回答，我们应该将「我不会」换成「我可以学」。「我不会」措辞太过强硬，而「我可以学」则表示谦虚的态度，这样或多或少领导就会高看你三分。”&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-69/team-2894828_1920.jpg" alt="">&lt;/p>
+&lt;p>&lt;strong>说话不只是一种“感觉”，还是一门“技术”！&lt;/strong>&lt;/p>
+&lt;p>一句恰到好处的话，甚至可以改变一个人的命运。特别是说话的场合和时机，这里最有代表的莫过于京东副总裁与刘老板的一席对话。&lt;/p>
 &lt;iframe
-    src=&#34;//player.bilibili.com/player.html?bvid=BV1Nx411V788&amp;page=1&#34;
-    scrolling=&#34;no&#34;
-    height=&#34;768px&#34;
-    width=&#34;1024px&#34;
-    frameborder=&#34;no&#34;
-    framespacing=&#34;0&#34;
-    allowfullscreen=&#34;true&#34;
-&gt;
-&lt;/iframe&gt;
-&lt;p&gt;乍一看这个视频挺正常的，但我们来细品一下，杜直言自己是意外怀孕且属高危孕妇，刘关心的问她怎么休息的，杜说不用休息。如果说这是在平常的公司聚会，杜这样的回答完全没问题，但是她忽略了一点，就是场合。因为这是央视正在进行采访的时候，她这样回答无疑向公众展现了JD不近人情的一面。刘笑着接话，然而杜又冷不丁的来了一句，放心，我不会耽误工作的。这个时候刘坐不住了，脸色立马就变了。包括他后面讲的话都非常具有隐喻意义，尤其是最后一句，无论是法律还是我们JD的内部规则都允许你休息。杜一开始说自己不休息是为了表忠心，在平常看起来的确没问题，但是她忽略了最重要的一点，说话没有分场合，有些话看似正确，但是在不同的场合、不同的时机下它所表达的含义就完全不一样了。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;部分内容转载于互联网&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>免费领取NBA2K21及一些游戏回忆</title>
-      <link>https://iamlm.com/2k21-youxihuiyi/</link>
-      <pubDate>Thu, 27 May 2021 22:56:20 +0800</pubDate>
-      
-      <guid>https://iamlm.com/2k21-youxihuiyi/</guid>
-      
-        <description>&lt;p&gt;这段时间工作实在是太忙了，前几天收到一封来自2K的邮件，说2K21在这周可以免费领取，当时在外面，决定回家后就把游戏给领了。没想到那天回家直接给忘了，直到今天才想起这事，看了一下时间，应该还没有过领取期。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-68/204000.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;还好来得及，玩不玩不重要，重要是免费。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-68/105331.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-68/105454.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-68/105523.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;2K18后我对这游戏就已经有点麻木了，这个可以在Steam上的评论里看到为什么。或许这就是年货产品的悲哀吧。即便如此，我还是每年都象征式的购买支持一波，然后扔到库里吃灰，不为别的，为过去埋单。&lt;/p&gt;
-&lt;p&gt;我是从2K9开始玩这个游戏的，玩的是破解版，相信那个时候这现象是常态，直到后来开始PS4之旅后正版意识才开始加强，2K系列也是从那时加入了正版行列。2K15，2K16，2K17都是在PS4上游玩，2K18，2K19，2K20则是在Steam上购买的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-68/112017.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;也是从2K18开始，我对这个游戏只剩下情怀了。唉~&lt;/p&gt;
-&lt;p&gt;如果我一直还玩PS4的话，我相信我对这个游戏不会这么快麻木，毕竟这游戏陪伴自己这么多年了。因为回归PC端且那个时候被绝地求生吸引，所以很多3A大作我都渐渐的放下了。&lt;/p&gt;
-&lt;p&gt;话说自己也在Epic上领取了几个大作咯，像GTAV（这个神作是我在PS4上拿到第一白金的游戏），堡垒之夜，ARK，无主之地2，文明VI，火炬之光2（这个最初也是玩的破解，后来Steam上打骨折，也为情怀充了值）。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-68/105701.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;至于无主之地3和大表哥2，则是花钱买的。&lt;/p&gt;
-&lt;p&gt;由于电脑的硬盘小，很多游戏我都没有安装，现在的游戏太大了，动不动就几十个G，也因为这样，游戏吃灰吃得更加彻底了。我给PS4换了个2T的硬盘，还是几乎塞满。游戏机就是游戏机，虽然这么多大作，但我还都几乎每个都用心去玩，毕竟游戏机不像电脑，电脑除了玩游戏还可以做很多事情，PS4除了玩游戏，啥也不是，也正因如此才有游戏的乐趣。&lt;/p&gt;
-&lt;p&gt;前阵子整理图库，居然找到一些上传到FB上的游戏截图。其实我玩游戏有截图和录像的习惯，可惜存这些资料的那块硬盘坏掉了，资料全没了，这些是当时上传去了FB才得以保存了下来。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-68/ac.jpg&#34; alt=&#34;ac&#34;&gt;&lt;/p&gt;
-&lt;p&gt;刺客信条黑旗——虽然这代刺客一般，但作为刺客迷的我也一样将他通关了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-68/bloodborne.jpg&#34; alt=&#34;bloodborne&#34;&gt;&lt;/p&gt;
-&lt;p&gt;血源诅咒——拿白金时截的图。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-68/D3.jpg&#34; alt=&#34;D3&#34;&gt;&lt;/p&gt;
-&lt;p&gt;暗黑破坏神3——这个是在Switch上玩的，话说这个旅者之誓是不是很屌？哈哈哈……&lt;/p&gt;
-
-
-
-&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
-    
-  
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://iamlm.com/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-68/gtav1.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-68/gtav1.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-68/gtav1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-68/gtav2.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-68/gtav2.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-68/gtav2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-68/gtav3.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-68/gtav3.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-68/gtav3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-68/gtav4.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-68/gtav4.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-68/gtav4.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-68/gtav5.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-68/gtav5.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-68/gtav5.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-68/gtav6.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-68/gtav6.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-68/gtav6.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-68/gtav7.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-68/gtav7.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-68/gtav7.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-68/gtav8.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-68/gtav8.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-68/gtav8.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-68/gtav9.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-68/gtav9.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-68/gtav9.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;p&gt;GTAV——神作中的神作。那时我有固定的小队，当中有一个广州妹子，已经很久没有联系咯，特别想念她。&lt;/p&gt;
-
-
-
-&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
-    
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-68/nba2k16-1.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-68/nba2k16-1.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-68/nba2k16-1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-68/nba2k16-2.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-68/nba2k16-2.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-68/nba2k16-2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-68/nba2k16-3.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-68/nba2k16-3.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-68/nba2k16-3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;p&gt;2K16——深受奥尼尔和姚明的影响，我玩这个游戏打比赛只操控中锋，这是我刷新NBA单场盖帽的记录的游戏截图。可能是因为现在的篮球主张健康篮球，没了以前的对抗性和传统的中锋，所以这几年我都没关注NBA比赛了，青春结束了。&lt;/p&gt;
-
-
-
-&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
-    
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-68/nfs-1.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-68/nfs-1.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-68/nfs-1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-68/nfs-2.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-68/nfs-2.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-68/nfs-2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-68/ps4net.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-68/ps4net.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-68/ps4net.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;p&gt;NFS——漂移得很爽的一款游戏，很带感。当时是被一个一起玩GTAV的广州妹子带入坑的，为了在她面前显摆我的漂移技术，苦练很久，成功吸引到她的尖叫。&lt;/p&gt;
-&lt;p&gt;最后想说一下，现在的游戏是真的越出越好，可惜的是已经找不到陪我一起玩耍的人了。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>Docker的基础学习</title>
-      <link>https://iamlm.com/docker-1/</link>
-      <pubDate>Tue, 25 May 2021 23:56:20 +0800</pubDate>
-      
-      <guid>https://iamlm.com/docker-1/</guid>
-      
-        <description>&lt;p&gt;猛烈的阳光肆无忌惮笼罩着这座城市，远处的高楼仿佛都有了丝丝的模糊，给人一种有气无力的支撑感。他被指派到市场给各大商户派发宣传单张并做了一些简单的调查。忽然，一个大妈不小心把手上的菜篮子摔到了地上，里面的鸡蛋摔在马路上，只到“滋”的一声，熟了。&lt;/p&gt;
-&lt;p&gt;他没想到一晃十天就过去了，最近实在是忙得晕头转向，心中有很多想法，可当他拖着疲惫的身子回到家后，他只想好好的洗个澡，把一身的疲惫统统甩掉，或许因为顶着大太阳走了太多的路吧，当他洗完澡后已经不想坐在电脑前好好码字了，心中的想法随着劳累的身体渐渐忘却。&lt;/p&gt;
-&lt;p&gt;他躺在床上，拿起已经服役多年的iPad，在B站上学习，这次他选择学习Docker，因为他在群晖NAS上使用Docker部署过几个项目，都觉得十分的便捷、好用。譬如：Bitwarden，Unblockneteasemusic，Aria2等等……也曾尝试过那些比较有名，又能直接使用Docker直接Pull的博客程序，如Halo，Farbox2。这些项目都十分的有特点，但论实用性无疑是Bitwarden，强烈建议带+号的群晖NAS小伙伴安装。&lt;/p&gt;
-&lt;p&gt;但随着使用时间久了后，他发现没有基础知识就得处处碰壁，遇到问题后只能求助度娘，虽然在群晖NAS上使用Docker十分的傻瓜式，基本不会出问题，但他不想永远停留在搜索——下载——启动，所以他又一次打开了万能的B站。&lt;/p&gt;
-&lt;p&gt;他明白“万丈高楼从地起”这个道理，选择基础学起才能把知识掌握得更牢固。&lt;/p&gt;
-&lt;p&gt;他学习得很慢，工作任务的繁重让他每天回家都处于疲惫不堪的状态，加上他还得花时间陪伴孩子、辅导他们学习，他最多一天只能抽一到两个小时去学习，用iPad听老师讲课，还要偶尔暂停一下，用手机终端远程实操一下，理论、实操相结合才能更好掌握。&lt;/p&gt;
-&lt;p&gt;在这里他想插个题外话，介绍一下他是如何躺在床上进行这次学习之旅的。&lt;/p&gt;
-&lt;p&gt;在妻子的简单指导下，他发现iPad用来学习，记笔记实在是太方便了，简直刷新了他对平板的认知，他也终于明白学生群体为什么如此推崇iPad，一个好的工具的确能把效率最大化。&lt;/p&gt;
-&lt;p&gt;他几年前在闲鱼上收垃圾，配置了一台功率十分低的小主机，使用VMware ESXi+iKuai+OpenWrt的方案开启了软路由这条不归路，为什么说是不归路呢？因为实在是太好用了，已经回不去了，稳定且功能强大，虽然广东的夏天温度的确高得离谱，他的小主机躺在小小的弱电箱空间里虽然显得十分的拥挤，但几年下来它还没出过岔子，一直默默地守护着家里网络的最前线。去年他为了把这个小主机的性能压榨到极限，就在上面跑了几个虚拟机，所以就有了上面提及的用手机终端远程进行实操。&lt;/p&gt;
-&lt;p&gt;回到学习Docker基础的话题上，原本一天半的学习课程，他足足花了七天才初步的学完，他有些许的感叹，好在他只是兴趣使然，如果是搞生产的话，有这样的学生估计授课老师要吐血。哈哈哈~&lt;/p&gt;
-&lt;p&gt;随着慢慢学习，他觉得Docker这个技术是真的不错，优缺点就不过多的叙述了，网上一搜一大把，最主要的是Docker还蛮容易理解的，当然，毕竟他接触的只是基础知识，容易理解实属正常。&lt;/p&gt;
-&lt;p&gt;他决定今天晚上打开电脑整理一下这段时间的学习笔记，方便以后温习巩固，然后顺便码些字更新一下，算是冒个泡。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-67/docker.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;码字不知时日过，深夜了。世界，晚安。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>「他」的一天</title>
-      <link>https://iamlm.com/tadeyitian/</link>
-      <pubDate>Sun, 16 May 2021 22:46:20 +0800</pubDate>
-      
-      <guid>https://iamlm.com/tadeyitian/</guid>
-      
-        <description>&lt;p&gt;大清远的天气是真的热啊！&lt;/p&gt;
-&lt;p&gt;他和妻子今天都不用值班，昨天晚上约好今天要睡到中午才起床，结果俩人还是如往常一样早早就醒了。他半躺在床上看书，妻子则在旁边刷起了题，下个月就要考试了，妻子明显也紧张了起来。&lt;/p&gt;
-&lt;p&gt;他本以为看书能让他再次犯困，毕竟这招对他屡试不爽，然而今天大招失效了……放下书，轻轻走到隔壁房，女儿居然已经起床，还坐在书桌前摆弄着魔方，她只是一个六岁不到的孩子啊！他笑了，他刚学会还原魔方，在家人面前一直显摆，结果女儿起了兴趣，昨天晚上他开始教她还原魔方的第一步。&lt;/p&gt;
-&lt;p&gt;“宝贝，涮牙了吗？”&lt;/p&gt;
-&lt;p&gt;“涮了，爸爸，快来教教我这个，我有点忘了。”&lt;/p&gt;
-&lt;p&gt;为了不吵醒还在睡懒觉的儿子，他领着女儿来到书房，认真地将昨天晚上教她的方法又说了一遍，没多久，女儿就顺利把第一步给做出来了，她开心地笑了，也许是因为她的笑声太过爽朗了，儿子揉着睡眼走了过来。&lt;/p&gt;
-&lt;p&gt;他开始给孩子准备早餐，但碍于他这方面的技能实在有限，只能简单的蒸了些馒头，外加一杯牛奶，早餐就算吃过了。他很好奇，按理说现在的馒头都有奶香味了，可为什么他心里还是觉得小时候吃的馒头才是最好吃的呢？&lt;/p&gt;
-&lt;p&gt;妻子收拾好餐桌后又回到房里温书了，两个孩子也跟着爷爷到楼下花园散步去了，他则回到书房打开电脑，准备吃把鸡，他已经很长一段时间没玩游戏了，不出他所料，游戏需要更新，不到8个G，很快就能下载完成，温碗泡茶，时间刚刚好。当游戏更新完后，他打开加速器准备进游戏大杀四方时，加速器会员过期了。在他兴致勃勃的时候，突然来了这一盆冷水，让他很是不爽，拿出手机续费一波，结果提示微信钱包余额不足，哈哈哈……罢了罢了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-66/20210516181043.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;午休后，他提议到附近的商场逛逛，两个孩子可高兴了，可他们不知道他之所以有这样的提议是为了去商场蹭空调，他很怕热，这应该和他的体重有关，只要一到夏天，他身上总是油腻腻、黏糊糊的，让他很是难受。&lt;/p&gt;
-&lt;p&gt;妻子选择在家温习，他则骑小电驴带着孩子们出门了。一到商场，他的孩子就像脱了缰的野马，搞得他根本没了蹭冷气成功的愉悦，反倒是一直疲于奔命，因为他的儿子实在是太好动了，一走神，人都不知跑哪里去了。&lt;/p&gt;
-&lt;p&gt;孩子们大概跑了半个小时后，也许是累了、渴了，女儿闹着要喝奶茶，无奈的他只好破天荒地去买了一杯，都不用喝，一阵凉意就涌上了他的心头，二十多块钱一杯啊。&lt;/p&gt;
-&lt;p&gt;下午四点半，天空有些许灰暗，偶尔还有阵阵微风吹拂，远处有一乌云正朝头顶飘来，要下雨啦？这天，真就说变就变呗。&lt;/p&gt;
-&lt;p&gt;他准备带孩子们回家，不料儿子说要到公园滑滑梯，他心想这雨应该不会这么快下得出来，就答应了。就近原则，去了区府旁小公园。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-66/IMG_20210516_161902.jpg&#34; alt=&#34;IMG_20210516_161902&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-66/IMG_20210516_161907.jpg&#34; alt=&#34;IMG_20210516_161907&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-66/IMG_20210516_162040.jpg&#34; alt=&#34;IMG_20210516_162040&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-66/IMG_20210516_162101.jpg&#34; alt=&#34;IMG_20210516_162101&#34;&gt;&lt;/p&gt;
-&lt;p&gt;回到家他就开始着手帮孩子们洗澡，女儿很乖巧，说要自己洗，他觉得女儿的长发要是让她自己洗的话应该会洗不干净，所以他就搭了把手。&lt;/p&gt;
-&lt;p&gt;刚忙完，他中午订的鲜花就送来了。今天是他妈妈的生日，可他妈妈说今年不设宴，他虽然不明白为什么过个生日也有“男单女双”的说法。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-66/IMG_20210516_181814.jpg&#34; alt=&#34;IMG_20210516_181814&#34;&gt;&lt;/p&gt;
-&lt;p&gt;晚饭时他和妹夫喝了几杯，头就开始犯晕，他有些许的感叹，是真的越来越不能喝了。感叹之余让他想起了昔日他为了骗酒喝而发的朋友圈动态，这招百试百灵。当然，他是知道的，这只是他的朋友们都买他这个面子而已。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;曾经的我白酒一公斤，啤酒随便灌，一个晚上对付13个，喝伤2个，喝叭下8个，失踪3个。令无数人闻风丧胆！不管是夺命9度，还是雪花勇闯天涯，倒满必干！但现在我为何退出江湖，归隐深山？一瓶啤酒就倒，两瓶啤酒就断片！是什么让我改变如此之大！？是仇恨？还是爱情？拿起你的手机，编辑“我要请你吃饭”发送到本人手机，与昔日酒神面对面交流，倾听我背后的故事，感受我曾经的辉煌，揭开我背后的心酸……&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;可能是喝了酒的原因，他困了。&lt;/p&gt;
-&lt;p&gt;晚安~&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>「男人」</title>
-      <link>https://iamlm.com/nanren/</link>
-      <pubDate>Wed, 12 May 2021 15:51:20 +0800</pubDate>
-      
-      <guid>https://iamlm.com/nanren/</guid>
-      
-        <description>&lt;p&gt;当一个人感到生活没了激情且一直处于被动的状态时是真的恐怖，事事被牵着鼻子走，最后的最后只能变成随波逐流？&lt;/p&gt;
-&lt;p&gt;上帝一定会保佑认真、专注的人，即便、或许，他们会活得辛苦些，但往往都能苦尽甘来。&lt;/p&gt;
-&lt;p&gt;相对的，上帝会惩罚随波逐流的人。&lt;/p&gt;
-&lt;p&gt;现在的社会，要当好一个普通老百姓，就难免会跟着别人的步伐前进，那么上帝忙得过来吗？&lt;/p&gt;
-&lt;p&gt;事情发生在别人身上，这叫故事；可当事情发生在自己身上时，TMD就成了事故。&lt;/p&gt;
-&lt;p&gt;现实永远都这么的讽刺？&lt;/p&gt;
-&lt;p&gt;林兄说他已经不配拥有梦想了。&lt;/p&gt;
-&lt;p&gt;相信一定会有很多人只能无奈的回应道，俺也一样。&lt;/p&gt;
-&lt;p&gt;记得之前曾回忆起&lt;a href=&#34;https://laomai.org/34.html&#34;&gt;「你」&lt;/a&gt;，也让我想起了自己在那个时候的梦想，现在发现，梦想之所以离我越来越远最根本的原因，也许是我从未踏出那第一步。&lt;/p&gt;
-&lt;p&gt;可笑、可悲。&lt;/p&gt;
-&lt;p&gt;这感觉就像我欠了一滴泪，但我只会在笑过之后的黑夜中去偿还。&lt;/p&gt;
-&lt;p&gt;很显然，对于一个头顶天，脚踏地的男人来说，眼泪是宝贵的，毕竟这个男人身后背负的也是「天地」。&lt;/p&gt;
-&lt;p&gt;可往往，要摧毁这样一个男人，只需要短短的一瞬之间。&lt;/p&gt;
-&lt;p&gt;有一次妻子很不满丈夫的态度，“为什么每次跟你吵，你都是那两副嘴脸，要不一声不吭，要不摆个臭笑脸。”&lt;/p&gt;
-&lt;p&gt;“你知道吗？伤一个人，有时候只要一句话就够了，但感动一个人，却往往需要一辈子。这世上最无情的不是时间，最珍贵的不是金钱，而是情感。我不能因为我一时的气话而伤害了我们的感情。”&lt;/p&gt;
-&lt;p&gt;男人，无论在外面受了多大的气，你可以在外面独自喝上几杯，又或者在车库里抽上半包烟，但当你踏入家门时就必须是元气满满的。&lt;/p&gt;
-&lt;p&gt;男人，就是这样，不管在外有多落寞，都不希望把情绪带回家。&lt;/p&gt;
-&lt;p&gt;两个男人在地下车库的对话。A已经在车库待了有一阵子了，这时B倒着车回来，因为车位是挨着的，然后A问B，“不回去啊？”B反问，“你不也没回去吗？来，抽根烟。”A拒绝后对B说，“讲个笑话，我好回家。”B无奈摇头后，“你看我像不像个笑话？”随即两个男人都笑了，仿佛笑出了沧桑。&lt;/p&gt;
-&lt;p&gt;简单的几句对话，道出了多少男人的辛酸。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;岁月静好是片刻，一地鸡毛是日常，即使世界偶尔薄凉，内心也要繁华似锦，浅浅喜，静静爱，深深懂得，淡淡释怀，望远处的是风景，看近处的才是人生，唯愿此生，岁月无恙；只言温暖，不语悲伤。
-​	——杨绛&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-65/rsz_mmexport1620802299388.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>14T容量的天翼云盘</title>
-      <link>https://iamlm.com/2021/post-64/</link>
-      <pubDate>Tue, 04 May 2021 16:26:20 +0800</pubDate>
-      
-      <guid>https://iamlm.com/2021/post-64/</guid>
-      
-        <description>&lt;p&gt;每个月的月初我都会有一种无力感，最根本的原因就是因为穷穷穷。。。&lt;/p&gt;
-&lt;p&gt;房贷、信用卡账单、电话费、幼儿园伙食费，水电费、停车费、燃气费、物管费，都会准时的发信息通知我，是时候又要大出血了，这里还不包括给老妈的生活费和一些杂七杂八的费用。唉，是真的难啊。除了房贷，其他费用都以可见的速度在攀升，可我的工资却从未有过起色。&lt;/p&gt;
-&lt;p&gt;罢了罢了，或许生活本苦，蝼蚁尚且苟活于世，说不定明天自己就中个彩票呢。。&lt;/p&gt;
-&lt;h3 id=&#34;天翼云盘&#34;&gt;天翼云盘&lt;/h3&gt;
-&lt;p&gt;记得大概是2013年中旬吧，我用的iPhone 4S遗失了，心一横，注销了原来的手机号且从在中国电信工作的朋友那办理了iPhone 5的定制机，朋友也帮我从阳山那边调了一个我指定尾号的电话号码回来，结果这个电信号码一用就用到了现在。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-64/Screenshot_20210504-141429.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;交完话费被一个天翼云盘的链接给吸引了，主要是有一个很醒目的字眼**“14T”**，这个云盘的空间这么大的么？老实说，我之前都没注意过这个天翼云盘，在没有使用NAS前，我几乎都是使用百度网盘的，为此开通过百度网盘的会员，后来使用NAS后就几乎不使用了，现在的作用就是让NAS在闲时自动上传备份一些普通的资料。&lt;/p&gt;
-&lt;p&gt;为了验证一下是不是真的有14T的空间，就登陆一下看看，结果还真有。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-64/20210504152559.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;但这个时候我也发现了一个奇怪的东西，就是为什么我的网盘上会有一些不属于我的资料，而且上传的日期还是2014年，我明明2013年就已经接手了这个电话号码。按理说，我不使用这个号码了，天翼云盘应该要将我上传到云盘上的资料清空，再授权给其他人用，这个逻辑才合理的啊。但这次我遇到的情况就是不但没有清空，而且号码在我使用的期间，这个云盘应该还在被上一手的号主在使用。奇怪~&lt;/p&gt;
-&lt;p&gt;至于为什么会有14T的空间，我也不清楚，咨询了一下10000号，客服小姐姐说我开通的电信套餐有一项是送云盘的黄金会员，但我看黄金会员介绍也只有4T啊。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://iamlm.com/image/post-64/20210504161237.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;不管了，反正空间大一点总归是好事，虽然不知自己用不用得上。在度娘上搜了一下，这货居然还有人在贴吧里出售的。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>围绕微信来展开记录身边的几件事</title>
-      <link>https://iamlm.com/2021/post-63/</link>
-      <pubDate>Tue, 27 Apr 2021 23:15:00 +0800</pubDate>
-      
-      <guid>https://iamlm.com/2021/post-63/</guid>
-      
-        <description>&lt;p&gt;我爸妈是纯朴的乡下人，以前家里新装了个电信的IPTV，硬是花了大半年才学会怎么进入界面，转换频道，不是他们蠢，只是他们习惯了广电的数字电视。的确IPTV的内容多、画质高，可这么多年过去了，我发现爸妈看来看去还是那个广东电视珠江台，所以那些五花八门的东西反而成了他们的困扰。&lt;/p&gt;
-&lt;h4 id=&#34;给爸妈普及网络安全意识&#34;&gt;给爸妈普及网络安全意识&lt;/h4&gt;
-&lt;p&gt;这些年随着移动平台的飞速发展，爸妈不得不被迫地花时间去学习如何使用智能手机、去学习使用微信，没办法，身边的人都在使用微信，甚至工作都是通过微信来联络。一开始他们向我表达过不满，觉得智能手机用起来太麻烦，可我又发现，他们从被动到主动的过程仅仅花了三个月时间。这两年更是离谱，到市场买菜，都用微信来支付。以前交生活费给妈，都是现金，现在？给现金她可不要，必须微信支付。&lt;/p&gt;
-&lt;p&gt;当然，爸妈越来越依赖微信有好的一面，但同时也有让我担心的地方。好的方面我就不多说了，毕竟微信确实在生活上带来了很多便捷。可让我担心的地方也有不少啊。&lt;/p&gt;
-&lt;p&gt;事情是这样的，爸这两天和我说他的手机坏了，我拿过来看了一下，炸裂。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;装了一大堆软件，甚至有很多软件我是见都没有见过的，问爸为什么装这么多软件，他说没有装啊，它自己冒出来的；&lt;/li&gt;
-&lt;li&gt;下载了上百个未安装的包；&lt;/li&gt;
-&lt;li&gt;微信好友里有很多莫名奇妙的好友；&lt;/li&gt;
-&lt;li&gt;微信上收到很多乱七八糟的谣言，甚至有一些他居然还跟着转发。&lt;/li&gt;
-&lt;li&gt;最好笑的是天天发一些心灵鸡汤给女儿，也就是我的妹妹，好在他不是发给我，要我我可受不了；&lt;/li&gt;
-&lt;li&gt;……&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;帮他甄选保留有用的东西，比较麻烦的是微信上的好友，最后估计有误删，也不管了，太乱了。备份，然后将手机格式化还原，再导回备份。折腾完后想到妈的手机估计也好不到哪里去，就顺便帮妈的手机也清理一下。顺便把不必要的权限都给关闭了，最后还把他们叫到一起，给他们好好上了堂课，「手机的基础使用与网络安全」。例如：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;设置微信好友备注；&lt;/li&gt;
-&lt;li&gt;不能随便点击链接；&lt;/li&gt;
-&lt;li&gt;不要轻易相信一些未经证实的事情，更不要轻易转发；&lt;/li&gt;
-&lt;li&gt;帮他们设置指纹解锁，指纹付款。以前因为他们嫌麻烦，都没解锁密码；&lt;/li&gt;
-&lt;li&gt;和他们说了几个网络诈骗案例，希望他们能提高警觉；&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;经此一闹，下次给爸妈换手机可以考虑换苹果手机，反正现在的iPhone SE只要3299起，买个最低配的足够他们使用了，至少不会像现在这样安装一大堆乱七八糟的软件，在这方面安卓的确做得不是很好。一个相对封闭安全的系统对老人家来说才是更好的选择，绝大部分年轻人一看就知道那信息是条广告，可以避免打开，但有些特别离谱的公司是点击展开查看更多，直接给我下载其APP，咨询一下会死啊？难道我们连选择的权利都没有了？年轻人都遭不住这一层层的套路，更何况是老人家呢？&lt;/p&gt;
-&lt;h4 id=&#34;怀念qq&#34;&gt;怀念「QQ」&lt;/h4&gt;
-&lt;p&gt;升级到微信8.0后，总给我一种错觉，这货怎么越来越像QQ了？虽然对于我们年轻人来说，丰富起来的确能带来不错的体验，可现在的微信，老年人用户基数也很大的好不好？后续版本怎么取舍，我们就看腾讯的表演了。&lt;/p&gt;
-&lt;p&gt;其实我个人对微信的使用是也是从被动开始的，我这代人，经历过QQ时代可以说是幸福的。那个时候去网吧上网聊天，兜里的钱只够上机三个小时，可那个时候真的能聊满三个小时，那熟悉的「滴滴」声带来的就是一份份的纯朴。现在可以随时随地在线，却再也找不到和你聊天的那个人了。&lt;/p&gt;
-&lt;p&gt;后来微信时代的到来，大伙都觉得太香了，QQ的臃肿成了大伙们吐槽的点，微信的简便和语音顺理成章地取代了QQ。虽然我个人很不情愿，但也必须像我爸妈那样被迫地去使用微信。&lt;/p&gt;
-&lt;p&gt;渐渐地，QQ离我们的生活越来越远，也代表着我们的青春已然结束。&lt;/p&gt;
-&lt;h4 id=&#34;微信瘦身&#34;&gt;「微信」瘦身&lt;/h4&gt;
-&lt;p&gt;谁又想到现在的微信一点不比以前的QQ轻便，现在的微信，也轻轻松松占用你几个G的空间。虽然微信不断的去完善，但就我而言，它最大的作用是支付。至于聊天就算了吧，我也不再是那个有精力与激情去敞开心扉与他人交流的人了。&lt;/p&gt;
-&lt;p&gt;一开始微信负责生活，QQ负责办公，再后来办公也不用QQ了，转到微信，工作群越来越多，一天几百上千的信息量都开始让我分不清工作与生活了，尤其是一些重要的工作群又不敢屏蔽提醒。好在2020年下半年开始，移动办公慢慢转到「粤政易」，更在前不久正式完成了交接，微信也迎来了一丝的清静。一下子解散了十多个工作群，我也趁此机会把小区业主群也退了。我发现这类群只要人一多，性质就会转变，广告、推销、争吵，简直没完没了的，反正我就觉得待在这所谓的业主讨论群一点意义也没有。&lt;/p&gt;
-&lt;h4 id=&#34;吐槽现在楼层的楼板&#34;&gt;吐槽现在楼层的楼板&lt;/h4&gt;
-&lt;p&gt;就在这两天，业主群有两业主一直在吵架，我也是佩服她们，居然吵了两天还在那里闹。&lt;/p&gt;
-&lt;p&gt;事情的起因是某楼层的住户在群里蛮有礼貌的向楼上的业主反映夜里请不要动静太大，影响到她睡觉。我觉得如果楼上的业主好好说话，那么事情就这么过了，毕竟楼下的业主开始也挺有礼貌的。可偏偏楼上的业主并不是好欺负的主，直接怼了回去，因为她觉得自己平时也是很注意的，只是睡得相对晚一点而已，十二点前就睡觉了，睡前上个洗手间而已，然而就因为这个冲水声把楼下的业主吵醒了。&lt;/p&gt;
-&lt;p&gt;至于楼下的业主也是个怪人，晚上九点前就睡觉，而且睡眠浅，她自己也知道现在的楼板很薄，可被怼了几句后也忍不住了。就这样一来一回吵了两天~&lt;/p&gt;
-&lt;p&gt;我个人看法是，楼下业主的要求有点过了，难道我一百万买个房子，晚上上完厕所都不能冲水了？要是我大晚上还在那里大吵大闹，你投诉我可以，可我只是睡得稍微晚点，现在这个社会，晚上十二点睡觉再正常不过啦，你早睡，你睡眠浅，那为什么你不戴个耳罩睡觉或者搬去半山别墅，那里环境绝对安静。&lt;/p&gt;
-&lt;p&gt;其实我楼下的业主也有点难相处，也投诉过我。记得有一次，我家蒸那个梅菜肉饼，那天回家得有点晚，大概晚上七点左右才做饭烧菜，大家也知道，那个梅菜肉饼要用菜刀把梅菜剁碎，所以声音还是有点的。结果楼下的业主直接在群里投诉我，语气还十分的不友善，老婆知道后在群里礼貌的回复了原因，那斯好像就把我们当软杮子来捏了，阴阳怪气地说不应该大晚上还剁这么大声，会影响到其他业主的不知道吗？我去，把我气得，直接在群上怼了回去，一开始她还怎么怎么样的，但道理在我这，她可说不过我，然后其他业主也觉得我楼下的业主要求有点过份了，也说了她几句。她就更加不敢吭声了，她也是知进退的人，跟我说了声不好意思后这事就这么结束了。&lt;/p&gt;
-&lt;p&gt;不过话说回来，现在的楼板是真的薄啊，以前在旧房子住，邻里间从未发生过这样的事，现在？起床尿个尿，都生怕把楼下的邻居吵醒。无奈啊~&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>散心、与大自然亲近了一下</title>
-      <link>https://iamlm.com/2021/post-62/</link>
-      <pubDate>Sun, 18 Apr 2021 22:40:00 +0800</pubDate>
-      
-      <guid>https://iamlm.com/2021/post-62/</guid>
-      
-        <description>&lt;p&gt;前些天因为各种原因，导致整个人都十分的焦虑。昨天晚上和LD聊了聊心中的疑虑，顺利把心结解开，在此十分感谢老婆大人。当然也要感谢各位博友，特别是夜未央兄弟。&lt;/p&gt;
-&lt;p&gt;之前说出去走走散散心，老婆正好今天休息，准备行动起来。可惜的是孩子们早就约了他们表哥表姐去游乐场，早上问他们要不要跟爸妈一起出去爬山，结果他们都不肯跟着来。罢了，就小两口来个短途游吧。&lt;/p&gt;
-&lt;p&gt;这次出游的目的是散心，亲近大自然是个不错的选择，一进景区，感觉呼吸的空气都不一样了，每一次深呼吸，都让我有一种享受自然的感觉。有点后悔没有强行把孩子抓过来，哈哈~&lt;/p&gt;
-
-
-
-&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
-    
-  
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://iamlm.com/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-62/20210418090830.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-62/20210418090830.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-62/20210418090830.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-62/20210418090929.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-62/20210418090929.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-62/20210418090929.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-62/20210418090937.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-62/20210418090937.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-62/20210418090937.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-62/20210418090953.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-62/20210418090953.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-62/20210418090953.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-62/20210418091027.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-62/20210418091027.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-62/20210418091027.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/post-62/20210418091034.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://iamlm.com/image/post-62/20210418091034.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://iamlm.com/image/post-62/20210418091034.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;p&gt;手机拍的，水平有限，经过暴力压缩。&lt;/p&gt;
-&lt;h4 id=&#34;广东清远英德市石门台&#34;&gt;广东清远英德市石门台&lt;/h4&gt;
-&lt;blockquote&gt;
-&lt;p&gt;广东英德石门台省级自然保护区地处广东省中北部，东西宽约43.66公里，南北长约15.48公里，总面积为33555公顷。自然保护区地处北回归线北缘，属南亚热带与中亚热带过渡地区，是以南亚热带季风常绿阔叶林与中亚热带典型常绿阔叶林过渡特征的森林生态系统类型为主要保护对象的自然生态系统类自然保护区。&lt;/p&gt;
-&lt;p&gt;石门台省级自然保护区森林植被保存较为完好，局部地带由于人烟稀少，森林植被几乎未被破坏，尤其在崖壁缓和陡坡地区，由于人迹罕至，仍保存着大面积的原生植被。据调查，石门台省级自然保护区的原生植被总面积达近5000公顷，其中尤以最高峰船底顶（海拔1586.7米）至大坑一带面积最大、保存最为完好在海拔400米以上的原生植被分布区，大树林立、古木参天，胸径1米以上的大树随时可见，群落高度一般在30米左右，国家保护植物——粘木在局部地带为群落的优势种或建群种。&lt;/p&gt;
-&lt;p&gt;石门台省级自然保护区内物种资源非常丰富，据初步调查，石门台省级自然保护区有高等植物2000多种，国家重点保护珍稀植物有保护区内拥有国家重点保护植物20多种，其中国家一级重点保护的有伯乐树、南方红豆杉2种，属于二级重点保护的有苏铁蕨、桫椤、黑桫椤、金毛狗、水蕨、福建柏等20余种。&lt;/p&gt;
-&lt;p&gt;石门台省级自然保护区内丰富的森林资源，为野生动物提供了良好繁衍栖息场所，据调查，保护区有陆栖脊椎动物300多种，国家重点保护珍稀动物有50种，其中属于一级重点保护的有瑶山鳄蜥、蟒、豹、金雕和黄腹角雉等5种，二级重点保护的有短尾猴、三线闭壳龟、穿山甲和白鹇等45种。昆虫已鉴定的有1000多种。&lt;/p&gt;
-&lt;p&gt;石门台省级自然保护区地质地貌复杂多样，峰林峡谷千奇百怪，生态景观奇特秀丽，具有典型的喀斯特地貌特征，生态旅游资源，其丰富的生态旅游资源具有较高的艺术、美学、观赏、文化和科学等价值，特别是已规划的石门台生态旅游区的雄、奇、秀、野千姿百态自然景观使人目不暇接，是疗养度假的好地方；正在规划中的鹿洞生态旅游区的险、幽、奥、旷等千奇百怪的自然风光使人流连忘返，是理想的生态旅游场所。在保护区东南部发现第四纪的植物化石，旧石器时代至新石器时代古人类遗址，对于研究古人类文化的发展和近代生物群落的演变等具有重要意义。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;引用部分来源于网络。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-  </channel>
-</rss>
+src="//player.bilibili.com/player.html?bvid=BV1Nx411V788&amp;page=1"
+scrolling="no"
+height="768px"
+width="1024px"
+frameborder="no"
+framespacing="0"
+allowfullscreen="true"
+>
+&lt;/iframe>
+&lt;p>乍一看这个视频挺正常的，但我们来细品一下，杜直言自己是意外怀孕且属高危孕妇，刘关心的问她怎么休息的，杜说不用休息。如果说这是在平常的公司聚会，杜这样的回答完全没问题，但是她忽略了一点，就是场合。因为这是央视正在进行采访的时候，她这样回答无疑向公众展现了JD不近人情的一面。刘笑着接话，然而杜又冷不丁的来了一句，放心，我不会耽误工作的。这个时候刘坐不住了，脸色立马就变了。包括他后面讲的话都非常具有隐喻意义，尤其是最后一句，无论是法律还是我们JD的内部规则都允许你休息。杜一开始说自己不休息是为了表忠心，在平常看起来的确没问题，但是她忽略了最重要的一点，说话没有分场合，有些话看似正确，但是在不同的场合、不同的时机下它所表达的含义就完全不一样了。&lt;/p>
+&lt;blockquote>
+&lt;p>部分内容转载于互联网&lt;/p>
+&lt;/blockquote></description></item><item><title>免费领取NBA2K21及一些游戏回忆</title><link>https://iamlm.com/2k21-youxihuiyi/</link><pubDate>Thu, 27 May 2021 22:56:20 +0800</pubDate><guid>https://iamlm.com/2k21-youxihuiyi/</guid><description>&lt;p>这段时间工作实在是太忙了，前几天收到一封来自2K的邮件，说2K21在这周可以免费领取，当时在外面，决定回家后就把游戏给领了。没想到那天回家直接给忘了，直到今天才想起这事，看了一下时间，应该还没有过领取期。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-68/204000.jpg" alt="">&lt;/p>
+&lt;p>还好来得及，玩不玩不重要，重要是免费。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-68/105331.jpg" alt="">&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-68/105454.jpg" alt="">&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-68/105523.jpg" alt="">&lt;/p>
+&lt;p>2K18后我对这游戏就已经有点麻木了，这个可以在Steam上的评论里看到为什么。或许这就是年货产品的悲哀吧。即便如此，我还是每年都象征式的购买支持一波，然后扔到库里吃灰，不为别的，为过去埋单。&lt;/p>
+&lt;p>我是从2K9开始玩这个游戏的，玩的是破解版，相信那个时候这现象是常态，直到后来开始PS4之旅后正版意识才开始加强，2K系列也是从那时加入了正版行列。2K15，2K16，2K17都是在PS4上游玩，2K18，2K19，2K20则是在Steam上购买的。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-68/112017.jpg" alt="">&lt;/p>
+&lt;p>也是从2K18开始，我对这个游戏只剩下情怀了。唉~&lt;/p>
+&lt;p>如果我一直还玩PS4的话，我相信我对这个游戏不会这么快麻木，毕竟这游戏陪伴自己这么多年了。因为回归PC端且那个时候被绝地求生吸引，所以很多3A大作我都渐渐的放下了。&lt;/p>
+&lt;p>话说自己也在Epic上领取了几个大作咯，像GTAV（这个神作是我在PS4上拿到第一白金的游戏），堡垒之夜，ARK，无主之地2，文明VI，火炬之光2（这个最初也是玩的破解，后来Steam上打骨折，也为情怀充了值）。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-68/105701.jpg" alt="">&lt;/p>
+&lt;p>至于无主之地3和大表哥2，则是花钱买的。&lt;/p>
+&lt;p>由于电脑的硬盘小，很多游戏我都没有安装，现在的游戏太大了，动不动就几十个G，也因为这样，游戏吃灰吃得更加彻底了。我给PS4换了个2T的硬盘，还是几乎塞满。游戏机就是游戏机，虽然这么多大作，但我还都几乎每个都用心去玩，毕竟游戏机不像电脑，电脑除了玩游戏还可以做很多事情，PS4除了玩游戏，啥也不是，也正因如此才有游戏的乐趣。&lt;/p>
+&lt;p>前阵子整理图库，居然找到一些上传到FB上的游戏截图。其实我玩游戏有截图和录像的习惯，可惜存这些资料的那块硬盘坏掉了，资料全没了，这些是当时上传去了FB才得以保存了下来。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-68/ac.jpg" alt="ac">&lt;/p>
+&lt;p>刺客信条黑旗——虽然这代刺客一般，但作为刺客迷的我也一样将他通关了。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-68/bloodborne.jpg" alt="bloodborne">&lt;/p>
+&lt;p>血源诅咒——拿白金时截的图。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-68/D3.jpg" alt="D3">&lt;/p>
+&lt;p>暗黑破坏神3——这个是在Switch上玩的，话说这个旅者之誓是不是很屌？哈哈哈……&lt;/p>
+&lt;div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+&lt;link rel="stylesheet" href="https://iamlm.com/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-68/gtav1.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav1.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-68/gtav1.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-68/gtav2.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav2.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-68/gtav2.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-68/gtav3.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav3.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-68/gtav3.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-68/gtav4.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav4.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-68/gtav4.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-68/gtav5.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav5.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-68/gtav5.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-68/gtav6.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav6.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-68/gtav6.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-68/gtav7.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav7.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-68/gtav7.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-68/gtav8.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav8.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-68/gtav8.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-68/gtav9.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav9.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-68/gtav9.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;p>GTAV——神作中的神作。那时我有固定的小队，当中有一个广州妹子，已经很久没有联系咯，特别想念她。&lt;/p>
+&lt;div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-68/nba2k16-1.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/nba2k16-1.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-68/nba2k16-1.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-68/nba2k16-2.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/nba2k16-2.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-68/nba2k16-2.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-68/nba2k16-3.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/nba2k16-3.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-68/nba2k16-3.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;p>2K16——深受奥尼尔和姚明的影响，我玩这个游戏打比赛只操控中锋，这是我刷新NBA单场盖帽的记录的游戏截图。可能是因为现在的篮球主张健康篮球，没了以前的对抗性和传统的中锋，所以这几年我都没关注NBA比赛了，青春结束了。&lt;/p>
+&lt;div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-68/nfs-1.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/nfs-1.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-68/nfs-1.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-68/nfs-2.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/nfs-2.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-68/nfs-2.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-68/ps4net.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/ps4net.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-68/ps4net.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;p>NFS——漂移得很爽的一款游戏，很带感。当时是被一个一起玩GTAV的广州妹子带入坑的，为了在她面前显摆我的漂移技术，苦练很久，成功吸引到她的尖叫。&lt;/p>
+&lt;p>最后想说一下，现在的游戏是真的越出越好，可惜的是已经找不到陪我一起玩耍的人了。&lt;/p></description></item><item><title>Docker的基础学习</title><link>https://iamlm.com/docker-1/</link><pubDate>Tue, 25 May 2021 23:56:20 +0800</pubDate><guid>https://iamlm.com/docker-1/</guid><description>&lt;p>猛烈的阳光肆无忌惮笼罩着这座城市，远处的高楼仿佛都有了丝丝的模糊，给人一种有气无力的支撑感。他被指派到市场给各大商户派发宣传单张并做了一些简单的调查。忽然，一个大妈不小心把手上的菜篮子摔到了地上，里面的鸡蛋摔在马路上，只到“滋”的一声，熟了。&lt;/p>
+&lt;p>他没想到一晃十天就过去了，最近实在是忙得晕头转向，心中有很多想法，可当他拖着疲惫的身子回到家后，他只想好好的洗个澡，把一身的疲惫统统甩掉，或许因为顶着大太阳走了太多的路吧，当他洗完澡后已经不想坐在电脑前好好码字了，心中的想法随着劳累的身体渐渐忘却。&lt;/p>
+&lt;p>他躺在床上，拿起已经服役多年的iPad，在B站上学习，这次他选择学习Docker，因为他在群晖NAS上使用Docker部署过几个项目，都觉得十分的便捷、好用。譬如：Bitwarden，Unblockneteasemusic，Aria2等等……也曾尝试过那些比较有名，又能直接使用Docker直接Pull的博客程序，如Halo，Farbox2。这些项目都十分的有特点，但论实用性无疑是Bitwarden，强烈建议带+号的群晖NAS小伙伴安装。&lt;/p>
+&lt;p>但随着使用时间久了后，他发现没有基础知识就得处处碰壁，遇到问题后只能求助度娘，虽然在群晖NAS上使用Docker十分的傻瓜式，基本不会出问题，但他不想永远停留在搜索——下载——启动，所以他又一次打开了万能的B站。&lt;/p>
+&lt;p>他明白“万丈高楼从地起”这个道理，选择基础学起才能把知识掌握得更牢固。&lt;/p>
+&lt;p>他学习得很慢，工作任务的繁重让他每天回家都处于疲惫不堪的状态，加上他还得花时间陪伴孩子、辅导他们学习，他最多一天只能抽一到两个小时去学习，用iPad听老师讲课，还要偶尔暂停一下，用手机终端远程实操一下，理论、实操相结合才能更好掌握。&lt;/p>
+&lt;p>在这里他想插个题外话，介绍一下他是如何躺在床上进行这次学习之旅的。&lt;/p>
+&lt;p>在妻子的简单指导下，他发现iPad用来学习，记笔记实在是太方便了，简直刷新了他对平板的认知，他也终于明白学生群体为什么如此推崇iPad，一个好的工具的确能把效率最大化。&lt;/p>
+&lt;p>他几年前在闲鱼上收垃圾，配置了一台功率十分低的小主机，使用VMware ESXi+iKuai+OpenWrt的方案开启了软路由这条不归路，为什么说是不归路呢？因为实在是太好用了，已经回不去了，稳定且功能强大，虽然广东的夏天温度的确高得离谱，他的小主机躺在小小的弱电箱空间里虽然显得十分的拥挤，但几年下来它还没出过岔子，一直默默地守护着家里网络的最前线。去年他为了把这个小主机的性能压榨到极限，就在上面跑了几个虚拟机，所以就有了上面提及的用手机终端远程进行实操。&lt;/p>
+&lt;p>回到学习Docker基础的话题上，原本一天半的学习课程，他足足花了七天才初步的学完，他有些许的感叹，好在他只是兴趣使然，如果是搞生产的话，有这样的学生估计授课老师要吐血。哈哈哈~&lt;/p>
+&lt;p>随着慢慢学习，他觉得Docker这个技术是真的不错，优缺点就不过多的叙述了，网上一搜一大把，最主要的是Docker还蛮容易理解的，当然，毕竟他接触的只是基础知识，容易理解实属正常。&lt;/p>
+&lt;p>他决定今天晚上打开电脑整理一下这段时间的学习笔记，方便以后温习巩固，然后顺便码些字更新一下，算是冒个泡。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-67/docker.png" alt="">&lt;/p>
+&lt;p>码字不知时日过，深夜了。世界，晚安。&lt;/p></description></item><item><title>「他」的一天</title><link>https://iamlm.com/tadeyitian/</link><pubDate>Sun, 16 May 2021 22:46:20 +0800</pubDate><guid>https://iamlm.com/tadeyitian/</guid><description>&lt;p>大清远的天气是真的热啊！&lt;/p>
+&lt;p>他和妻子今天都不用值班，昨天晚上约好今天要睡到中午才起床，结果俩人还是如往常一样早早就醒了。他半躺在床上看书，妻子则在旁边刷起了题，下个月就要考试了，妻子明显也紧张了起来。&lt;/p>
+&lt;p>他本以为看书能让他再次犯困，毕竟这招对他屡试不爽，然而今天大招失效了……放下书，轻轻走到隔壁房，女儿居然已经起床，还坐在书桌前摆弄着魔方，她只是一个六岁不到的孩子啊！他笑了，他刚学会还原魔方，在家人面前一直显摆，结果女儿起了兴趣，昨天晚上他开始教她还原魔方的第一步。&lt;/p>
+&lt;p>“宝贝，涮牙了吗？”&lt;/p>
+&lt;p>“涮了，爸爸，快来教教我这个，我有点忘了。”&lt;/p>
+&lt;p>为了不吵醒还在睡懒觉的儿子，他领着女儿来到书房，认真地将昨天晚上教她的方法又说了一遍，没多久，女儿就顺利把第一步给做出来了，她开心地笑了，也许是因为她的笑声太过爽朗了，儿子揉着睡眼走了过来。&lt;/p>
+&lt;p>他开始给孩子准备早餐，但碍于他这方面的技能实在有限，只能简单的蒸了些馒头，外加一杯牛奶，早餐就算吃过了。他很好奇，按理说现在的馒头都有奶香味了，可为什么他心里还是觉得小时候吃的馒头才是最好吃的呢？&lt;/p>
+&lt;p>妻子收拾好餐桌后又回到房里温书了，两个孩子也跟着爷爷到楼下花园散步去了，他则回到书房打开电脑，准备吃把鸡，他已经很长一段时间没玩游戏了，不出他所料，游戏需要更新，不到8个G，很快就能下载完成，温碗泡茶，时间刚刚好。当游戏更新完后，他打开加速器准备进游戏大杀四方时，加速器会员过期了。在他兴致勃勃的时候，突然来了这一盆冷水，让他很是不爽，拿出手机续费一波，结果提示微信钱包余额不足，哈哈哈……罢了罢了。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-66/20210516181043.jpg" alt="">&lt;/p>
+&lt;p>午休后，他提议到附近的商场逛逛，两个孩子可高兴了，可他们不知道他之所以有这样的提议是为了去商场蹭空调，他很怕热，这应该和他的体重有关，只要一到夏天，他身上总是油腻腻、黏糊糊的，让他很是难受。&lt;/p>
+&lt;p>妻子选择在家温习，他则骑小电驴带着孩子们出门了。一到商场，他的孩子就像脱了缰的野马，搞得他根本没了蹭冷气成功的愉悦，反倒是一直疲于奔命，因为他的儿子实在是太好动了，一走神，人都不知跑哪里去了。&lt;/p>
+&lt;p>孩子们大概跑了半个小时后，也许是累了、渴了，女儿闹着要喝奶茶，无奈的他只好破天荒地去买了一杯，都不用喝，一阵凉意就涌上了他的心头，二十多块钱一杯啊。&lt;/p>
+&lt;p>下午四点半，天空有些许灰暗，偶尔还有阵阵微风吹拂，远处有一乌云正朝头顶飘来，要下雨啦？这天，真就说变就变呗。&lt;/p>
+&lt;p>他准备带孩子们回家，不料儿子说要到公园滑滑梯，他心想这雨应该不会这么快下得出来，就答应了。就近原则，去了区府旁小公园。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-66/IMG_20210516_161902.jpg" alt="IMG_20210516_161902">&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-66/IMG_20210516_161907.jpg" alt="IMG_20210516_161907">&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-66/IMG_20210516_162040.jpg" alt="IMG_20210516_162040">&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-66/IMG_20210516_162101.jpg" alt="IMG_20210516_162101">&lt;/p>
+&lt;p>回到家他就开始着手帮孩子们洗澡，女儿很乖巧，说要自己洗，他觉得女儿的长发要是让她自己洗的话应该会洗不干净，所以他就搭了把手。&lt;/p>
+&lt;p>刚忙完，他中午订的鲜花就送来了。今天是他妈妈的生日，可他妈妈说今年不设宴，他虽然不明白为什么过个生日也有“男单女双”的说法。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-66/IMG_20210516_181814.jpg" alt="IMG_20210516_181814">&lt;/p>
+&lt;p>晚饭时他和妹夫喝了几杯，头就开始犯晕，他有些许的感叹，是真的越来越不能喝了。感叹之余让他想起了昔日他为了骗酒喝而发的朋友圈动态，这招百试百灵。当然，他是知道的，这只是他的朋友们都买他这个面子而已。&lt;/p>
+&lt;blockquote>
+&lt;p>曾经的我白酒一公斤，啤酒随便灌，一个晚上对付13个，喝伤2个，喝叭下8个，失踪3个。令无数人闻风丧胆！不管是夺命9度，还是雪花勇闯天涯，倒满必干！但现在我为何退出江湖，归隐深山？一瓶啤酒就倒，两瓶啤酒就断片！是什么让我改变如此之大！？是仇恨？还是爱情？拿起你的手机，编辑“我要请你吃饭”发送到本人手机，与昔日酒神面对面交流，倾听我背后的故事，感受我曾经的辉煌，揭开我背后的心酸……&lt;/p>
+&lt;/blockquote>
+&lt;p>可能是喝了酒的原因，他困了。&lt;/p>
+&lt;p>晚安~&lt;/p></description></item><item><title>「男人」</title><link>https://iamlm.com/nanren/</link><pubDate>Wed, 12 May 2021 15:51:20 +0800</pubDate><guid>https://iamlm.com/nanren/</guid><description>&lt;p>当一个人感到生活没了激情且一直处于被动的状态时是真的恐怖，事事被牵着鼻子走，最后的最后只能变成随波逐流？&lt;/p>
+&lt;p>上帝一定会保佑认真、专注的人，即便、或许，他们会活得辛苦些，但往往都能苦尽甘来。&lt;/p>
+&lt;p>相对的，上帝会惩罚随波逐流的人。&lt;/p>
+&lt;p>现在的社会，要当好一个普通老百姓，就难免会跟着别人的步伐前进，那么上帝忙得过来吗？&lt;/p>
+&lt;p>事情发生在别人身上，这叫故事；可当事情发生在自己身上时，TMD就成了事故。&lt;/p>
+&lt;p>现实永远都这么的讽刺？&lt;/p>
+&lt;p>林兄说他已经不配拥有梦想了。&lt;/p>
+&lt;p>相信一定会有很多人只能无奈的回应道，俺也一样。&lt;/p>
+&lt;p>记得之前曾回忆起&lt;a href="https://laomai.org/34.html">「你」&lt;/a>，也让我想起了自己在那个时候的梦想，现在发现，梦想之所以离我越来越远最根本的原因，也许是我从未踏出那第一步。&lt;/p>
+&lt;p>可笑、可悲。&lt;/p>
+&lt;p>这感觉就像我欠了一滴泪，但我只会在笑过之后的黑夜中去偿还。&lt;/p>
+&lt;p>很显然，对于一个头顶天，脚踏地的男人来说，眼泪是宝贵的，毕竟这个男人身后背负的也是「天地」。&lt;/p>
+&lt;p>可往往，要摧毁这样一个男人，只需要短短的一瞬之间。&lt;/p>
+&lt;p>有一次妻子很不满丈夫的态度，“为什么每次跟你吵，你都是那两副嘴脸，要不一声不吭，要不摆个臭笑脸。”&lt;/p>
+&lt;p>“你知道吗？伤一个人，有时候只要一句话就够了，但感动一个人，却往往需要一辈子。这世上最无情的不是时间，最珍贵的不是金钱，而是情感。我不能因为我一时的气话而伤害了我们的感情。”&lt;/p>
+&lt;p>男人，无论在外面受了多大的气，你可以在外面独自喝上几杯，又或者在车库里抽上半包烟，但当你踏入家门时就必须是元气满满的。&lt;/p>
+&lt;p>男人，就是这样，不管在外有多落寞，都不希望把情绪带回家。&lt;/p>
+&lt;p>两个男人在地下车库的对话。A已经在车库待了有一阵子了，这时B倒着车回来，因为车位是挨着的，然后A问B，“不回去啊？”B反问，“你不也没回去吗？来，抽根烟。”A拒绝后对B说，“讲个笑话，我好回家。”B无奈摇头后，“你看我像不像个笑话？”随即两个男人都笑了，仿佛笑出了沧桑。&lt;/p>
+&lt;p>简单的几句对话，道出了多少男人的辛酸。&lt;/p>
+&lt;blockquote>
+&lt;p>岁月静好是片刻，一地鸡毛是日常，即使世界偶尔薄凉，内心也要繁华似锦，浅浅喜，静静爱，深深懂得，淡淡释怀，望远处的是风景，看近处的才是人生，唯愿此生，岁月无恙；只言温暖，不语悲伤。
+​ ——杨绛&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://iamlm.com/image/post-65/rsz_mmexport1620802299388.jpg" alt="">&lt;/p></description></item><item><title>14T容量的天翼云盘</title><link>https://iamlm.com/2021/post-64/</link><pubDate>Tue, 04 May 2021 16:26:20 +0800</pubDate><guid>https://iamlm.com/2021/post-64/</guid><description>&lt;p>每个月的月初我都会有一种无力感，最根本的原因就是因为穷穷穷。。。&lt;/p>
+&lt;p>房贷、信用卡账单、电话费、幼儿园伙食费，水电费、停车费、燃气费、物管费，都会准时的发信息通知我，是时候又要大出血了，这里还不包括给老妈的生活费和一些杂七杂八的费用。唉，是真的难啊。除了房贷，其他费用都以可见的速度在攀升，可我的工资却从未有过起色。&lt;/p>
+&lt;p>罢了罢了，或许生活本苦，蝼蚁尚且苟活于世，说不定明天自己就中个彩票呢。。&lt;/p>
+&lt;h3 id="天翼云盘">天翼云盘&lt;/h3>
+&lt;p>记得大概是2013年中旬吧，我用的iPhone 4S遗失了，心一横，注销了原来的手机号且从在中国电信工作的朋友那办理了iPhone 5的定制机，朋友也帮我从阳山那边调了一个我指定尾号的电话号码回来，结果这个电信号码一用就用到了现在。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-64/Screenshot_20210504-141429.jpg" alt="">&lt;/p>
+&lt;p>交完话费被一个天翼云盘的链接给吸引了，主要是有一个很醒目的字眼**“14T”**，这个云盘的空间这么大的么？老实说，我之前都没注意过这个天翼云盘，在没有使用NAS前，我几乎都是使用百度网盘的，为此开通过百度网盘的会员，后来使用NAS后就几乎不使用了，现在的作用就是让NAS在闲时自动上传备份一些普通的资料。&lt;/p>
+&lt;p>为了验证一下是不是真的有14T的空间，就登陆一下看看，结果还真有。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-64/20210504152559.jpg" alt="">&lt;/p>
+&lt;p>但这个时候我也发现了一个奇怪的东西，就是为什么我的网盘上会有一些不属于我的资料，而且上传的日期还是2014年，我明明2013年就已经接手了这个电话号码。按理说，我不使用这个号码了，天翼云盘应该要将我上传到云盘上的资料清空，再授权给其他人用，这个逻辑才合理的啊。但这次我遇到的情况就是不但没有清空，而且号码在我使用的期间，这个云盘应该还在被上一手的号主在使用。奇怪~&lt;/p>
+&lt;p>至于为什么会有14T的空间，我也不清楚，咨询了一下10000号，客服小姐姐说我开通的电信套餐有一项是送云盘的黄金会员，但我看黄金会员介绍也只有4T啊。&lt;/p>
+&lt;p>&lt;img src="https://iamlm.com/image/post-64/20210504161237.jpg" alt="">&lt;/p>
+&lt;p>不管了，反正空间大一点总归是好事，虽然不知自己用不用得上。在度娘上搜了一下，这货居然还有人在贴吧里出售的。&lt;/p></description></item><item><title>围绕微信来展开记录身边的几件事</title><link>https://iamlm.com/2021/post-63/</link><pubDate>Tue, 27 Apr 2021 23:15:00 +0800</pubDate><guid>https://iamlm.com/2021/post-63/</guid><description>&lt;p>我爸妈是纯朴的乡下人，以前家里新装了个电信的IPTV，硬是花了大半年才学会怎么进入界面，转换频道，不是他们蠢，只是他们习惯了广电的数字电视。的确IPTV的内容多、画质高，可这么多年过去了，我发现爸妈看来看去还是那个广东电视珠江台，所以那些五花八门的东西反而成了他们的困扰。&lt;/p>
+&lt;h4 id="给爸妈普及网络安全意识">给爸妈普及网络安全意识&lt;/h4>
+&lt;p>这些年随着移动平台的飞速发展，爸妈不得不被迫地花时间去学习如何使用智能手机、去学习使用微信，没办法，身边的人都在使用微信，甚至工作都是通过微信来联络。一开始他们向我表达过不满，觉得智能手机用起来太麻烦，可我又发现，他们从被动到主动的过程仅仅花了三个月时间。这两年更是离谱，到市场买菜，都用微信来支付。以前交生活费给妈，都是现金，现在？给现金她可不要，必须微信支付。&lt;/p>
+&lt;p>当然，爸妈越来越依赖微信有好的一面，但同时也有让我担心的地方。好的方面我就不多说了，毕竟微信确实在生活上带来了很多便捷。可让我担心的地方也有不少啊。&lt;/p>
+&lt;p>事情是这样的，爸这两天和我说他的手机坏了，我拿过来看了一下，炸裂。&lt;/p>
+&lt;ul>
+&lt;li>装了一大堆软件，甚至有很多软件我是见都没有见过的，问爸为什么装这么多软件，他说没有装啊，它自己冒出来的；&lt;/li>
+&lt;li>下载了上百个未安装的包；&lt;/li>
+&lt;li>微信好友里有很多莫名奇妙的好友；&lt;/li>
+&lt;li>微信上收到很多乱七八糟的谣言，甚至有一些他居然还跟着转发。&lt;/li>
+&lt;li>最好笑的是天天发一些心灵鸡汤给女儿，也就是我的妹妹，好在他不是发给我，要我我可受不了；&lt;/li>
+&lt;li>……&lt;/li>
+&lt;/ul>
+&lt;p>帮他甄选保留有用的东西，比较麻烦的是微信上的好友，最后估计有误删，也不管了，太乱了。备份，然后将手机格式化还原，再导回备份。折腾完后想到妈的手机估计也好不到哪里去，就顺便帮妈的手机也清理一下。顺便把不必要的权限都给关闭了，最后还把他们叫到一起，给他们好好上了堂课，「手机的基础使用与网络安全」。例如：&lt;/p>
+&lt;ul>
+&lt;li>设置微信好友备注；&lt;/li>
+&lt;li>不能随便点击链接；&lt;/li>
+&lt;li>不要轻易相信一些未经证实的事情，更不要轻易转发；&lt;/li>
+&lt;li>帮他们设置指纹解锁，指纹付款。以前因为他们嫌麻烦，都没解锁密码；&lt;/li>
+&lt;li>和他们说了几个网络诈骗案例，希望他们能提高警觉；&lt;/li>
+&lt;/ul>
+&lt;p>经此一闹，下次给爸妈换手机可以考虑换苹果手机，反正现在的iPhone SE只要3299起，买个最低配的足够他们使用了，至少不会像现在这样安装一大堆乱七八糟的软件，在这方面安卓的确做得不是很好。一个相对封闭安全的系统对老人家来说才是更好的选择，绝大部分年轻人一看就知道那信息是条广告，可以避免打开，但有些特别离谱的公司是点击展开查看更多，直接给我下载其APP，咨询一下会死啊？难道我们连选择的权利都没有了？年轻人都遭不住这一层层的套路，更何况是老人家呢？&lt;/p>
+&lt;h4 id="怀念qq">怀念「QQ」&lt;/h4>
+&lt;p>升级到微信8.0后，总给我一种错觉，这货怎么越来越像QQ了？虽然对于我们年轻人来说，丰富起来的确能带来不错的体验，可现在的微信，老年人用户基数也很大的好不好？后续版本怎么取舍，我们就看腾讯的表演了。&lt;/p>
+&lt;p>其实我个人对微信的使用是也是从被动开始的，我这代人，经历过QQ时代可以说是幸福的。那个时候去网吧上网聊天，兜里的钱只够上机三个小时，可那个时候真的能聊满三个小时，那熟悉的「滴滴」声带来的就是一份份的纯朴。现在可以随时随地在线，却再也找不到和你聊天的那个人了。&lt;/p>
+&lt;p>后来微信时代的到来，大伙都觉得太香了，QQ的臃肿成了大伙们吐槽的点，微信的简便和语音顺理成章地取代了QQ。虽然我个人很不情愿，但也必须像我爸妈那样被迫地去使用微信。&lt;/p>
+&lt;p>渐渐地，QQ离我们的生活越来越远，也代表着我们的青春已然结束。&lt;/p>
+&lt;h4 id="微信瘦身">「微信」瘦身&lt;/h4>
+&lt;p>谁又想到现在的微信一点不比以前的QQ轻便，现在的微信，也轻轻松松占用你几个G的空间。虽然微信不断的去完善，但就我而言，它最大的作用是支付。至于聊天就算了吧，我也不再是那个有精力与激情去敞开心扉与他人交流的人了。&lt;/p>
+&lt;p>一开始微信负责生活，QQ负责办公，再后来办公也不用QQ了，转到微信，工作群越来越多，一天几百上千的信息量都开始让我分不清工作与生活了，尤其是一些重要的工作群又不敢屏蔽提醒。好在2020年下半年开始，移动办公慢慢转到「粤政易」，更在前不久正式完成了交接，微信也迎来了一丝的清静。一下子解散了十多个工作群，我也趁此机会把小区业主群也退了。我发现这类群只要人一多，性质就会转变，广告、推销、争吵，简直没完没了的，反正我就觉得待在这所谓的业主讨论群一点意义也没有。&lt;/p>
+&lt;h4 id="吐槽现在楼层的楼板">吐槽现在楼层的楼板&lt;/h4>
+&lt;p>就在这两天，业主群有两业主一直在吵架，我也是佩服她们，居然吵了两天还在那里闹。&lt;/p>
+&lt;p>事情的起因是某楼层的住户在群里蛮有礼貌的向楼上的业主反映夜里请不要动静太大，影响到她睡觉。我觉得如果楼上的业主好好说话，那么事情就这么过了，毕竟楼下的业主开始也挺有礼貌的。可偏偏楼上的业主并不是好欺负的主，直接怼了回去，因为她觉得自己平时也是很注意的，只是睡得相对晚一点而已，十二点前就睡觉了，睡前上个洗手间而已，然而就因为这个冲水声把楼下的业主吵醒了。&lt;/p>
+&lt;p>至于楼下的业主也是个怪人，晚上九点前就睡觉，而且睡眠浅，她自己也知道现在的楼板很薄，可被怼了几句后也忍不住了。就这样一来一回吵了两天~&lt;/p>
+&lt;p>我个人看法是，楼下业主的要求有点过了，难道我一百万买个房子，晚上上完厕所都不能冲水了？要是我大晚上还在那里大吵大闹，你投诉我可以，可我只是睡得稍微晚点，现在这个社会，晚上十二点睡觉再正常不过啦，你早睡，你睡眠浅，那为什么你不戴个耳罩睡觉或者搬去半山别墅，那里环境绝对安静。&lt;/p>
+&lt;p>其实我楼下的业主也有点难相处，也投诉过我。记得有一次，我家蒸那个梅菜肉饼，那天回家得有点晚，大概晚上七点左右才做饭烧菜，大家也知道，那个梅菜肉饼要用菜刀把梅菜剁碎，所以声音还是有点的。结果楼下的业主直接在群里投诉我，语气还十分的不友善，老婆知道后在群里礼貌的回复了原因，那斯好像就把我们当软杮子来捏了，阴阳怪气地说不应该大晚上还剁这么大声，会影响到其他业主的不知道吗？我去，把我气得，直接在群上怼了回去，一开始她还怎么怎么样的，但道理在我这，她可说不过我，然后其他业主也觉得我楼下的业主要求有点过份了，也说了她几句。她就更加不敢吭声了，她也是知进退的人，跟我说了声不好意思后这事就这么结束了。&lt;/p>
+&lt;p>不过话说回来，现在的楼板是真的薄啊，以前在旧房子住，邻里间从未发生过这样的事，现在？起床尿个尿，都生怕把楼下的邻居吵醒。无奈啊~&lt;/p></description></item><item><title>散心、与大自然亲近了一下</title><link>https://iamlm.com/2021/post-62/</link><pubDate>Sun, 18 Apr 2021 22:40:00 +0800</pubDate><guid>https://iamlm.com/2021/post-62/</guid><description>&lt;p>前些天因为各种原因，导致整个人都十分的焦虑。昨天晚上和LD聊了聊心中的疑虑，顺利把心结解开，在此十分感谢老婆大人。当然也要感谢各位博友，特别是夜未央兄弟。&lt;/p>
+&lt;p>之前说出去走走散散心，老婆正好今天休息，准备行动起来。可惜的是孩子们早就约了他们表哥表姐去游乐场，早上问他们要不要跟爸妈一起出去爬山，结果他们都不肯跟着来。罢了，就小两口来个短途游吧。&lt;/p>
+&lt;p>这次出游的目的是散心，亲近大自然是个不错的选择，一进景区，感觉呼吸的空气都不一样了，每一次深呼吸，都让我有一种享受自然的感觉。有点后悔没有强行把孩子抓过来，哈哈~&lt;/p>
+&lt;div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+&lt;link rel="stylesheet" href="https://iamlm.com/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-62/20210418090830.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-62/20210418090830.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-62/20210418090830.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-62/20210418090929.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-62/20210418090929.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-62/20210418090929.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-62/20210418090937.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-62/20210418090937.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-62/20210418090937.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-62/20210418090953.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-62/20210418090953.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-62/20210418090953.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-62/20210418091027.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-62/20210418091027.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-62/20210418091027.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img" style="background-image: url('/image/post-62/20210418091034.jpg');">
+&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-62/20210418091034.jpg" />
+&lt;/div>
+&lt;a href="https://iamlm.com/image/post-62/20210418091034.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;p>手机拍的，水平有限，经过暴力压缩。&lt;/p>
+&lt;h4 id="广东清远英德市石门台">广东清远英德市石门台&lt;/h4>
+&lt;blockquote>
+&lt;p>广东英德石门台省级自然保护区地处广东省中北部，东西宽约43.66公里，南北长约15.48公里，总面积为33555公顷。自然保护区地处北回归线北缘，属南亚热带与中亚热带过渡地区，是以南亚热带季风常绿阔叶林与中亚热带典型常绿阔叶林过渡特征的森林生态系统类型为主要保护对象的自然生态系统类自然保护区。&lt;/p>
+&lt;p>石门台省级自然保护区森林植被保存较为完好，局部地带由于人烟稀少，森林植被几乎未被破坏，尤其在崖壁缓和陡坡地区，由于人迹罕至，仍保存着大面积的原生植被。据调查，石门台省级自然保护区的原生植被总面积达近5000公顷，其中尤以最高峰船底顶（海拔1586.7米）至大坑一带面积最大、保存最为完好在海拔400米以上的原生植被分布区，大树林立、古木参天，胸径1米以上的大树随时可见，群落高度一般在30米左右，国家保护植物——粘木在局部地带为群落的优势种或建群种。&lt;/p>
+&lt;p>石门台省级自然保护区内物种资源非常丰富，据初步调查，石门台省级自然保护区有高等植物2000多种，国家重点保护珍稀植物有保护区内拥有国家重点保护植物20多种，其中国家一级重点保护的有伯乐树、南方红豆杉2种，属于二级重点保护的有苏铁蕨、桫椤、黑桫椤、金毛狗、水蕨、福建柏等20余种。&lt;/p>
+&lt;p>石门台省级自然保护区内丰富的森林资源，为野生动物提供了良好繁衍栖息场所，据调查，保护区有陆栖脊椎动物300多种，国家重点保护珍稀动物有50种，其中属于一级重点保护的有瑶山鳄蜥、蟒、豹、金雕和黄腹角雉等5种，二级重点保护的有短尾猴、三线闭壳龟、穿山甲和白鹇等45种。昆虫已鉴定的有1000多种。&lt;/p>
+&lt;p>石门台省级自然保护区地质地貌复杂多样，峰林峡谷千奇百怪，生态景观奇特秀丽，具有典型的喀斯特地貌特征，生态旅游资源，其丰富的生态旅游资源具有较高的艺术、美学、观赏、文化和科学等价值，特别是已规划的石门台生态旅游区的雄、奇、秀、野千姿百态自然景观使人目不暇接，是疗养度假的好地方；正在规划中的鹿洞生态旅游区的险、幽、奥、旷等千奇百怪的自然风光使人流连忘返，是理想的生态旅游场所。在保护区东南部发现第四纪的植物化石，旧石器时代至新石器时代古人类遗址，对于研究古人类文化的发展和近代生物群落的演变等具有重要意义。&lt;/p>
+&lt;/blockquote>
+&lt;p>引用部分来源于网络。&lt;/p></description></item></channel></rss>
