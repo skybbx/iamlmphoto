@@ -25,7 +25,7 @@ button{border-radius:0;}
 &lt;script src="https://imgcache.qq.com/qcloud/cloudbase-js-sdk/1.4.0/cloudbase.full.js">&lt;/script>
 &lt;script src="https://cdn.jsdelivr.net/gh/buddys/qq-wechat-emotion-parser@master/dist/qq-wechat-emotion-parser.min.js">&lt;/script>
 &lt;script>
-const app = tcb.init({
+const app = cloudbase.init({
 env: "laomai-3gk8ukum10f3f137", //这里是你的环境id
 region: "ap-guangzhou"
 })
