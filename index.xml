@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>老麦笔记 - 生命在于折腾</title><link>https://iamlm.com/</link><description>Recent content on 老麦笔记 - 生命在于折腾</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 20 Jun 2021 16:54:20 +0800</lastBuildDate><atom:link href="https://iamlm.com/index.xml" rel="self" type="application/rss+xml"/><item><title>关于</title><link>https://iamlm.com/about/</link><pubDate>Tue, 14 Jul 2020 21:38:52 +0800</pubDate><guid>https://iamlm.com/about/</guid><description>&lt;p>一个简单的博客，一个平凡的博主，用最扑实的话记录最真实的自己！&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>老麦笔记 - 生命在于折腾</title><link>https://iamlm.com/</link><description>Recent content on 老麦笔记 - 生命在于折腾</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 20 Jun 2021 16:54:20 +0800</lastBuildDate><atom:link href="https://iamlm.com/index.xml" rel="self" type="application/rss+xml"/><item><title>闲言</title><link>https://iamlm.com/bb/</link><pubDate>Wed, 23 Jun 2021 18:18:18 +0800</pubDate><guid>https://iamlm.com/bb/</guid><description>&lt;div id="bber">&lt;/div>
+&lt;style>
+.timeline ul {margin:0;}
+.timeline ul li {background:#c05b4d;list-style-type:none;position:relative;width:3px;margin-left:2em;padding:0.8em 0 2em;}
+.timeline ul li::after {transform: rotate(45deg);content:'';background-color: #c05b4d;display: block;position: absolute;top: 10px;left: -5px;width: 0.8em;height: 0.8em;outline: 15px solid #fff;}
+.timeline ul li div {position:relative;top:-13px;left:3em;width:670px;padding:0px 16px 0px;}
+.timeline ul li p.datatime{color: #fafafa;font-size: 0.75em;background-color: #c05b4d;display: inline-block;padding:0.25em 1em 0.2em 1em;}
+.timeline ul li p.datacont{margin:0.65em 0 0.3em;}
+.timeline ul li p.datacont img{display:block;max-height:340px !important;}
+.timeline ul li p.datacont img[src*="emotion"]{display:inline-block;width:auto;}
+.timeline ul li p.datafrom{color: #aaa;font-size: 0.75em !important;}
+.timeline ul li p{margin:0;font-size:20px;letter-spacing:1px;color: rgba(0,0,0,.84);}
+button{border-radius:0;}
+.dark-theme .timeline ul li div p{color:#fafafa;}
+.dark-theme .timeline ul li div p svg{fill:#fafafa;}
+.dark-theme .timeline ul li p.datafrom{color: #aaa;}
+.dark-theme .timeline ul li{background:#c05b4d;}
+.dark-theme .timeline ul li::after{outline: 15px solid #292a2d;}
+.post-header {display:none;}
+@media (max-width:860px) {
+.timeline ul li{margin-left:0;}
+.timeline ul li div{width:calc(100vw - 75px);left:30px;}
+}
+&lt;/style>
+&lt;script src="https://imgcache.qq.com/qcloud/cloudbase-js-sdk/1.4.0/cloudbase.full.js">&lt;/script>
+&lt;script src="https://cdn.jsdelivr.net/gh/buddys/qq-wechat-emotion-parser@master/dist/qq-wechat-emotion-parser.min.js">&lt;/script>
+&lt;script>
+const app = cloudbase.init({
+env: "laomai-3gk8ukum10f3f137", //这里是你的环境id
+region: "ap-guangzhou"
+})
+&lt;/script>
+&lt;script type="text/javascript" src="https://cdn.jsdelivr.net/gh/lmm214/bber@0.0.5/bber.js">&lt;/script></description></item><item><title>关于</title><link>https://iamlm.com/about/</link><pubDate>Tue, 14 Jul 2020 21:38:52 +0800</pubDate><guid>https://iamlm.com/about/</guid><description>&lt;p>一个简单的博客，一个平凡的博主，用最扑实的话记录最真实的自己！&lt;/p>
 &lt;hr>
 &lt;h3 id="关于我">关于我&lt;/h3>
 &lt;p>麦生，80后大叔，故身边很多朋友都称呼我一声老麦，曾经也为此苦恼过，毕竟我还有一颗年轻的心。&lt;/p>
@@ -445,16 +477,4 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;p>岁月静好是片刻，一地鸡毛是日常，即使世界偶尔薄凉，内心也要繁华似锦，浅浅喜，静静爱，深深懂得，淡淡释怀，望远处的是风景，看近处的才是人生，唯愿此生，岁月无恙；只言温暖，不语悲伤。
 ​ ——杨绛&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://iamlm.com/image/post-65/rsz_mmexport1620802299388.webp" alt="">&lt;/p></description></item><item><title>14T容量的天翼云盘</title><link>https://iamlm.com/2021/post-64/</link><pubDate>Tue, 04 May 2021 16:26:20 +0800</pubDate><guid>https://iamlm.com/2021/post-64/</guid><description>&lt;p>每个月的月初我都会有一种无力感，最根本的原因就是因为穷穷穷。。。&lt;/p>
-&lt;p>房贷、信用卡账单、电话费、幼儿园伙食费，水电费、停车费、燃气费、物管费，都会准时的发信息通知我，是时候又要大出血了，这里还不包括给老妈的生活费和一些杂七杂八的费用。唉，是真的难啊。除了房贷，其他费用都以可见的速度在攀升，可我的工资却从未有过起色。&lt;/p>
-&lt;p>罢了罢了，或许生活本苦，蝼蚁尚且苟活于世，说不定明天自己就中个彩票呢。。&lt;/p>
-&lt;h3 id="天翼云盘">天翼云盘&lt;/h3>
-&lt;p>记得大概是2013年中旬吧，我用的iPhone 4S遗失了，心一横，注销了原来的手机号且从在中国电信工作的朋友那办理了iPhone 5的定制机，朋友也帮我从阳山那边调了一个我指定尾号的电话号码回来，结果这个电信号码一用就用到了现在。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-64/Screenshot_20210504-141429.webp" alt="">&lt;/p>
-&lt;p>交完话费被一个天翼云盘的链接给吸引了，主要是有一个很醒目的字眼**“14T”**，这个云盘的空间这么大的么？老实说，我之前都没注意过这个天翼云盘，在没有使用NAS前，我几乎都是使用百度网盘的，为此开通过百度网盘的会员，后来使用NAS后就几乎不使用了，现在的作用就是让NAS在闲时自动上传备份一些普通的资料。&lt;/p>
-&lt;p>为了验证一下是不是真的有14T的空间，就登陆一下看看，结果还真有。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-64/20210504152559.webp" alt="">&lt;/p>
-&lt;p>但这个时候我也发现了一个奇怪的东西，就是为什么我的网盘上会有一些不属于我的资料，而且上传的日期还是2014年，我明明2013年就已经接手了这个电话号码。按理说，我不使用这个号码了，天翼云盘应该要将我上传到云盘上的资料清空，再授权给其他人用，这个逻辑才合理的啊。但这次我遇到的情况就是不但没有清空，而且号码在我使用的期间，这个云盘应该还在被上一手的号主在使用。奇怪~&lt;/p>
-&lt;p>至于为什么会有14T的空间，我也不清楚，咨询了一下10000号，客服小姐姐说我开通的电信套餐有一项是送云盘的黄金会员，但我看黄金会员介绍也只有4T啊。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-64/20210504161237.webp" alt="">&lt;/p>
-&lt;p>不管了，反正空间大一点总归是好事，虽然不知自己用不用得上。在度娘上搜了一下，这货居然还有人在贴吧里出售的。&lt;/p></description></item></channel></rss>
+&lt;p>&lt;img src="https://iamlm.com/image/post-65/rsz_mmexport1620802299388.webp" alt="">&lt;/p></description></item></channel></rss>
