@@ -138,7 +138,7 @@ region: "ap-guangzhou"
 &lt;p>前几天托在酒厂工作的表姐买了两件白酒，员工价，还是很划算的，比市面价便宜了不少。&lt;/p>
 &lt;p>昨天收到酒后就在群上「吹鸡」，准备和兄弟们喝两杯。虽然联系少了，但我们五个还是老样子，聚会时永远都是那么大声的说笑，二十多年过去了，虽然大家都在不同的道路上拼搏，但只要在群上吼一句，彼此都是“一醉方休我奉陪”的态度。&lt;/p>
 &lt;div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
-&lt;link rel="stylesheet" href="https://iamlm.com/css/hugo-easy-gallery.css" />
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/css/hugo-easy-gallery.css" />
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
@@ -311,7 +311,7 @@ allowfullscreen="true"
 &lt;/p>
 &lt;p>暗黑破坏神3——这个是在Switch上玩的，话说这个旅者之誓是不是很屌？哈哈哈……&lt;/p>
 &lt;div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
-&lt;link rel="stylesheet" href="https://iamlm.com/css/hugo-easy-gallery.css" />
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/css/hugo-easy-gallery.css" />
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
