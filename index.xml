@@ -101,24 +101,24 @@ region: "ap-guangzhou"
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:center">&lt;a href="https://www.foreverblog.cn/">十年之约&lt;/a>&lt;/td>
-&lt;td style="text-align:center">&lt;a href="https://blog.loli.top/">城南旧事&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://www.foreverblog.cn/" target="_blank" rel="noopener">十年之约&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://blog.loli.top/" target="_blank" rel="noopener">城南旧事&lt;/a>&lt;/td>
 &lt;td style="text-align:center">穷游佬&lt;/td>
-&lt;td style="text-align:center">&lt;a href="https://4311346.com/">Andy烧麦&lt;/a>&lt;/td>
-&lt;td style="text-align:center">&lt;a href="https://www.wys.me/">wys&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://4311346.com/" target="_blank" rel="noopener">Andy烧麦&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://www.wys.me/" target="_blank" rel="noopener">wys&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">&lt;a href="https://www.savouer.com/">夜未央&lt;/a>&lt;/td>
-&lt;td style="text-align:center">&lt;a href="https://www.mhcf.net/">梦幻辰风&lt;/a>&lt;/td>
-&lt;td style="text-align:center">&lt;a href="https://hisherry.com/">燕渡寒潭&lt;/a>&lt;/td>
-&lt;td style="text-align:center">&lt;a href="https://yiws.net/">忆往事&lt;/a>&lt;/td>
-&lt;td style="text-align:center">&lt;a href="http://www.dushangself.site/emlog/">独殇小册&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://www.savouer.com/" target="_blank" rel="noopener">夜未央&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://www.mhcf.net/" target="_blank" rel="noopener">梦幻辰风&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://hisherry.com/" target="_blank" rel="noopener">燕渡寒潭&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://yiws.net/" target="_blank" rel="noopener">忆往事&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="http://www.dushangself.site/emlog/" target="_blank" rel="noopener">独殇小册&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">&lt;a href="https://lmbk.net/">老猫博客&lt;/a>&lt;/td>
-&lt;td style="text-align:center">&lt;a href="https://springwood.me">沉舟侧畔&lt;/a>&lt;/td>
-&lt;td style="text-align:center">&lt;a href="https://illl.xyz">大峰笔记&lt;/a>&lt;/td>
-&lt;td style="text-align:center">&lt;a href="https://www.parak.top">Khighness&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://lmbk.net/" target="_blank" rel="noopener">老猫博客&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://springwood.me" target="_blank" rel="noopener">沉舟侧畔&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://illl.xyz" target="_blank" rel="noopener">大峰笔记&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://www.parak.top" target="_blank" rel="noopener">Khighness&lt;/a>&lt;/td>
 &lt;td style="text-align:center">等待加入&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -142,28 +142,28 @@ region: "ap-guangzhou"
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-74/IMG_183949.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-74/IMG_183949.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-74/IMG_183949.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-74/IMG_183949.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-74/IMG_183949.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-74/IMG_183949.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-74/IMG_193727.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-74/IMG_193727.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-74/IMG_193727.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-74/IMG_193727.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-74/IMG_193727.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-74/IMG_193727.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-74/IMG_204246.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-74/IMG_204246.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-74/IMG_204246.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-74/IMG_204246.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-74/IMG_204246.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-74/IMG_204246.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;/div>
@@ -174,9 +174,13 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;p>他很累，责任心的驱使下，他不得不咬紧牙去坚持。现实中不敢说领导坏话，只能在这里吐槽这位领导一句： &lt;strong>闲时做事无计划，急时做事无头绪。&lt;/strong> 如果没有实际性的方案，请闭上你的嘴，乖乖的坐在办公室享受属于你的悠闲。&lt;/p>
 &lt;p>“哟，破天荒哦，你居然要把工作带回家做？”妻子在旁边嘲讽他道。都怪以往他经常嘲讽妻子，如今「现眼报」了吧，粤语有句名言，「有几风流就有几折堕」。&lt;/p>
 &lt;p>算了，不埋怨已发生的事情了。反正这段繁忙的日子也让他无心懊恼，全身心的投入到工作让他有了一种错觉，他成为了一个怪兽，在写到「怪兽」这个词时，他突然又有了一个奇怪的想法，怪兽的愿望会不会只是消灭奥特曼？他和儿子玩奥特曼游戏时，他扮演的角色就是各种各样的怪兽，被儿子扮演的奥特曼各种揉捏，特别是小奥特曼发射光线时，他必须倒下。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-73/IMG_20210602_184412.webp" alt="">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-73/IMG_20210602_184412.webp" alt="" />
+&lt;/p>
 &lt;p>一周的忙碌暂时结束了，虽然知道下周还得继续，但他此时此刻还是很开心的，毕竟可以休息两天。下班回家后，选择静静的喝口小茶，逛下朋友们最近更新的动态，最惬意的时光之一。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-73/IMG_20210618_182512.webp" alt="">&lt;/p></description></item><item><title>毛毛发烧</title><link>https://iamlm.com/maomaofashao/</link><pubDate>Sat, 12 Jun 2021 13:19:20 +0800</pubDate><guid>https://iamlm.com/maomaofashao/</guid><description>&lt;p>昨天下午接到幼儿园老师的电话，说孩子有点发烧，让我们去接孩子回家。因为老婆工作地点离家有点远，所以我就跑了一趟。接毛毛回家后就开始帮他测体温，38℃，低发热，毛毛的精神也不错，所以应该没什么大问题，一边陪他玩奥特曼玩具，一边让他多喝点温开水。&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-73/IMG_20210618_182512.webp" alt="" />
+&lt;/p></description></item><item><title>毛毛发烧</title><link>https://iamlm.com/maomaofashao/</link><pubDate>Sat, 12 Jun 2021 13:19:20 +0800</pubDate><guid>https://iamlm.com/maomaofashao/</guid><description>&lt;p>昨天下午接到幼儿园老师的电话，说孩子有点发烧，让我们去接孩子回家。因为老婆工作地点离家有点远，所以我就跑了一趟。接毛毛回家后就开始帮他测体温，38℃，低发热，毛毛的精神也不错，所以应该没什么大问题，一边陪他玩奥特曼玩具，一边让他多喝点温开水。&lt;/p>
 &lt;p>老婆下班后简单看了下毛毛的情况，表扬我处理得不错。但我们都知道考验晚上才开始，老婆第二天要回去值班，晚上照顾毛毛的任务很自然的落在我身上，睡前帮毛毛测体温，这时毛毛的体温已然进入中度发热的区间，达到了38.5℃，而且感觉还有上升的趋势，和老婆商量后决定使用药物，5毫升的美林，半个小时后，毛毛开始大量的出汗，擦汗、换衣服、换汗巾、让他喝水，一顿操作后，体温已经开始下降，就叫老婆先睡，而我则每隔一小时帮毛毛测下体温与擦一下身上的汗。&lt;/p>
 &lt;p>今天早上老婆上班前帮毛毛测体温，37.7℃，还是低发热，简单用温水帮毛毛物理降温后就上班去了。佩佩和毛毛都习惯了早起，就算是假期也一样，虽然我折腾了一晚上，但还是得艰难的爬起床出去帮孩子们买早餐。&lt;/p>
 &lt;p>中午时发现毛毛的体温又上升了，38.8℃，虽然精神一直很好，但我还是很担心的，打电话给老婆说了一下情况，她说再给5毫升美林给毛毛喝，反应和昨天晚上差不多，半小时后开始出汗，然后体温也降了下来。&lt;/p>
@@ -188,16 +192,24 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;p>每个人都有迷茫的时候，我选择了接纳它，因为我相信我一定可以战胜这种消极的情绪。然后我选择尊重自己的感受，懒一回，什么都不想、不做，申请了一个星期的假期，在家试试「躺平」的感觉如何，一周体验下来，感觉真不错。&lt;/p>
 &lt;h3 id="看剧">看剧&lt;/h3>
 &lt;p>很久之前找了部韩剧，一直没有时间看，趁着这个机会终于把剧消化了，剧名叫《大力女子都奉顺》，其实当时我也不知道为什么会找这部剧来看，或许是因为林宝英吧，哈哈哈……&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-71/2021-06-08-194035.webp" alt="">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-71/2021-06-08-194035.webp" alt="" />
+&lt;/p>
 &lt;p>我个人看的韩剧其实不算多，印象最深刻的韩剧要属我个人看的第一部——《新娘十八岁》，这几年偶尔也和老婆一起看过两、三部韩剧，感觉剧情都差不多，都是看了两集后几乎就能猜到结局的那种，《大力女子都奉顺》这部剧也不例外，即便如此我也把剧快进完了，理由很简单，女主很治愈。老实说，这部剧我真找不到第二个值得花时间去看的点了，编剧的逻辑怪怪的，剧情拖拉，我严重怀疑这原本是电影剧本，硬生生扯成电视剧。&lt;/p>
 &lt;h3 id="游戏">游戏&lt;/h3>
 &lt;p>虽说这个假期的主题是「躺平」，但还是动手收拾了一下电脑桌，因为抽烟的原因，桌面铺了一层的烟灰，虽然我经常用抹布清洁，效果也就那样，最明显就是我的鼠标垫，和刚买回来时的手感差太多了。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-71/IMG_20210609_094439.webp" alt="">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-71/IMG_20210609_094439.webp" alt="" />
+&lt;/p>
 &lt;p>这是收拾后的效果，把吃灰两年多PS4也搬了出来，打算重温一下血源这个游戏。因为连了个圆刚的采集盒，偶尔要插拔线材，所以就懒得整理了，现在主张无线桌面，然而我的设备都是有线的，哈哈哈，噢，对了，除了两个手柄。以后更新设备，我肯定能选无线就必选无线。&lt;/p>
 &lt;p>说到这个圆刚采集盒，型号是GC550，买了有几年咯，当时为什么买，我忘了，用了五六次的样子，采集质量最高可达60Mbps@1080p60，应付PS4足够了，但我完全没有发挥出它应有的价值，浪费了。这次拿出来用，在电脑上安装好驱动和软件后，出问题了，采集的颜色不对，一开始我还以为是HDMI线的问题，因为我收拾时发现线材的接口处都有生锈的迹象，广东这边潮湿天气，不用的线材接口如果不加以保护，很容易出现锈迹。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-71/2021060813564589.webp" alt="">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-71/2021060813564589.webp" alt="" />
+&lt;/p>
 &lt;p>这画面颜色，紫的可以。换了三根线都一样，应该就是采集盒的问题了，准备放弃时想到试着把驱动和软件都删了重装，问题解决。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-71/2021-06-09-104353.webp" alt="">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-71/2021-06-09-104353.webp" alt="" />
+&lt;/p>
 &lt;p>不知道是不是因为这个采集软件是测试版本的原因。&lt;/p>
 &lt;iframe
 src="//player.bilibili.com/player.html?bvid=BV1ky4y1u72C&amp;page=1"
@@ -213,28 +225,36 @@ allowfullscreen="true"
 &lt;p>放下这游戏很久了，枪反的时机也有那么一点瑕疵，视频剪得也有瑕疵，有一秒花了，软件用的是 &lt;strong>Movavi Video Suite 17&lt;/strong> ，Steam上花了28块钱买的，非专业，对于我这种小白来说，足够使用了，话说这个软件原价也太贵了。&lt;/p>
 &lt;h3 id="疫情">疫情&lt;/h3>
 &lt;p>大清远也开始了全民核酸筛查，很认同政府这次的积极、主动。可是因为各方面的原因，昨天晚上排队验核酸的队伍出了点状况，导致场面一度尴尬。希望以后这样的事情不要发生，在这个如此困难的时刻，身为老百姓的我们更加要配合好政府的工作。这么热的天气，戴个口罩都觉得难受，何况是穿着防护服的医护人员与志愿者，你们真的辛苦了。烈日炎炎，一个个坚守的背影成为了火辣辣天气下最动人的画面。致敬！清远加油，广州加油。祈祷我们能早日战胜疫情，让前线辛苦奋战的人们可以休息休息。&lt;/p></description></item><item><title>微软输入法添加自定义词组</title><link>https://iamlm.com/microsoft-input-phrases/</link><pubDate>Tue, 01 Jun 2021 09:00:20 +0800</pubDate><guid>https://iamlm.com/microsoft-input-phrases/</guid><description>&lt;p>我一直在玩一款手游，莉莉丝的《万国觉醒》。一开始这个游戏还是很吸引我的，毕竟里面有很多武将，很是新奇。后来嘛，不说了，都是泪！&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-70/2021-05-31-224214.webp" alt="">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-70/2021-05-31-224214.webp" alt="" />
+&lt;/p>
 &lt;p>游戏已经连续登陆677天了，战力也将近1亿，VIP15，但这都是浮云，这个游戏最重要的还是传说武将，除非是一直氪和肝，要不然后期玩起来还是很不爽，前期氪的都会浪费的，譬如我。唉~&lt;/p>
 &lt;p>好像扯远了，这个游戏我回家后都选择在电脑上开模拟器来玩，在众多模拟器中选择了蓝叠，但不知为什么这个模拟器在WIN10自带的输入法下无法输入中文，后来在蓝叠的官网上找到了解决方法。&lt;/p>
-&lt;p>&lt;a href="https://www.bluestacks.cn/faq_detail.html?id=93">【BlueStacks安卓模拟器】安卓模拟器_Android模拟器_手游模拟器_蓝叠安卓模拟器官网&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.bluestacks.cn/faq_detail.html?id=93" target="_blank" rel="noopener">【BlueStacks安卓模拟器】安卓模拟器_Android模拟器_手游模拟器_蓝叠安卓模拟器官网&lt;/a>&lt;/p>
 &lt;p>其实就是使用旧版本的微软输入法，可这样设置后系统就会在所有场景都使用旧版本的输入法，老实说，体验真的一般，特别是当我使用Notion这个软件记笔记后，可能是兼容性的问题，在使用旧版本的微软输入法时偶尔会出现BUG，输入法的备选框会飘移到整个桌面左上角，十分的难受。&lt;/p>
 &lt;p>或许是因为使用了几年的微软自带的输入法，所以就算有上面这样那样的问题，我还是将就地使用着。&lt;/p>
 &lt;p>正巧最近林兄好像一直在找合适的输入法，我也向他简单的推荐了一下微软这个自带的五笔输入法，听他意思觉得还不错，但好像有点缺点，就是不知如何添加自定义词组，或许因为我平时习惯了默认的词组且平时不用大量打一些重复的词组，所以我也没有一直去研究它如何添加。&lt;/p>
 &lt;p>今天看到林兄关于Edge这个浏览器的文章，在上面看到输入法可以直接输入Emoji表情，这个敢情好啊，所以我就进设置那里看了一下，结果调不出林兄截图的效果，想到是不是我打开旧版输入法的原因，将选项关闭后，直接出来了，使用 &lt;strong>Win+.&lt;/strong> 组合键就能直接调出，输入我喜欢使用的「」号就简单方便多了。&lt;/p>
 &lt;p>这一捣鼓我也发现在微软自带的五笔输入法如何添加自定义词组了，方法其实蛮简单的，只是一直没这个需求，所以没去留意相关的设置。&lt;/p>
 &lt;p>&lt;strong>右键单击右下角任务栏的英/中语言图标进入「设置」或者使用Win+i打开Windows设置——时间和语言——选择语言——添加语言下面的中文选项卡——选项——微软五笔选项卡——选项。&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-70/2021-05-31-232948.webp" alt="">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-70/2021-05-31-232948.webp" alt="" />
+&lt;/p>
 &lt;p>&lt;strong>点击红线标记的「添加或编辑自定义短语」&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-70/2021-05-31-233051.webp" alt="">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-70/2021-05-31-233051.webp" alt="" />
+&lt;/p>
 &lt;p>这样我们就可以添加一些常用的词组来加强码字效率了，而且自定义短语还可以导入导出，相信可以直接从搜狗输入法导出已经设置好的自定义词组，然后在这里直接导入。不过我电脑上只有一个输入法，所以不能进行实验。&lt;/p>
 &lt;p>随着系统的更新，微软自带的输入法可能也有跟着升级，我把兼容性的选项关闭后，在蓝叠模拟上也可以直接进行中文输入了。&lt;/p></description></item><item><title>说话技巧</title><link>https://iamlm.com/shuohua-jq/</link><pubDate>Sun, 30 May 2021 00:00:20 +0800</pubDate><guid>https://iamlm.com/shuohua-jq/</guid><description>&lt;p>“麦哥，有件事想请教一下你，工程队这边有点小状况，想请教一下你以前是怎么和工程队的人沟通的。”&lt;/p>
-&lt;p>这是我在&lt;a href="https://laomai.org/2240.html">「谁没有年少轻狂过」&lt;/a>记录过的年轻人打电话过来和我说的话，听他意思是最近和工程队的人沟通出了点问题，进度一直起不来。以前这种在外面顶着个大太阳工作的任务一般都是我来干的，后来领导看来了个年轻人，这种脏活累活就让小伙子接手了，算是对他的一种锻炼吧。其实工作任务不重，就是安排工人将一些违规的户外广告牌拆除。&lt;/p>
+&lt;p>这是我在&lt;a href="https://laomai.org/2240.html" target="_blank" rel="noopener">「谁没有年少轻狂过」&lt;/a>记录过的年轻人打电话过来和我说的话，听他意思是最近和工程队的人沟通出了点问题，进度一直起不来。以前这种在外面顶着个大太阳工作的任务一般都是我来干的，后来领导看来了个年轻人，这种脏活累活就让小伙子接手了，算是对他的一种锻炼吧。其实工作任务不重，就是安排工人将一些违规的户外广告牌拆除。&lt;/p>
 &lt;p>刚开始我都有和他一起到现场跟着工程队的人，领导的意思是让他处理，所以我只是跟过去看看，全程都是他自己一个人安排的，我看他处理得还不错，心想应该没什么问题了，就回去处理自己的任务了，没想到还是出了点小状况。&lt;/p>
 &lt;p>“你平时是不是有看大司马的直播？”&lt;/p>
 &lt;p>“吓？这个你怎么知道的？这和我问你的问题有直接关系么？”&lt;/p>
 &lt;p>“还是有点关系的，你有没有发现你很习惯说这样一句话，「你懂我意思么」。这就是我为什么知道你在看大司马直播的原因，因为我也偶尔看他的直播，无可厚非他的直播很有意思。但问题就是这句话本身是带有讽刺味道的，我知道这是网络流行语，平时我听你说说也觉得没什么，但那些工人哪知道什么网络流行语，当你偶尔来这么一句话结尾时，别人会怎么想？我觉得说「你懂我意思么」是一个很不好的习惯，这句话给人的感觉就是你在怀疑对方。有时候懂得照顾别人的感受会让我们的工作进行得更加顺利。如果你真要在说的话后面咨询对方，你可以将「你懂我意思么」换成「我说清楚了吗」，你感觉一下，是不是谦虚的态度就出来了？”&lt;/p>
 &lt;p>“现实中还有很多这样的例子，比如领导问你会不会office，就算自己不会，我们也不能直接回答，我们应该将「我不会」换成「我可以学」。「我不会」措辞太过强硬，而「我可以学」则表示谦虚的态度，这样或多或少领导就会高看你三分。”&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-69/team-2894828_1920.webp" alt="">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-69/team-2894828_1920.webp" alt="" />
+&lt;/p>
 &lt;p>&lt;strong>说话不只是一种“感觉”，还是一门“技术”！&lt;/strong>&lt;/p>
 &lt;p>一句恰到好处的话，甚至可以改变一个人的命运。特别是说话的场合和时机，这里最有代表的莫过于京东副总裁与刘老板的一席对话。&lt;/p>
 &lt;iframe
@@ -251,108 +271,126 @@ allowfullscreen="true"
 &lt;blockquote>
 &lt;p>部分内容转载于互联网&lt;/p>
 &lt;/blockquote></description></item><item><title>免费领取NBA2K21及一些游戏回忆</title><link>https://iamlm.com/2k21-youxihuiyi/</link><pubDate>Thu, 27 May 2021 22:56:20 +0800</pubDate><guid>https://iamlm.com/2k21-youxihuiyi/</guid><description>&lt;p>这段时间工作实在是太忙了，前几天收到一封来自2K的邮件，说2K21在这周可以免费领取，当时在外面，决定回家后就把游戏给领了。没想到那天回家直接给忘了，直到今天才想起这事，看了一下时间，应该还没有过领取期。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-68/204000.webp" alt="">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/204000.webp" alt="" />
+&lt;/p>
 &lt;p>还好来得及，玩不玩不重要，重要是免费。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-68/105331.webp" alt="">&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-68/105454.webp" alt="">&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-68/105523.webp" alt="">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/105331.webp" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/105454.webp" alt="" />
+&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/105523.webp" alt="" />
+&lt;/p>
 &lt;p>2K18后我对这游戏就已经有点麻木了，这个可以在Steam上的评论里看到为什么。或许这就是年货产品的悲哀吧。即便如此，我还是每年都象征式的购买支持一波，然后扔到库里吃灰，不为别的，为过去埋单。&lt;/p>
 &lt;p>我是从2K9开始玩这个游戏的，玩的是破解版，相信那个时候这现象是常态，直到后来开始PS4之旅后正版意识才开始加强，2K系列也是从那时加入了正版行列。2K15，2K16，2K17都是在PS4上游玩，2K18，2K19，2K20则是在Steam上购买的。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-68/112017.webp" alt="">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/112017.webp" alt="" />
+&lt;/p>
 &lt;p>也是从2K18开始，我对这个游戏只剩下情怀了。唉~&lt;/p>
 &lt;p>如果我一直还玩PS4的话，我相信我对这个游戏不会这么快麻木，毕竟这游戏陪伴自己这么多年了。因为回归PC端且那个时候被绝地求生吸引，所以很多3A大作我都渐渐的放下了。&lt;/p>
 &lt;p>话说自己也在Epic上领取了几个大作咯，像GTAV（这个神作是我在PS4上拿到第一白金的游戏），堡垒之夜，ARK，无主之地2，文明VI，火炬之光2（这个最初也是玩的破解，后来Steam上打骨折，也为情怀充了值）。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-68/105701.webp" alt="">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/105701.webp" alt="" />
+&lt;/p>
 &lt;p>至于无主之地3和大表哥2，则是花钱买的。&lt;/p>
 &lt;p>由于电脑的硬盘小，很多游戏我都没有安装，现在的游戏太大了，动不动就几十个G，也因为这样，游戏吃灰吃得更加彻底了。我给PS4换了个2T的硬盘，还是几乎塞满。游戏机就是游戏机，虽然这么多大作，但我还都几乎每个都用心去玩，毕竟游戏机不像电脑，电脑除了玩游戏还可以做很多事情，PS4除了玩游戏，啥也不是，也正因如此才有游戏的乐趣。&lt;/p>
 &lt;p>前阵子整理图库，居然找到一些上传到FB上的游戏截图。其实我玩游戏有截图和录像的习惯，可惜存这些资料的那块硬盘坏掉了，资料全没了，这些是当时上传去了FB才得以保存了下来。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-68/ac.webp" alt="ac">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/ac.webp" alt="ac" />
+&lt;/p>
 &lt;p>刺客信条黑旗——虽然这代刺客一般，但作为刺客迷的我也一样将他通关了。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-68/bloodborne.webp" alt="bloodborne">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/bloodborne.webp" alt="bloodborne" />
+&lt;/p>
 &lt;p>血源诅咒——拿白金时截的图。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-68/D3.webp" alt="D3">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/D3.webp" alt="D3" />
+&lt;/p>
 &lt;p>暗黑破坏神3——这个是在Switch上玩的，话说这个旅者之誓是不是很屌？哈哈哈……&lt;/p>
 &lt;div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
 &lt;link rel="stylesheet" href="https://iamlm.com/css/hugo-easy-gallery.css" />
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-68/gtav1.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav1.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav1.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav1.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-68/gtav1.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav1.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-68/gtav2.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav2.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav2.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav2.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-68/gtav2.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav2.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-68/gtav3.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav3.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav3.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav3.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-68/gtav3.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav3.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-68/gtav4.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav4.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav4.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav4.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-68/gtav4.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav4.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-68/gtav5.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav5.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav5.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav5.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-68/gtav5.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav5.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-68/gtav6.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav6.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav6.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav6.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-68/gtav6.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav6.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-68/gtav7.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav7.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav7.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav7.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-68/gtav7.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav7.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-68/gtav8.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav8.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav8.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav8.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-68/gtav8.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav8.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-68/gtav9.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/gtav9.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav9.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav9.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-68/gtav9.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/gtav9.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;/div>
@@ -361,28 +399,28 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-68/nba2k16-1.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/nba2k16-1.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/nba2k16-1.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/nba2k16-1.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-68/nba2k16-1.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/nba2k16-1.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-68/nba2k16-2.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/nba2k16-2.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/nba2k16-2.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/nba2k16-2.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-68/nba2k16-2.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/nba2k16-2.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-68/nba2k16-3.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/nba2k16-3.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/nba2k16-3.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/nba2k16-3.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-68/nba2k16-3.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/nba2k16-3.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;/div>
@@ -391,28 +429,28 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-68/nfs-1.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/nfs-1.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/nfs-1.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/nfs-1.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-68/nfs-1.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/nfs-1.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-68/nfs-2.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/nfs-2.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/nfs-2.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/nfs-2.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-68/nfs-2.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/nfs-2.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"
 itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img" style="background-image: url('/image/post-68/ps4net.webp');">
-&lt;img itemprop="thumbnail" src="https://iamlm.com/image/post-68/ps4net.webp" />
+&lt;div class="img" style="background-image: url('https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/ps4net.webp');">
+&lt;img itemprop="thumbnail" src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/ps4net.webp" />
 &lt;/div>
-&lt;a href="https://iamlm.com/image/post-68/ps4net.webp" itemprop="contentUrl">&lt;/a>
+&lt;a href="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-68/ps4net.webp" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
 &lt;/div>
 &lt;/div>
@@ -429,7 +467,9 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;p>回到学习Docker基础的话题上，原本一天半的学习课程，他足足花了七天才初步的学完，他有些许的感叹，好在他只是兴趣使然，如果是搞生产的话，有这样的学生估计授课老师要吐血。哈哈哈~&lt;/p>
 &lt;p>随着慢慢学习，他觉得Docker这个技术是真的不错，优缺点就不过多的叙述了，网上一搜一大把，最主要的是Docker还蛮容易理解的，当然，毕竟他接触的只是基础知识，容易理解实属正常。&lt;/p>
 &lt;p>他决定今天晚上打开电脑整理一下这段时间的学习笔记，方便以后温习巩固，然后顺便码些字更新一下，算是冒个泡。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-67/docker.webp" alt="">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-67/docker.webp" alt="" />
+&lt;/p>
 &lt;p>码字不知时日过，深夜了。世界，晚安。&lt;/p></description></item><item><title>「他」的一天</title><link>https://iamlm.com/tadeyitian/</link><pubDate>Sun, 16 May 2021 22:46:20 +0800</pubDate><guid>https://iamlm.com/tadeyitian/</guid><description>&lt;p>大清远的天气是真的热啊！&lt;/p>
 &lt;p>他和妻子今天都不用值班，昨天晚上约好今天要睡到中午才起床，结果俩人还是如往常一样早早就醒了。他半躺在床上看书，妻子则在旁边刷起了题，下个月就要考试了，妻子明显也紧张了起来。&lt;/p>
 &lt;p>他本以为看书能让他再次犯困，毕竟这招对他屡试不爽，然而今天大招失效了……放下书，轻轻走到隔壁房，女儿居然已经起床，还坐在书桌前摆弄着魔方，她只是一个六岁不到的孩子啊！他笑了，他刚学会还原魔方，在家人面前一直显摆，结果女儿起了兴趣，昨天晚上他开始教她还原魔方的第一步。&lt;/p>
@@ -438,19 +478,31 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;p>为了不吵醒还在睡懒觉的儿子，他领着女儿来到书房，认真地将昨天晚上教她的方法又说了一遍，没多久，女儿就顺利把第一步给做出来了，她开心地笑了，也许是因为她的笑声太过爽朗了，儿子揉着睡眼走了过来。&lt;/p>
 &lt;p>他开始给孩子准备早餐，但碍于他这方面的技能实在有限，只能简单的蒸了些馒头，外加一杯牛奶，早餐就算吃过了。他很好奇，按理说现在的馒头都有奶香味了，可为什么他心里还是觉得小时候吃的馒头才是最好吃的呢？&lt;/p>
 &lt;p>妻子收拾好餐桌后又回到房里温书了，两个孩子也跟着爷爷到楼下花园散步去了，他则回到书房打开电脑，准备吃把鸡，他已经很长一段时间没玩游戏了，不出他所料，游戏需要更新，不到8个G，很快就能下载完成，温碗泡茶，时间刚刚好。当游戏更新完后，他打开加速器准备进游戏大杀四方时，加速器会员过期了。在他兴致勃勃的时候，突然来了这一盆冷水，让他很是不爽，拿出手机续费一波，结果提示微信钱包余额不足，哈哈哈……罢了罢了。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-66/20210516181043.webp" alt="">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-66/20210516181043.webp" alt="" />
+&lt;/p>
 &lt;p>午休后，他提议到附近的商场逛逛，两个孩子可高兴了，可他们不知道他之所以有这样的提议是为了去商场蹭空调，他很怕热，这应该和他的体重有关，只要一到夏天，他身上总是油腻腻、黏糊糊的，让他很是难受。&lt;/p>
 &lt;p>妻子选择在家温习，他则骑小电驴带着孩子们出门了。一到商场，他的孩子就像脱了缰的野马，搞得他根本没了蹭冷气成功的愉悦，反倒是一直疲于奔命，因为他的儿子实在是太好动了，一走神，人都不知跑哪里去了。&lt;/p>
 &lt;p>孩子们大概跑了半个小时后，也许是累了、渴了，女儿闹着要喝奶茶，无奈的他只好破天荒地去买了一杯，都不用喝，一阵凉意就涌上了他的心头，二十多块钱一杯啊。&lt;/p>
 &lt;p>下午四点半，天空有些许灰暗，偶尔还有阵阵微风吹拂，远处有一乌云正朝头顶飘来，要下雨啦？这天，真就说变就变呗。&lt;/p>
 &lt;p>他准备带孩子们回家，不料儿子说要到公园滑滑梯，他心想这雨应该不会这么快下得出来，就答应了。就近原则，去了区府旁小公园。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-66/IMG_20210516_161902.webp" alt="IMG_20210516_161902">&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-66/IMG_20210516_161907.webp" alt="IMG_20210516_161907">&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-66/IMG_20210516_162040.webp" alt="IMG_20210516_162040">&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-66/IMG_20210516_162101.webp" alt="IMG_20210516_162101">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-66/IMG_20210516_161902.webp" alt="IMG_20210516_161902" />
+&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-66/IMG_20210516_161907.webp" alt="IMG_20210516_161907" />
+&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-66/IMG_20210516_162040.webp" alt="IMG_20210516_162040" />
+&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-66/IMG_20210516_162101.webp" alt="IMG_20210516_162101" />
+&lt;/p>
 &lt;p>回到家他就开始着手帮孩子们洗澡，女儿很乖巧，说要自己洗，他觉得女儿的长发要是让她自己洗的话应该会洗不干净，所以他就搭了把手。&lt;/p>
 &lt;p>刚忙完，他中午订的鲜花就送来了。今天是他妈妈的生日，可他妈妈说今年不设宴，他虽然不明白为什么过个生日也有“男单女双”的说法。&lt;/p>
-&lt;p>&lt;img src="https://iamlm.com/image/post-66/IMG_20210516_181814.webp" alt="IMG_20210516_181814">&lt;/p>
+&lt;p>
+&lt;img loading='lazy' src="https://cdn.jsdelivr.net/gh/skybbx/iamlmphoto@master/image/post-66/IMG_20210516_181814.webp" alt="IMG_20210516_181814" />
+&lt;/p>
 &lt;p>晚饭时他和妹夫喝了几杯，头就开始犯晕，他有些许的感叹，是真的越来越不能喝了。感叹之余让他想起了昔日他为了骗酒喝而发的朋友圈动态，这招百试百灵。当然，他是知道的，这只是他的朋友们都买他这个面子而已。&lt;/p>
 &lt;blockquote>
 &lt;p>曾经的我白酒一公斤，啤酒随便灌，一个晚上对付13个，喝伤2个，喝叭下8个，失踪3个。令无数人闻风丧胆！不管是夺命9度，还是雪花勇闯天涯，倒满必干！但现在我为何退出江湖，归隐深山？一瓶啤酒就倒，两瓶啤酒就断片！是什么让我改变如此之大！？是仇恨？还是爱情？拿起你的手机，编辑“我要请你吃饭”发送到本人手机，与昔日酒神面对面交流，倾听我背后的故事，感受我曾经的辉煌，揭开我背后的心酸……&lt;/p>
