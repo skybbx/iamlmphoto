@@ -34,7 +34,7 @@ Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
   }
 }
 
-@media only screen and (min-width: 9999px) {
+@media only screen and (min-width: 1301px) {
   /* Medium desktop: 4 tiles */
   .box {
     width: 25%;
